@@ -1,0 +1,22 @@
+<section class="systems  pt-header-height pb-header-height" id="systems">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 height-sm align-center bg-light "> 
+
+    <div class="tit-l">La lista</div> 
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+
+
+
+
+    {% for system in systems %}
+
+      {% include "html/partials/_system.njk" %}
+    {% endfor %}
+  </div>
+</section>

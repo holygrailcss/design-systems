@@ -1,0 +1,53 @@
+{
+  "systems": [
+    {
+      "id": "0",
+      "name": "Finastra",
+      "photo": "finastra.png",
+      "description": "Diseñe y cree el futuro de las finanzas Desde el prototipo hasta el producto, cree aplicaciones financieras listas para usar más rápido y mejor con..",
+      "link":  "https://twitter.com/maegarner",
+
+      "links": {
+        "twitter": "https://twitter.com/maegarner",
+        "github": "https://github.com/maegarner",
+        "website": "https://maegarner.com"
+      }
+    },
+    {
+      "id": "1",
+      "name": "Bryan Williamson",
+      "photo": "nordnet.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "link":  "https://twitter.com/maegarner",
+      "links": {
+        "twitter": "https://twitter.com/bryanwilliamson",
+        "github": "https://github.com/bryanwilliamson",
+        "website": "https://bryanwilliamson.com"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Kate Meyer",
+      "photo": "audi.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "link":  "https://twitter.com/maegarner",
+      "links": {
+        "twitter": "https://twitter.com/katemeyer",
+        "github": "https://github.com/katemeyer",
+        "website": "https://katemeyer.com"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Alan Schmidt",
+      "photo": "solid.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "link":  "https://twitter.com/maegarner",
+      "links": {
+        "twitter": "https://twitter.com/alanschmidt",
+        "github": "https://github.com/alanschmidt",
+        "website": "https://alanschmidt.com"
+      }
+    }
+  ]
+}

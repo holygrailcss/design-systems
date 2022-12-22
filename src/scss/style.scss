@@ -1,0 +1,10 @@
+@import 'abstract/_setup.scss';
+
+$btn-radius: 50px;
+
+@import '../../node_modules/holygrailcss/scss/style.scss';
+
+.img-mini {
+  width: 100%;
+  max-width: 400px;
+}

@@ -1,0 +1,56 @@
+{% macro title(id='', name='', photo='', description='', link='') %} {% set items = systems %} <section>
+    <div class="container mb-64">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="height-sm tit-m text-center"> {{ name }} </div>
+                <div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src=" ../static/sistemas/{{ photo }}" alt="">
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <div class="container-2 mb-64">
+        <div class="row mb-24">
+            <div class="col-xs-12">
+                <p class="p-l"> {{ description }} </p>
+            </div>
+        </div>
+
+
+<div class="row">
+    <div class="col-xs-12 text-center">
+        <svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+            <title>Page 1 Copy 15</title>
+            <desc>Created with Sketch.</desc>
+            <defs></defs>
+            <g id="Detailview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-512.000000, -917.000000)" opacity="0.900000036">
+                <g id="Group-2" transform="translate(249.000000, 751.000000)" fill="#292929">
+                    <g id="Group-4-Copy" transform="translate(260.000000, 160.000000)">
+                        <g id="Page-1-Copy-15" transform="translate(0.000000, 4.000000)">
+                            <g id="Icon--/-ExtLink">
+                                <g id="Group-4" transform="translate(3.000000, 2.000000)">
+                                    <path d="M10.9330085,10.3989202 C10.9330085,10.695197 10.6959871,10.9322185 10.3997103,10.9322185 L1.60028969,10.9330085 C1.3040129,10.9330085 1.06699147,10.6959871 1.06699147,10.3997103 L1.0662014,1.60028969 C1.0662014,1.3040129 1.30322283,1.06699147 1.59949962,1.06699147 L5.06593805,1.06699147 L5.06593805,0 L1.60028969,0 C0.711459328,0 0,0.711459328 0,1.60028969 L0,10.3997103 C0,11.2885407 0.711459328,12 1.60028969,12 L10.3997103,12 C11.2885407,12 12,11.2885407 12,10.3997103 L11.9992099,6.93327188 L10.9330085,6.93327188 L10.9330085,10.3989202 Z" id="Fill-1"></path>
+                                    <polygon id="Fill-2" points="6.94604092 0 6.94604092 1.06368025 10.1818122 1.06368025 6 5.24647772 6.75352228 6 10.9363197 1.81818779 10.9363197 5.05395908 12 5.05395908 12 0"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+
+        <a class="mr-16" href="{{ link }}">{{ link }}</a>
+  
+
+    </div>
+</div>
+
+    </div>
+</section> {% endmacro %}

@@ -1,0 +1,21 @@
+{% extends "../html/templates/baseinner.njk" %}
+{% import "../html/macros/insert.njk" as insert %}
+{% set items = systems %}
+
+
+{% block documentTitle %}seccion 1{% endblock %}
+
+
+{% block content %}
+
+
+
+
+
+{% call insert.title( items[3].id ,items[3].name ,items[3].photo ,items[3].description,items[3].link ) %} {%   endcall %},
+
+
+
+
+{% include "../html/partials/_banner.njk" %}
+{% endblock %}
