@@ -15,8 +15,8 @@
     },
     {
       "id": "1",
-      "name": "Bryan Williamson",
-      "photo": "nordnet.png",
+      "name": "holygrail",
+      "photo": "holygrail.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
       "link":  "https://twitter.com/maegarner",
       "links": {
@@ -48,6 +48,21 @@
         "github": "https://github.com/alanschmidt",
         "website": "https://alanschmidt.com"
       }
+    },
+
+    {
+      "id": "4",
+      "name": "Bryan Williamson",
+      "photo": "nordnet.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend non leo a varius. Maecenas viverra ligula dui, eget cursus tellus rutrum non. Duis in pharetra sem, sit amet finibus mauris. In hac habitasse platea dictumst. Sed maximus velit ac arcu posuere venenatis. Nulla molestie fringilla nunc eget facilisis. Phasellus porttitor risus nec accumsan mattis.",
+      "link":  "https://twitter.com/maegarner",
+      "links": {
+        "twitter": "https://twitter.com/bryanwilliamson",
+        "github": "https://github.com/bryanwilliamson",
+        "website": "https://bryanwilliamson.com"
+      }
     }
+
+
   ]
 }
