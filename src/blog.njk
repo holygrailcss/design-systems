@@ -1,13 +1,17 @@
 {% extends "html/templates/base.njk" %} {% block documentTitle %}Home{% endblock %} {% import
-'html/templates/_globals.njk' as globals %} {% block content %} <div class="container-fluid">
+'html/templates/_globals.njk' as globals %} {% block content %} <div class="container--full mb-64">
     <div class="row">
-        <div class="col-xs-12 height-sm align-center bg-light ">
-            <div class="tit-l">BLOG </div>
+        <div class="col-xs-12  ">
+        <div class="fluid-80-b">Qué son?</div> 
         </div>
     </div>
 </div>
-<div class="container pt-64 pb-64">
+<div class="container--full pt-64 pb-64">
     <div class="row">
+
+
+
+    {% for blog in blogs %}
                 <div class="col-xs-4">
                     <div class="border-1 h-100">
                         <div class="row h-100">
@@ -18,15 +22,17 @@
                                 <div class="row align-multi-between h-100 p-16">
                                     <div class="col-xs-12">
                                         <div class="mb-24 is-flex flex-column  align-top">
-                                            <h2 class="text-16-b">Tutorial de Figma</h2>
-                                            <p class="text-14-r c-gray mb-8">Por Sergio Puertas</p>
+                                            <h2 class="text-16-b">{{blog.name}} </h2>
+                                            <p class="text-14-r c-gray mb-8">Por {{blog.autor}} </p>
                                         </div>
                                         <div class="mb-32">
-                                            <p class="text-16-r"> Aprende las acciones básicas de figma </p>
+                                            <p class="text-16-r">    {{blog.description}}  </p>
                                         </div>
                                     </div>
                                     <div class="col-xs-12">
-                                        <button class="btn btn-secondary btn--full">Leer Articulo</button>
+                                
+                               <a href="./blog/{{blog.id}}.njk"><button class="btn btn-secondary btn--small" >Leer artículo</button></a>
+
                                     </div>
                                 </div>
                             </div>
@@ -36,52 +42,8 @@
             </div>
 
 
+    {% endfor %}
+    </div>
 
-    <div class="col-xs-4">         <div class="border-1 h-100">
-        <div class="row h-100">
-            <div class="col-xs-12 flex-column is-flex">
-                <img class="w-100" src="https://holygrailcss.github.io/assets/placeholder/2-1.jpg" alt="">
-            </div>
-            <div class="col-xs-12">
-                <div class="row align-multi-between h-100 p-16">
-                    <div class="col-xs-12">
-                        <div class="mb-24 is-flex flex-column  align-top">
-                            <h2 class="text-16-b">Tutorial de Figma</h2>
-                            <p class="text-14-r c-gray mb-8">Por Sergio Puertas</p>
-                        </div>
-                        <div class="mb-32">
-                            <p class="text-16-r"> Aprende las acciones básicas de figma </p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <button class="btn btn-secondary btn--full">Leer Articulo</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> </div>
-    <div class="col-xs-4">        <div class="border-1 h-100">
-        <div class="row h-100">
-            <div class="col-xs-12 flex-column is-flex">
-                <img class="w-100" src="https://holygrailcss.github.io/assets/placeholder/2-1.jpg" alt="">
-            </div>
-            <div class="col-xs-12">
-                <div class="row align-multi-between h-100 p-16">
-                    <div class="col-xs-12">
-                        <div class="mb-24 is-flex flex-column  align-top">
-                            <h2 class="text-16-b">Tutorial de Figma</h2>
-                            <p class="text-14-r c-gray mb-8">Por Sergio Puertas</p>
-                        </div>
-                        <div class="mb-32">
-                            <p class="text-16-r"> Aprende las acciones básicas de figma </p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12">
-                        <button class="btn btn-secondary btn--full">Leer Articulo</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div></div>
 </div>
 </div> {% include "html/partials/_banner.njk" %} {% endblock %}

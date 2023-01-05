@@ -1,30 +1,33 @@
 <article id="{{system.id}}">
   <div class="row border-b mb-24">
     <div class="col-xs-12  col-sm-1  pt-40 pb-40">
-   <div class="fluid-50-r">
+   <div class="fluid-80-b numbers">
    0{{system.id}}
    </div>
-   
-
     </div>
-
-
     <div class="col-xs-12  col-sm-5 align-center pt-40 pb-40">
       <img src="static/sistemas/{{system.photo}} " alt="">
     </div>
-    <div class="col-xs-12 col-sm-6 pt-64   pb-40 pl-40">
+    <div class="col-xs-12 col-sm-4 pt-64   pb-40 pl-40">
+
       <div class="mb-24">
-        <div class="p-s"> Tipo de Sistema </div>
-        <div class="tit-m">{{system.name}}</div>
-        <div class="p-l mb-24">
-          <p>{{system.description}} </p>
+        <div class="p-s"> {{system.prename}} </div>
+        <div class="fluid-50-b mb-16">{{system.name}}</div>
+        <div class=" mb-24">
+          <p class="fluid-18-r">{{system.description}} </p>
         </div>
-        <div class="p-s mb-24"> {% if system.links.twitter %} <a href="{{system.links.twitter}}" target="_blank"
-            rel="noopener">twitter</a> {% endif %} {% if system.links.github %} <a href="{{system.links.github}}"
-            target="_blank" rel="noopener">github</a> {% endif %} {% if system.links.website %} <a
+
+        <div class="p-s mb-24"> 
+          {% if system.links.twitter %} 
+          <a href="{{system.links.twitter}}" target="_blank" rel="noopener">twitter</a> 
+            {% endif %}
+             {% if system.links.github %}
+             <a href="{{system.links.github}}" target="_blank" rel="noopener">github</a> 
+             {% endif %} 
+             {% if system.links.website %} <a
             href="{{system.links.website}}" target="_blank" rel="noopener">website</a> {% endif %} </div>
         <div>
-          <a href="./pages/{{system.id}}.njk"><button class="btn btn-secondary" >Ver Sistema</button></a>
+          <a href="./pages/{{system.id}}.njk"><button class="btn btn-secondary btn--medium" >Ver Sistema</button></a>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 {% extends "../html/templates/baseinner.njk" %}
 {% import "../html/macros/insert.njk" as insert %}
-{% set items = systems %}
+{% set items = blogs %}
+
 
 
 {% block documentTitle %}seccion 1{% endblock %}
@@ -12,7 +13,7 @@
 
 
 
-{% call insert.title( items[3].id ,items[3].name ,items[3].photo ,items[3].descriptiontitle,items[3].description,items[3].link ) %} {%   endcall %},
+{% call insert.title( items[0].id ,items[0].name ,items[0].photo,items[0].descriptiontitle ,items[0].description,items[0].link ) %} {%   endcall %},
 
 
 
