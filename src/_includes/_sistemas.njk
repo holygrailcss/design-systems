@@ -1,0 +1,43 @@
+---
+layout: base.njk
+
+---
+
+{% set noheroimage = [] %}
+<article class="main-article  ">
+
+<div class="section  ">
+  <div >{% include 'components/hero.njk' %}</div>
+
+    <div class="bg-clear front-section">
+      <div class="container-full pt-64 pb-64  ">
+        <ul role="list" class="list-clear flow">
+
+
+
+{#       {% for sistemas in collections.sistemas %}
+        {% include 'sistemas-loop.njk' %}
+      {% endfor %}
+
+
+ #}
+
+
+{% for sistema in global.sistemas %}
+        {% include 'global-loop.njk' %}
+{% endfor %}
+
+
+        </ul>
+      
+        </div>
+    </div>
+
+
+</div>
+
+
+{% include "components/banner.njk" %}
+
+
+</article>

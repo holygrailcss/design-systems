@@ -1,6 +1,0 @@
-{
-  "extends": ["stylelint-prettier/recommended", "stylelint-config-recommended-scss"],
-  "rules": {
-    "selector-pseudo-class-no-unknown": [true, { "ignorePseudoClasses": ["focus-visible"] }]
-  }
-}

@@ -1,0 +1,19 @@
+---
+layout: base.njk
+---
+
+
+
+{% include 'components/hero.njk' %}
+
+
+
+<div class="section bg-light ">
+  <div class="container-full ">
+    <ul role="list" class="list-clear blog-section">
+      {% for blog in collections.blog | reverse %}
+        {% include 'blog-loop.njk' %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

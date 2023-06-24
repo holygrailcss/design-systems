@@ -1,71 +1,24 @@
-# Parcel Static Boilerplate
+# Blog personal JAMStack: Archivos iniciales
 
-Static site generator
+Estos son los archivos de inicio utilizados por [Manuel Ruiz](https://digitalstrategy.es) para crear un blog personal utilizando JAMStack para el desafío [DevProjects](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb) de [Codementor](https://www.codementor.io/). Eres libre de utilizarlos como desees para comenzar con el desafío, si deseas comenzar a trabajar en la creación del sitio sin preocuparte por el contenido en sí mismo.
 
-## Development
+Los archivos proporcionados son páginas terminadas utilizando HTML y CSS regular. Los archivos HTML se pueden descomponer y utilizar para construir las diferentes plantillas y archivos parciales utilizando el lenguaje de plantillas de tu elección.
 
-1. **Clone** or [download](https://github.com/.....zip) this repository.
+La estilización de las páginas ya está completa. Dicho esto, la carpeta `design-files` contiene un archivo Figma y un archivo .webp de un diseño si deseas intentar construirlo desde cero. No es necesario utilizar este diseño en absoluto, depende de cómo desees abordar el desafío.
 
-   ```
-   git clone https://github.com/.....zip
-   ```
+La carpeta `src` contiene archivos para que puedas poner en marcha tu proyecto sin preocuparte por el contenido de las publicaciones/artículos. Esa carpeta contiene:
 
-2. **Install** dependencies.
+- Archivos HTML que puedes utilizar como base para los diferentes diseños de página. Estos pueden convertirse en las plantillas que se utilizarán.
+- Archivo CSS para la estilización de las páginas.
+- 5 artículos de blog en la carpeta `blog`.
+- Imágenes y un logotipo en la carpeta `assets`.
 
-   ```
-   npm install
-   ```
+Los artículos están escritos en Markdown y contienen Front Matter. Dependiendo del Generador de Sitios Estáticos que utilices, es posible que debas modificarlos un poco si deseas utilizarlos.
 
-3. **Run** dev mode. It will open a browser tab with the dev url [`http://localhost:1234/`](http://localhost:1234/).
+## Desafío DevProjects
 
-   ```
-   npm run start
-   ```
+Como se mencionó, estos archivos están aquí para ayudarte a comenzar con el desafío DevProjects. Por favor, visita la [página del desafío](#) para obtener más información sobre el mismo.
 
-## Production build
+## Tutorial
 
-Run the build script and the optimized for production website will be generated in the `/dist` folder.
-
-```
-npm run build
-```
-
-## Serve production build locally
-
-If you want to serve your production build (the generated `/dist` folder) locally just run this command and open [`http://localhost:5000/`](http://localhost:5000/) in your browser. This command runs the `npm run build` command before serving the `/dist` folder.
-
-```
-npm run serve
-```
-
-
-## Habilita emmet en este archivo
-
-
- "emmet.includeLanguages": {
-    "nunjucks": "html"
-  }
-
-## Tech stack
-
-- [Parcel](https://parceljs.org/)
-- [Babel](https://babeljs.io/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Sass](https://sass-lang.com/)
-- [Autoprefixer](https://github.com/postcss/autoprefixer)
-- [Stylelint](https://stylelint.io/)
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
-- [Imagemin](https://github.com/imagemin/imagemin)
-
-## To do
-
-- [ ] Detail all features: linting, formatting, building, etc.
-- [ ] Add all available commands.
-- [ ] Explain why there are two `/static` folders.
-- [ ] Warn against how Parcel treats the `site.webmanifest` file.
-- [ ] Explain how to config Imagemin.
-- [ ] Explain how to config Nunjucks.
-- [ ] Find a good Nunjucks code editor formatter.
-- [ ] Add recommended extensions for development.
-- [ ] Add testing setup with Jest?
+Puedes [ver este video](https://youtu.be/4wD00RT6d-g) para ver cómo Manuel utiliza Eleventy, Netlify y Netlify CMS para crear un sitio de blog completo construido completamente con archivos estáticos.

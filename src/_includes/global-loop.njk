@@ -1,0 +1,43 @@
+<li > 
+  <a href="{{ sistema.imageUrl }}" target="_blank" rel="nofollow noreferrer">
+  <article id="{{ proyecto.id }}" class="mbr-64">
+    <div class="row sm:text-center">
+      <div class="col-xs-12 pb-40">
+        <div class="rat-16-9">
+          <div class="rat-content">
+            <img
+              data-aos="fade-up" data-aos-once="true"
+              class="rellax video-cover"
+              data-rellax-percentage="0.5"
+              data-rellax-speed="1"
+   
+              src="{{global.imageDir}}sistemas/{{ sistema.imageSistema }} "
+                alt="{{ sistema.imageSistema | replace('.jpg', '') }} | design system">
+          </div>
+        </div>
+      </div>
+
+        <div class="col-xs-12">
+          <div class="mb-16 p-16">
+              <div class="mb-8">
+                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="100" class="fluid-9-b">
+               {{ sistema.empresaSistema }}
+                </p>
+              </div>
+              <div class="mb-16">
+                <p data-aos="fade-up" data-aos-once="true" data-aos-delay="200"class="text-14-b">
+                   {{ sistema.nombreSistema }}
+                </p>
+              </div>
+              <div class="mbr-64 descripcion-sistema">
+                <p data-aos="fade-up" data-aos-once="true" class="text-14-r descripcion-sistema">
+                {{ sistema.descripcionSistema }}
+                </p>
+              </div>
+          </div>
+        </div>
+ 
+    </div>
+  </article>
+</a>
+</li>

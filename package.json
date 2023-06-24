@@ -1,66 +1,45 @@
 {
-  "name": "parcel-static-boilerplate",
+  "name": "11ty-nunjucks-md",
   "version": "1.0.0",
-  "description": "Parcel Static Boilerplate",
-  "main": "src/index.njk",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "npm run clean && cross-env NODE_ENV=development parcel src/index.njk --open",
-    "prebuild": "cross-env NODE_ENV=production rimraf dist/* && npm run lint",
-    "build": "cross-env NODE_ENV=production parcel build src/index.njk --no-cache",
-    "preserve": "npm run build",
-    "clean": "rm -rf dist .cache",
-    "serve": "npx serve dist",
-    "lint": "npm run lint:js && npm run lint:css",
-    "lint:fix": "npm run lint:js:fix && npm run lint:css:fix",
-    "lint:js": "eslint 'src/**/*.js'",
-    "lint:js:fix": "eslint  --fix 'src/**/*.js'",
-    "lint:css": "stylelint 'src/**/*.?(s)css'",
-    "lint:css:fix": "stylelint --fix 'src/**/*.?(s)css'",
-    "prettier": "prettier 'src/**/*.+(js|html|css|scss|json|md|yml|yaml|md)'",
-    "format": "npm run prettier -- --write",
-    "validate": "npm run lint && npm run prettier -- --list-different",
-    "test": "test -e dist/index.html && exit 0 || exit 1"
+    "watch:eleventy": "eleventy --serve --incremental",
+    "watch:sass": "sass  --no-source-map --watch src/assets/sass:src/assets/css",
+    "build:eleventy": "eleventy",
+    "build:sass": "sass  --no-source-map --style=compressed src//assets/sass:src//assets/css",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/....."
+    "url": "git+https://github.com/Allchorne3/11ty-nunjucks.git"
   },
-  "keywords": [
-    "parcel",
-    "boilerplate",
-    "static"
-  ],
-  "author": "mrr",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/Allchorne3/11ty-nunjucks/issues"
   },
-  "homepage": "https://github.com/",
+  "homepage": "https://github.com/Allchorne3/11ty-nunjucks#readme",
   "devDependencies": {
-
-    "holygrailcss": "^2.0.9",
-    "autoprefixer": "^9.8.6",
-    "cross-env": "^7.0.2",
-    "eslint": "^7.8.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.3.0",
-    "modern-normalize": "^1.0.0",
-    "nunjucks": "^3.2.2",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-imagemin": "^4.0.1",
-    "parcel-plugin-nunjucks": "^2.2.1",
-    "parcel-plugin-static-files-copy": "^2.5.0",
-    "prettier": "^2.1.1",
-    "rimraf": "^3.0.2",
-    "sass": "^1.26.10",
-    "sass-mq": "^5.0.1",
-    "stylelint": "^13.7.0",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-recommended-scss": "^4.2.0",
-    "stylelint-prettier": "^1.1.2",
-    "stylelint-scss": "^3.18.0"
-
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "eleventy-plugin-toc": "^1.1.5"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "eleventy-plugin-embed-everything": "^1.16.0",
+    "holygrailcss": "^2.0.45",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.6",
+    "markdown-it-highlightjs": "^4.0.1",
+    "npm-run-all": "^4.1.5",
+    "nunjucks": "^3.2.4",
+    "rellax": "^1.12.1",
+    "sass": "^1.62.0"
   }
 }
