@@ -22,25 +22,6 @@ eleventyComputed:
 La tipografía es mucho más que un conjunto de letras y caracteres. Es una forma de comunicación visual que transmite emociones, crea jerarquías de contenido y refuerza la identidad de marca. En un Design System, la tipografía desempeña un papel fundamental para lograr la coherencia y la consistencia en el diseño de una interfaz de usuario (UI).
 
 
-<iframe  src="https://www.youtube.com/embed/Dtd40cHQQlk" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/YLo6g58vUm0" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/pwzYVIgga2c" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/o9CloFonY0E" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/sHF6JSPWbzM" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/NGGMGybuOwg" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/_sTWtnNU1L0" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/0XSLMGh8yhM" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/Dtd40cHQQlk" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 ## La coherencia visual y la experiencia de usuario
 
