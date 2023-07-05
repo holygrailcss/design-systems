@@ -2,7 +2,7 @@
   
   <a href="{{ sistemas.data.imageUrl }}" target="_blank" rel="nofollow noreferrer">
   
-
+  {{ JSON.stringify(sistemas.data) }} aaa
 
   <article id="{{ proyecto.id }}" class="mbr-64">
     <div class="row sm:text-center">
@@ -13,7 +13,7 @@
               class="rellax video-cover"
               data-rellax-percentage="0.5"
               data-rellax-speed="1"
-              src="{{global.imageDir}}sistemas/{{ sistemas.data.image }} "
+              src="/assets/static/capturas/{{ sistemas.data.nombreSistema.toLowerCase().replace(/ /g, "_") }} "
               alt=""
             />
           </div>
