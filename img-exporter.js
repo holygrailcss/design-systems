@@ -5,7 +5,7 @@ async function captureMultipleScreenshots(urls) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
-  await page.setViewport({ width: 1920, height: 1080 });
+  await page.setViewport({ width: 357, height: 238 });
 
   for (let i = 0; i < urls.length; i++) {
     try {
