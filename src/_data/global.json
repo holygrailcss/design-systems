@@ -137,13 +137,7 @@
       "nombreSistema": "Audi UI",
       "descripcionSistema": "El objetivo es crear soluciones variadas y una experiencia de usuario equilibrada en todo el sistema, desde la aplicación hasta el vehículo."
     },
-    {
-      "imageUrl": "https://designsystem.gov.au/",
-      "imageSistema": "australia-gov.jpg",
-      "empresaSistema": " Australian Government",
-      "nombreSistema": "Australian Government Design System",
-      "descripcionSistema": "El Design System del Gobierno Australiano proporciona un marco y un conjunto de herramientas para ayudar a los diseñadores y desarrolladores a construir productos y servicios gubernamentales de manera más fácil."
-    },
+
     {
       "imageUrl": "https://backpack.github.io/",
       "imageSistema": "backpack.jpg",
@@ -214,13 +208,7 @@
       "nombreSistema": "Clarity Design System",
       "descripcionSistema": "Directrices de experiencia de usuario, marco HTML/CSS y componentes de Angular que trabajan juntos para crear experiencias excepcionales."
     },
-    {
-      "imageUrl": "http://style.codeforamerica.org/",
-      "imageSistema": "code-for-america.jpg",
-      "empresaSistema": " Code for America",
-      "nombreSistema": "Code for America Style Guide",
-      "descripcionSistema": "Esta guía de estilo de sitio web tiene como objetivo ayudar a cualquier persona involucrada en las comunicaciones de Code for America y sus programas afiliados."
-    },
+
     {
       "imageUrl": "https://comet.discoveryeducation.com/",
       "imageSistema": "comet.jpg",
@@ -461,13 +449,7 @@
       "nombreSistema": "Material Design",
       "descripcionSistema": "Material Design es un sistema unificado que combina teoría, recursos y herramientas para crear experiencias digitales."
     },
-    {
-      "imageUrl": "https://mineral-ui.com/",
-      "imageSistema": "mineral.jpg",
-      "empresaSistema": " CA Technologies",
-      "nombreSistema": "Mineral UI",
-      "descripcionSistema": "Mineral UI es un Design System de código abierto creado para simplificar la creación de experiencias de software modernas y atractivas."
-    },
+
     {
       "imageUrl": "https://design.mixpanel.com/",
       "imageSistema": "mixpanel.jpg",
@@ -630,13 +612,7 @@
       "nombreSistema": "Rivet",
       "descripcionSistema": "La familiaridad es un componente clave de la usabilidad. Con Rivet, obtienes un conjunto de herramientas para crear aplicaciones web familiares y brindar a los usuarios una mejor experiencia."
     },
-    {
-      "imageUrl": "http://rizzo.lonelyplanet.com/",
-      "imageSistema": "rizzo.jpg",
-      "empresaSistema": " Lonely Planet",
-      "nombreSistema": "Rizzo",
-      "descripcionSistema": "Cuando creamos Rizzo, no nos centramos en la Guía de Estilo como producto final. En cambio, nos enfocamos en reducir la complejidad y aumentar la reutilización."
-    },
+
     {
       "imageUrl": "https://sproutsocial.com/seeds/",
       "imageSistema": "seeds.jpg",
@@ -763,13 +739,7 @@
       "nombreSistema": "Workday Canvas",
       "descripcionSistema": "El Design System Canvas de Workday proporciona a los diseñadores y desarrolladores herramientas para crear experiencias excepcionales. Adéntrate en nuestros estándares de diseño, pautas de escritura y libro de jugadas."
     },
-    {
-      "imageUrl": "https://x.biteable.com/",
-      "imageSistema": "biteable.jpg",
-      "empresaSistema": " Biteable",
-      "nombreSistema": "X (Biteable Design System)",
-      "descripcionSistema": "X es el Design System de Biteable, una colección cuidadosamente seleccionada de recursos para ayudarte a crear diseño y contenido con sabor a Biteable. Ven aquí para comprender nuestra marca y visión creativa, alinearte con nuestra filosofía y acceder a herramientas."
-    },
+
     {
       "imageUrl": "https://www.yelp.com/styleguide",
       "imageSistema": "yelp.jpg",
