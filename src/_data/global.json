@@ -259,7 +259,7 @@
       "descripcionSistema": "El marco de interfaz de usuario elástico (EUI) es una biblioteca de diseño utilizada en Elastic para construir productos internos que necesitan compartir nuestra estética. Distribuye componentes de UI React y activos estáticos para su uso en la creación de diseños web."
     },
     {
-      "imageUrl": "https://elementary.io/en/docs/human-interface-guidelines",
+      "imageUrl": "https://elementary.io/",
       "imageSistema": "elementary.jpg",
       "empresaSistema": " Elementary",
       "nombreSistema": "Elementary - Human Interface Guidelines",
@@ -358,7 +358,7 @@
       "descripcionSistema": "Diseñamos experiencias e interfaces holísticas, consistentes, intuitivas y accesibles que ofrecen valor a los clientes existentes y nuevos de Heroku. Defendemos a nuestros usuarios."
     },
     {
-      "imageUrl": "https://developer.apple.com/ios/human-interface-guidelines/overview/themes/",
+      "imageUrl": "https://developer.apple.com/design/human-interface-guidelines",
       "imageSistema": "apple.jpg",
       "empresaSistema": "Apple",
       "nombreSistema": "Directrices de la interfaz humana",
@@ -415,7 +415,7 @@
       "descripcionSistema": "Utiliza Liquid para crear y desarrollar productos digitales que hagan la ciencia más rápida, los tratamientos más personalizados y el trabajo diario más agradable."
     },
     {
-      "imageUrl": "https://luna.sainsburys.co.uk/guidelines",
+      "imageUrl": "https://luna-website.ext.prd.jspaas.uk/",
       "imageSistema": "luna.jpg",
       "empresaSistema": " Sainsbury’s",
       "nombreSistema": "Luna",
@@ -428,13 +428,7 @@
       "nombreSistema": "MailChimp Pattern Library",
       "descripcionSistema": "La Biblioteca de Patrones de MailChimp es un subproducto de nuestro cambio a una aplicación más receptiva, ágil e intuitiva."
     },
-    {
-      "imageUrl": "https://www.mapbox.com/base/",
-      "imageSistema": "mapbox.jpg",
-      "empresaSistema": " Mapbox",
-      "nombreSistema": "Mapbox Base",
-      "descripcionSistema": "Base es una guía interna y un repositorio de código para el diseño y la codificación en Mapbox. ¿No eres miembro del equipo de Mapbox? Siéntete libre de encontrar inspiración o tomar prestado de Base."
-    },
+
     {
       "imageUrl": "https://marvelapp.com/styleguide/",
       "imageSistema": "marvel.jpg",
@@ -548,13 +542,7 @@
       "nombreSistema": "Predix Design System",
       "descripcionSistema": "Nuestros componentes de interfaz de usuario te permiten crear rápidamente aplicaciones web del Internet Industrial que se ejecutan en servicios y datos de Predix dedicados."
     },
-    {
-      "imageUrl": "https://pricelinelabs.github.io/design-system/",
-      "imageSistema": "priceline.jpg",
-      "empresaSistema": " Priceline",
-      "nombreSistema": "Priceline One",
-      "descripcionSistema": "Con el fin de crear una experiencia consistentemente excelente para nuestros usuarios, Priceline One pretende ser la única fuente de verdad para los estándares de interfaz de usuario tanto para diseñadores como para desarrolladores."
-    },
+
     {
       "imageUrl": "https://styleguide.github.com/primer/",
       "imageSistema": "primer.jpg",
@@ -599,13 +587,6 @@
     },
 
     {
-      "imageUrl": "https://rimble.consensys.design/",
-      "imageSistema": "rimble.jpg",
-      "empresaSistema": " ConsenSys",
-      "nombreSistema": "Rimble",
-      "descripcionSistema": "Rimble está aquí para facilitar la vida de todos. Como proyecto de código abierto, Rimble tiene como objetivo crear patrones de experiencia de usuario comunes para dApps, validados a través de investigaciones de usuario y construidos para desarrolladores."
-    },
-    {
       "imageUrl": "https://rivet.uits.iu.edu/",
       "imageSistema": "rivet.jpg",
       "empresaSistema": " Indiana University",
@@ -634,13 +615,7 @@
       "nombreSistema": "SendGrid Style Guide",
       "descripcionSistema": "La Guía de Estilo de SendGrid es una biblioteca para desarrollar una interfaz de usuario y experiencia de usuario consistentes en SendGrid. Está compuesta por componentes modulares y reutilizables basados en los principios de OOCSS y SMACSS."
     },
-    {
-      "imageUrl": "http://styleguide.servicenow.com/#!/",
-      "imageSistema": "servicenow.jpg",
-      "empresaSistema": " ServiceNow",
-      "nombreSistema": "ServiceNow Design System",
-      "descripcionSistema": "El Design System de ServiceNow es un sistema vivo que nos permite diseñar y lograr un lenguaje visual coherente, eficiente y de alta calidad que brinda cohesión y familiaridad a la experiencia del usuario en toda la plataforma."
-    },
+
     {
       "imageUrl": "https://skyline.benevity.org/",
       "imageSistema": "skyline.jpg",
