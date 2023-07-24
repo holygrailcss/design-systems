@@ -1,5 +1,13 @@
 {
   "sistemas": [
+
+    {
+      "imageUrl": "https: //design.axa.com/",
+      "imageSistema": "/assets/static/axa.4250cd3.bfd3beb8a5fc2c25cdba4b5a8304a63b.jpg",
+      "empresaSistema": " AXA",
+      "nombreSistema": "AXA Digital Guidelines",
+      "descripcionSistema": " We help product teams at AXA build meaningful interactions and share best practices. Principles, tools, templates, components, advice _ the one stop shop to create state of the art digital assets. "
+    },
     {
       "imageUrl": "https://design.wonderflow.ai/",
       "imageSistema": "/assets/static/wanda.4250cd3.0f1a875ace06e8e73eea44d9735b86d0.jpg",
@@ -21,15 +29,7 @@
       "nombreSistema": ".pulse",
       "descripcionSistema": " We have created .pulse as the one source of truth for all processes and beliefs inside Heartbeat Agency. Like any tool or methodology, it will only work right when used right. And right can only be determined through a process of constant polishing and practice. "
     },
-    {
-      "imageUrl": "https: //design.axa.com/",
-      "imageSistema": "/assets/static/axa.4250cd3.bfd3beb8a5fc2c25cdba4b5a8304a63b.jpg",
-      "empresaSistema": " AXA"
-    },
-    {
-      "nombreSistema": "AXA Digital Guidelines",
-      "descripcionSistema": " We help product teams at AXA build meaningful interactions and share best practices. Principles, tools, templates, components, advice _ the one stop shop to create state of the art digital assets. "
-    },
+
     {
       "imageUrl": "https: //www.oracle.com/webfolder/ux/middleware/alta/index.html",
       "imageSistema": "/assets/static/alta.4250cd3.e7975836d8dceaf56871b7c70f06d237.jpg",
