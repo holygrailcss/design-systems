@@ -82,7 +82,7 @@
     "nombreSistema": "Ant Design"
   },
   {
-    "descripcionSistema": "Utilice el lenguaje de diseño integral de Atlassian para crear experiencias directas y hermosas.",
+    "descripcionSistema": "Utilice el Design System integral de Atlassian para crear experiencias directas y hermosas.",
     "empresaSistema": " Atlassian",
     "imageSistema": "atlassian.jpg",
     "imageUrl": "https://atlassian.design/",
@@ -153,7 +153,7 @@
     "nombreSistema": "Quantum"
   },
   {
-    "descripcionSistema": "Una estética unificada juega un papel clave en hacer que E-Trade sea una experiencia conectada, atractiva y significativa. A través del Lenguaje de Diseño, nuestras experiencias se diferencian, son fáciles de usar y comprender.",
+    "descripcionSistema": "Una estética unificada juega un papel clave en hacer que E-Trade sea una experiencia conectada, atractiva y significativa. A través del Design System, nuestras experiencias se diferencian, son fáciles de usar y comprender.",
     "empresaSistema": " Design Language",
     "imageSistema": "etrade.jpg",
     "imageUrl": "http://etrade.design/",
@@ -196,7 +196,7 @@
     "nombreSistema": "Finastra Design System"
   },
   {
-    "descripcionSistema": "Photon es el lenguaje de diseño de Firefox para construir experiencias modernas, intuitivas y agradables para productos en todas las plataformas, desde móviles hasta escritorios, desde televisores hasta la próxima gran innovación.",
+    "descripcionSistema": "Photon es el Design System de Firefox para construir experiencias modernas, intuitivas y agradables para productos en todas las plataformas, desde móviles hasta escritorios, desde televisores hasta la próxima gran innovación.",
     "empresaSistema": " Firefox",
     "imageSistema": "photon.jpg",
     "imageUrl": "https://design.firefox.com/photon/",
@@ -210,7 +210,7 @@
     "nombreSistema": "FutureLearn Pattern Library"
   },
   {
-    "descripcionSistema": "Asphalt es el propio sistema de lenguaje de diseño de GO-JEK. Esta es una colección de pautas y componentes que se pueden utilizar para crear experiencias de usuario sorprendentes.",
+    "descripcionSistema": "Asphalt es el propio sistema de Design System de GO-JEK. Esta es una colección de pautas y componentes que se pueden utilizar para crear experiencias de usuario sorprendentes.",
     "empresaSistema": " GO-JEK",
     "imageSistema": "asphalt.jpg",
     "imageUrl": "https://asphalt.gojek.io/",
@@ -277,7 +277,7 @@
   },
   {
     "cookies": "#truste-consent-button",
-    "descripcionSistema": "Carbon es el Design System de código abierto de IBM para productos y experiencias. Con el Lenguaje de Diseño de IBM como base, el sistema consta de código funcional, herramientas y recursos de diseño, directrices de interfaz humana y una comunidad activa de colaboradores.",
+    "descripcionSistema": "Carbon es el Design System de código abierto de IBM para productos y experiencias. Con el Design System de IBM como base, el sistema consta de código funcional, herramientas y recursos de diseño, directrices de interfaz humana y una comunidad activa de colaboradores.",
     "empresaSistema": " IBM",
     "imageSistema": "carbon.jpg",
     "imageUrl": "https://www.carbondesignsystem.com/",
@@ -375,7 +375,7 @@
     "nombreSistema": "Morningstar Design System"
   },
   {
-    "descripcionSistema": "Protocol es un Design System para los sitios web de Mozilla con la marca. Establece un lenguaje de diseño común, proporciona componentes codificados reutilizables y describe pautas generales para el contenido y la accesibilidad.",
+    "descripcionSistema": "Protocol es un Design System para los sitios web de Mozilla con la marca. Establece un Design System común, proporciona componentes codificados reutilizables y describe pautas generales para el contenido y la accesibilidad.",
     "empresaSistema": " Mozilla",
     "imageSistema": "protocol.jpg",
     "imageUrl": "https://protocol.mozilla.org/",
@@ -404,7 +404,7 @@
   },
 
   {
-    "descripcionSistema": "El Design System de Pluralsight se esfuerza por lograr un lenguaje de diseño cohesivo para los productos de Pluralsight, un vocabulario compartido para sus equipos y bloques de construcción básicos para acelerar el desarrollo.",
+    "descripcionSistema": "El Design System de Pluralsight se esfuerza por lograr un Design System cohesivo para los productos de Pluralsight, un vocabulario compartido para sus equipos y bloques de construcción básicos para acelerar el desarrollo.",
     "empresaSistema": " Pluralsight",
     "imageSistema": "pluralsight.jpg",
     "imageUrl": "https://design-system.pluralsight.com/",
@@ -731,11 +731,11 @@
 
   {
     "cookies": "#truste-consent-button",
-    "descripcionSistema": "Utiliza el Lenguaje de diseño de IBM para crear productos bellamente diseñados y experiencias de usuario esclarecedoras.",
+    "descripcionSistema": "Utiliza el Design System de IBM para crear productos bellamente diseñados y experiencias de usuario esclarecedoras.",
     "empresaSistema": "IBM",
     "imageSistema": "ibm-design-language.jpg",
     "imageUrl": "https://www.ibm.com/design/language/",
-    "nombreSistema": "Lenguaje de diseño de IBM"
+    "nombreSistema": "Design System de IBM"
   },
   {
     "cookies":"#onetrust-accept-btn-handler",
@@ -1311,7 +1311,7 @@
     "nombreSistema": "Rambler"
   },
   {
-    "descripcionSistema": "Una biblioteca CSS/JS para crear aplicaciones web con el lenguaje de diseño de WeWork.",
+    "descripcionSistema": "Una biblioteca CSS/JS para crear aplicaciones web con el Design System de WeWork.",
     "empresaSistema": "ray",
     "github": "https://github.com/wework/ray",
     "imageSistema": "ray.jpg",
