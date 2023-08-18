@@ -346,13 +346,7 @@
     "imageUrl": "https://www.emd.design/",
     "nombreSistema": "Liquid"
   },
-  {
-    "descripcionSistema": "El framework oficial de front-end para crear experiencias que se integren perfectamente en Office y Office 365.",
-    "empresaSistema": " Microsoft",
-    "imageSistema": "fabric.jpg",
-    "imageUrl": "https://developer.microsoft.com/en-us/fabric",
-    "nombreSistema": "Office UI Fabric"
-  },
+
   {
     "descripcionSistema": "En Mixpanel, queremos crear una experiencia cohesiva para nuestros usuarios. Este sistema permitirá que los equipos sean más eficientes, tengan un lenguaje compartido en toda la empresa y se centren más en resolver los problemas de los usuarios.",
     "empresaSistema": " Mixpanel Design System",
@@ -872,7 +866,7 @@
     "empresaSistema": "basis",
     "github": "https://github.com/moroshko/basis",
     "imageSistema": "basis.jpg",
-    "imageUrl": "hhttps://basis.vercel.app/typography",
+    "imageUrl": "https://basis.vercel.app/typography",
     "nombreSistema": "Basis Design System"
   },
   {
@@ -1025,6 +1019,7 @@
     "nombreSistema": "ENGIE Fluid Design System"
   },
   {
+    "cookies":"#cn-accept-cookie",
     "descripcionSistema": "Aquí encontrarás las historias y herramientas para presentar Estonia de manera considerada, clara y reconocible. Encuentra las herramientas para presentar Estonia.",
     "empresaSistema": "estonia",
     "imageSistema": "estonia.jpg",
@@ -1055,7 +1050,6 @@
     "nombreSistema": "Firefox Photon Design System"
   },
   {
-    "cookies": "_1XuCi2WhiqeWRUVp3pnFG3",
     "descripcionSistema": "Design system de fluent",
     "empresaSistema": "fluent",
     "github": "https://github.com/microsoft/fluentui",
@@ -1103,6 +1097,7 @@
     "nombreSistema": "JetBrains Ring UI"
   },
   {
+    "cookies":"#onetrust-accept-btn-handler",
     "descripcionSistema": "El Sistema de Diseño Pharos es nuestra guía para crear experiencias cohesivas, de apoyo y hermosas para los intelectualmente curiosos.",
     "empresaSistema": "jstor",
     "github": "https://github.com/ithaka/pharos",
@@ -1217,6 +1212,7 @@
     "nombreSistema": "NationBuilder Radius"
   },
   {
+    "cookies":"#nhsuk-cookie-banner__link_accept_analytics",
     "descripcionSistema": "Diseñar y construir servicios digitales para el NHS. Cosas que necesitas para crear servicios consistentes y usables que pongan a las personas primero.",
     "empresaSistema": "nhs",
     "imageSistema": "nhs.jpg",
@@ -1231,19 +1227,11 @@
     "nombreSistema": "Nordhealth"
   },
   {
-    "descripcionSistema": "Design system de odyssey",
-    "empresaSistema": "odyssey",
-    "github": "https://github.com/okta/odyssey",
-    "imageSistema": "odyssey.jpg",
-    "imageUrl": "https://odyssey.okta.design",
-    "nombreSistema": "Okta Odyssey Design System"
-  },
-  {
     "descripcionSistema": "Design system de patternfly",
     "empresaSistema": "patternfly",
     "github": "https://github.com/patternfly",
     "imageSistema": "patternfly.jpg",
-    "imageUrl": "https://www.patternfly.org/v4/",
+    "imageUrl": "https://www.patternfly.org/",
     "nombreSistema": "PatternFly"
   },
   {
@@ -1413,7 +1401,7 @@
     "nombreSistema": "Thumbprint"
   },
   {
-    "cookies":"#accept-all-btn",
+    "cookies":"#accept-none-btn",
     "descripcionSistema": "Design system de tizen",
     "empresaSistema": "tizen",
     "github": "https://github.com/Samsung/Tizen.CircularUI",
