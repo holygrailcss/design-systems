@@ -11,7 +11,7 @@ async function captureMultipleScreenshots(urls) {
   await page.setUserAgent(userAgent);
   await page.setViewport({ width: 1200, height: 810 });
 
-  for (let i = 0; i < 2; i++) {
+  for (let i = 0; i < urls.length; i++) {
     const url = urls[i];
     try {
       console.log(`  `);
