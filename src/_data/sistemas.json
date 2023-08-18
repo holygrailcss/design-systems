@@ -255,13 +255,6 @@
       "descripcionSistema": " SAP Fiori Fundamentals is a light-weight presentation layer using HTML and CSS with the following implementations under active development _ Angular, React, and Vue. "
     },
     {
-      "imageUrl": "https: //fishtank.bna.com/",
-      "imageSistema": "/assets/static/fishtank.4250cd3.5d4301ef42a4e6162f66b07c085aa7ce.jpg",
-      "empresaSistema": " Bloomberg BNA",
-      "nombreSistema": "Fishtank",
-      "descripcionSistema": " Unified design practices and code implementation to help us create exceptional and cohesive products for our users. "
-    },
-    {
       "imageUrl": "https: //www.futurelearn.com/pattern-library",
       "imageSistema": "/assets/static/futurelearn.4250cd3.494edd6778db8f260724def891edf1a3.jpg",
       "empresaSistema": " FutureLearn",
@@ -465,7 +458,7 @@
       "descripcionSistema": " The GitLab Design System contains design guidelines and UI components. When you look at any screen, you should know immediately that it is GitLab. "
     },
     {
-      "imageUrl": "https: //www.patternfly.org/v4/",
+      "imageUrl": "https: //www.patternfly.org/",
       "imageSistema": "/assets/static/patternfly.4250cd3.68d13d3fbecf8c19b4e235d26cbaaddb.jpg",
       "empresaSistema": " Red Hat",
       "nombreSistema": "PatternFly",

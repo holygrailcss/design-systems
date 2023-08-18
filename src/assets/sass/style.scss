@@ -533,9 +533,20 @@ ul.list-clear li {
   flex-wrap: wrap;
   gap: 16px;
   li {
-    flex-basis: calc(25% - 16px);
+    flex-basis: calc(33% - 16px);
+
+    @media (min-width: $break-lg) {
+      flex-basis: calc(33% - 16px);
+    }
+
+
   }
 }
+
+
+
+
+
 [data-aos^="fade"][data-aos^="fade"].aos-animate {
   opacity: 1;
   transform: translateZ(0);
