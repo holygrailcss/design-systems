@@ -1,10 +1,10 @@
 ---
 subtitle: Aprende a utilizar el nuevo curso de Figma para diseño de sistemas
-title: Curso de Design Systems para Figma | Optimiza tus Proyectos
+title: Curso de Design Systems para Figma 
 date: 2023-07-03
 fecha: 3 de julio de 2023
 tags: ["design systems", "figma", "curso"]
-image: /assets/static/images/nombredelaimagendel1 al 10.jpg
+image: https://cdn.sanity.io/images/599r6htc/localized/80e3e2472a0120ed87663cf758f1cbfe9be2be47-2400x1256.png?rect=1,0,2399,1256&w=720&h=377&q=75&fit=max&auto=format
 imageAlt: Imagen de una persona trabajando en Figma
 eleventyComputed:
   metaTitle: Curso de Design Systems para Figma | Optimiza tus Proyectos | Design Systems

@@ -63,7 +63,7 @@
   h2 {
     margin-top: 24px;
     padding-bottom: 20px;
-    @include fluid-text($min_width, $break-lg, 24px, 60px, 1);
+    @include fluid-text($min_width, $break-lg, 24px, 40px, 1);
     width: 100%;
     line-height: 1;
     @include font-bold();

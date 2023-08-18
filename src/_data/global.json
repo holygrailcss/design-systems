@@ -1145,6 +1145,7 @@
     "nombreSistema": "Lost My Name Design System"
   },
   {
+    "cookies":"#onetrust-accept-btn-handler",
     "descripcionSistema": "Design system de mailchimp",
     "empresaSistema": "mailchimp",
     "imageSistema": "mailchimp.jpg",
