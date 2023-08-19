@@ -1,13 +1,14 @@
 ---
+permalink: /el-futuro-de-la-web-son-los-design-systems/
 subtitle: Por qué los Design Systems son el futuro en el diseño web
-title: El impacto de los Design Systems en el futuro del diseño web
+title: El futuro de la web está en los design systems
 date: 2023-06-21
 fecha: 21 de junio de 2023
 tags: ["design system", "diseño web", "UI", "UX", "SEO"]
 image: /assets/static/images/2.jpg
 imageAlt: Ilustración de un dispositivo con elementos de un Design System
 eleventyComputed:
-  metaTitle: El impacto de los Design Systems en el futuro del diseño web | Design-Systems.es
+  metaTitle: El futuro de la web está en los design systems | Design-Systems.es
   metaDescription: Descubre por qué los Design Systems son el futuro del diseño web. Aprende cómo optimizar tus proyectos con un Design System y crea experiencias de usuario excepcionales. 🚀 ¡Potencia tu diseño web ahora!
   metaKeywords: "design system, diseño web, UI, UX, SEO"
   metaRobots: "index, follow"

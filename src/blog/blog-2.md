@@ -1,5 +1,6 @@
 ---
-subtitle: ¿Qué es un Design System para web?
+permalink: /Que-nos-aporta-un-design-system/
+subtitle: ¿Qué nos aporta un Design System para web?
 title: Todo lo que necesitas saber sobre los Design Systems para web
 date: 2023-06-21
 fecha: 21 de junio de 2023
@@ -7,7 +8,7 @@ tags: ["design system", "web", "UX", "UI", "SEO"]
 image: /assets/static/images/1.jpg
 imageAlt: Ilustración de un equipo de diseñadores trabajando en un Design System
 eleventyComputed:
-  metaTitle: Todo sobre los Design Systems para web | Design-Systems.es
+  metaTitle: ¿Qué nos aporta un Design System para web? | Design-Systems.es
   metaDescription: Descubre qué es un Design System para web y cómo puede mejorar la experiencia de usuario. Aprende sobre su importancia en el desarrollo web y cómo optimizarlo para SEO. 🚀 ¡Potencia tu diseño web ahora!
   metaKeywords: "design system, web, UX, UI, SEO"
   metaRobots: "index, follow"

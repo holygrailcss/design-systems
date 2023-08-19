@@ -1,4 +1,5 @@
 ---
+permalink: /Que-es-un-Design-System/
 subtitle: El Poder de los Sistemas de Diseños
 title: ¿Qué es un Design System?
 date: 2023-08-18

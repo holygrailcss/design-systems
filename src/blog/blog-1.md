@@ -1,4 +1,5 @@
 ---
+permalink: /Como-crear-un-design-system/
 subtitle: Cómo crear un Design System exitoso
 title: Guía completa para desarrollar un Design System efectivo
 date: 2023-06-19
@@ -7,7 +8,7 @@ tags: ["post", "figma"]
 image: /assets/static/images/6.jpg
 imageAlt: Ilustración de un equipo trabajando en un Design System
 eleventyComputed:
-  metaTitle: Guía completa para desarrollar un Design System efectivo
+  metaTitle: Cómo crear un Design System exitoso
   metaDescription: Aprende cómo crear un Design System exitoso para tu proyecto. Descubre las mejores prácticas, herramientas y consejos para optimizar tu flujo de trabajo y mejorar la consistencia en el diseño. ¡Comienza a crear experiencias de usuario excepcionales con tu propio Design System!
   metaKeywords: "design systems, diseño, figma"
   metaRobots: "index, follow"

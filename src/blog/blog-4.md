@@ -1,4 +1,5 @@
 ---
+permalink: /la-importancia-de usar-un-design-system/
 subtitle: La importancia de la tipografía en un Design System
 title: Por qué es crucial incorporar la tipografía en un Design System
 date: 2023-06-21
