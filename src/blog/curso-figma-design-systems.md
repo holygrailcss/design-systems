@@ -1,4 +1,5 @@
 ---
+layout: cursos
 subtitle: Aprende a utilizar el nuevo curso de Figma para diseño de sistemas
 title: Curso de Design Systems para Figma 
 date: 2023-07-03
