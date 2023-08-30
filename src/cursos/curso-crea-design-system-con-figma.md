@@ -1,7 +1,8 @@
 ---
-layout: cursos
-subtitle: Aprende a utilizar el nuevo curso de Figma para diseño de sistemas
-title: Curso de Design Systems para Figma 
+permalink: /cursos/curso-design-system-figma/
+layout: _bloginner.njk
+subtitle: Aprende todo lo básico sobre design systems en este curso oficial de figma.
+title: Curso design system figma
 date: 2023-07-03
 fecha: 3 de julio de 2023
 tags: ["design systems", "figma", "curso"]
@@ -33,7 +34,6 @@ El curso de Design Systems para Figma te proporcionará las habilidades y conoci
 - Mejorarás la eficiencia en la colaboración con tu equipo de diseño.
 - Obtendrás consejos y trucos para crear interfaces consistentes y atractivas.
 
-
 <iframe  src="https://www.youtube.com/embed/Dtd40cHQQlk" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe  src="https://www.youtube.com/embed/YLo6g58vUm0" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -51,4 +51,3 @@ El curso de Design Systems para Figma te proporcionará las habilidades y conoci
 <iframe  src="https://www.youtube.com/embed/0XSLMGh8yhM" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe  src="https://www.youtube.com/embed/Dtd40cHQQlk" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-

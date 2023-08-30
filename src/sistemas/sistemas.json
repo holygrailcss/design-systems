@@ -1,7 +1,0 @@
-
-{
-	"layout": "_serviciosinner.njk",
-	"author": "{{global.empresa}}",
-	"tags": ["sistemas"],
-	"categoryName": "{{global.services}} "
-}

@@ -337,6 +337,14 @@ main {
     padding: 16px;
   }
 }
+
+.home-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+
+
+}
 .blog-intro {
   overflow: auto;
   height: 310px;

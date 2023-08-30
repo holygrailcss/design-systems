@@ -6,7 +6,23 @@ layout: base.njk
 {% set noheroimage = [] %}
 <article class="main-article  ">
 
+
+
+<div class="section bg-light ">
+  <div class="container-full ">
+    <ul role="list" class="list-clear home-section">
+      {% for curso in collections.curso | reverse %}
+        {% include 'cursos-loop.njk' %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
 <div class="section  ">
+
+
+
   <div >{% include 'components/hero.njk' %}</div>
 
     <div class="bg-clear front-section">
@@ -25,7 +41,6 @@ https://github.com/alexpate/awesome-design-systems
 
 {% for sistema in global.sistemas %}
     {% include 'global-loop.njk' %}
-
 {% endfor %}
 
 
