@@ -1,5 +1,5 @@
 ---
-layout: _sistemas.njk
+layout: _index.njk
 permalink: /
 
 

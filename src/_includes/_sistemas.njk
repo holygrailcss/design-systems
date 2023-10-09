@@ -2,19 +2,29 @@
 layout: base.njk
 ---
 {% set noheroimage = [] %}
+
+{% import "macros/_insert.njk" as insert %}
+
+
 <article class="main-article  ">
   {% include 'components/herohome.njk' %}</div>
 
 
-<section class="ptr-120 pbr-120" >
+<section class="inview ptr-120 pbr-120" >
   <div class="container-global mx-auto  pbr-120">
     <div class="fluid-8-r c-secondary">Nuestra vision</div>
   </div>
   
       <div class="container-5 ">
-        <span class="c-primary fluid-5-r ">        Quieres convertirte en experto en design systems?. </span>
+        <span class="c-primary fluid-5-r ">        Quieres convertirte en experto en design systems? </span>
         <span class="fluid-5-r pt-64 pb-64 c-secondary">
-          Accede al centro líder en design systems, ofreciendo cursos, repositorios y herramientas de primera calidad para tu desarrollo en este campo.    </span>
+     
+        
+          {% call insert.splitenpalabras('Accede al centro líder en design systems, ofreciendo cursos, repositorios y herramientas de primera calidad para tu desarrollo en este campo.   ') %} {% endcall %}
+        
+        </span>
+
+
     </div>
   
 </section>
