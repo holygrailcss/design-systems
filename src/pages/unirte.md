@@ -1,9 +1,9 @@
 ---
 layout: _solicitar-cita
-permalink: /solicitar-una-cita/
+permalink: /unirte-a-newsletter/
 
-title: Solicita una cita
-subtitle: Totalmente sin compromiso
+title: Pide acceso a nuestra newsletter
+subtitle: Te esperamos
 author: man 
 date: 2021-05-01
 tags: ["page"]

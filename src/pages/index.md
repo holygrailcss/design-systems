@@ -4,7 +4,7 @@ permalink: /
 
 
 title:  Design systems.es
-subtitle:  Explora casos de estudio, aprende las mejores prácticas y mantente actualizado en este emocionante campo del diseño centrado en los design systems.
+subtitle:  Explora casos de estudio, aprende las mejores prácticas y mantente actualizado en este emocionante campo del diseño centrado en los design systems , todo ello en español.
 image: 7.jpg
 
 

@@ -29,6 +29,24 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site.webmanifest");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
 
+  eleventyConfig.addPairedShortcode("myShortcode", function (content) { // Method A: ✅ ideal para encapsular {% myShortcode %}  dfdfdf  {% endmyShortcode %}
+    return `<div class="is-flex full-container-blog content-center">${content}</div>`;
+  });
+  eleventyConfig.addShortcode("br", function () { // Method A: ✅ ideal para tags de espacios {% br %}
+    return `
+  <br>
+`;
+  });
+  eleventyConfig.addShortcode("br2", function () { // Method A: ✅ ideal para tags de espacios {% br %}
+    return `
+  <br><br>
+`;
+  });
+  eleventyConfig.addShortcode("br3", function () { // Method A: ✅ ideal para tags de espacios {% br %}
+    return `
+  <br><br><br>
+`;
+  });
 
 
   eleventyConfig.addPlugin(embeds);

@@ -1,6 +1,6 @@
 ---
 permalink: /cursos/curso-design-system-figma/
-layout: _bloginner.njk
+layout: _cursoinner.njk
 subtitle: Aprende todo lo básico sobre design systems en este curso de figma oficial .
 title: Curso design system figma
 date: 2023-07-03
@@ -46,8 +46,9 @@ El curso de Design Systems para Figma te proporcionará las habilidades y conoci
 
 <iframe  src="https://www.youtube.com/embed/NGGMGybuOwg" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe  src="https://www.youtube.com/embed/_sTWtnNU1L0" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe  src="https://www.youtube.com/embed/0XSLMGh8yhM" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe  src="https://www.youtube.com/embed/Dtd40cHQQlk" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe  src="https://www.youtube.com/embed/_sTWtnNU1L0" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

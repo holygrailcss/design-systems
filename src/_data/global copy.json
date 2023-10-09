@@ -31,12 +31,12 @@
   "ciudad": " barcelona",
   "provincia": "Barcelona",
   "actividad": " design systems",
-  "c_primary": "#292929",
-  "c_secondary": "#292929",
+  "c_primary": "#2b2a28",
+  "c_secondary": "#2b2a28",
   "bg_dark": "#161616",
   "c_bg_dark": "#f7f6f5",
   "bg_light": "#efefef",
-  "c_bg_light": "#292929",
+  "c_bg_light": "#2b2a28",
   "btn_radius": "0",
   "seo_title": "seo_title",
   "seo_description": " seo_description",
@@ -49,19 +49,19 @@
   "personas": [
     {
       "imagen": "/assets/static/images/person1.jpg",
-      "nombre": "Persona 1",
+      "nombre": "Michael svenson",
       "posicion": "Posición 1",
       "descripcion": "Descripción 1"
     },
     {
       "imagen": "/assets/static/images/person2.jpg",
-      "nombre": "Persona 2",
+      "nombre": "Michael svenson",
       "posicion": "Posición 2",
       "descripcion": "Descripción 2"
     },
     {
       "imagen": "/assets/static/images/person3.jpg",
-      "nombre": "Persona 3",
+      "nombre": "Michael svenson",
       "posicion": "Posición 3",
       "descripcion": "Descripción 3"
     }

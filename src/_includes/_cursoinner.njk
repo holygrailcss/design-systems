@@ -14,15 +14,20 @@ layout: base.njk
 
 
 
-        <div class="container-global mx-auto pt-32 ">
+        <div class="container-global mx-auto pt-32 innercurso ">
 
             <div class="row">
               <div class="col-xs-7">
 
-                <div class="innermarkdown">
-                  {{ content | toc | safe }}
+                <div class="innermarkdown ">
+              
                   {{ content | safe }}
                 </div>
+
+              </div>
+
+              <div class="col-xs-3">
+                {{ content | toc | safe }}
 
               </div>
             </div>

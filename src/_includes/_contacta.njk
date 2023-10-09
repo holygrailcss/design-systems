@@ -6,11 +6,11 @@ permalink: /contacta/
 
 {% include 'components/hero.njk' %}
 
-<section class="hero  front-section bg-light ">
+<section class="hero  front-section  ">
   <div class="container-5 pt-64 pb-24 ">
     <div class="row">
       <div class="col-xs-6">
-        <h3 class="fluid-3-b pl-64 pb-32">{{title}}</h3>
+        <h3 class="fluid-3-r pl-64 pb-32">{{title}}</h3>
       </div>
     </div>
     <div class="row mbr-64 ">
@@ -33,25 +33,25 @@ permalink: /contacta/
       </div>
     </div>
 </section>
-<section class="bg-light pt-64 pb-64">
+<section class=" pt-64 pb-64">
   <div class="container-5">
     <div class="row">
       <div class="col-xs-4 ">
-        <div class="box p-16 bg-light-grey height-md">
+        <div class="box p-16 -grey height-md">
           <div class="text-18-b">¿Dónde estamos? </div>
           <div class="text-16-r mb-24">{{global.direccion}}</div> 
           <div class="text-16-r">    <a target="_blank" class="btn btn--small btn-primary" href="{{global.googlemaps_link}}"> Ver mapa </a>  </div> 
         </div>
       </div>
       <div class="col-xs-4  ">
-          <div class="box p-16 bg-light-grey height-md">      <div class="text-18-b">Via email </div>
+          <div class="box p-16 -grey height-md">      <div class="text-18-b">Via email </div>
         <div class="text-16-r"><a href="mailto:{{global.email}} ">{{global.email}} </a> </div> </div>
       </div>
       <div class="col-xs-4  ">
-          <div class="box p-16 bg-light-grey height-md">    
+          <div class="box p-16 -grey height-md">    
             <div class="text-18-b">Teléfono</div> 
         <div class="text-16-r"><a href="tel:{{global.telefono}}">{{global.telefono}} </a> </div> 
-        <div class="text-18-b mt-24">Whatsapp</div> 
+        <div class="text-18-r mt-24">Whatsapp</div> 
         <div class="text-16-r"><a href="https://wa.me/{{global.whatsapp}}">{{global.whatsapp}} </a>   </div>  </div>
       </div>
     </div>

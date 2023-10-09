@@ -3,7 +3,7 @@ layout: _about.njk
 permalink: /about/
 
 subtitle: Evangelizadores
-title: Quienes Somos
+title: Nosotros
 date: 2023-06-19
 tags: ["design systems", "diseño", "figma"]
 image: /assets/static/images/7.jpg

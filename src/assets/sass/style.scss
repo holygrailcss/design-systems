@@ -18,18 +18,24 @@ $c-primary: var(--c-primary);
 $c-secondary: var(--c-secondary);
 $bg-dark: var(--bg-dark);
 $c-bg-dark: var(--c-bg-dark);
-$bg-light: var(--bg-light);
-$c-bg-light: var(--c-bg-light);
+
+
+.c-secondary{color:$c-secondary }
+.c-primary{color:$c-primary }
+.bg-color{ background-color: #f3f2f0;}
+
 body {
   overflow-x: hidden;
-  color: $primary-color;
+  color: $c-primary;
+  background-color: #fff;
+
   scroll-behavior: smooth;
 }
 p {
   font-size: inherit;
 }
 strong {
-  color: $primary;
+  color: $c-secondary;
 }
 .bold {
   @include font-bold;
@@ -46,10 +52,7 @@ a {
   background-color: $bg-dark;
   color: $c-bg-dark;
 }
-.bg-light {
-  background-color: $bg-light;
-  color: $c-bg-light;
-}
+
 .has-light {
   a {
     color: white;
@@ -107,13 +110,34 @@ a {
 .textarea,
 .select select {
   background-color: transparent;
-  border-color: #fff;
-  color: #fff;
+  border-color: $c-primary;
+  border-width: 0 0 2px 0 ;
+    color: $c-primary;
   max-width: 100%;
   width: 100%;
   font-size: 16px;
   line-height: 1;
+
+  &:focus{
+    border-width: 0 0 2px 0 ;
+  }
+
 }
+img{
+  max-width: initial;
+
+}
+.fill{
+  object-fit: cover;
+}
+
+.form-input-label-2 > input, .form-input-label-2 > label, .error-zone > input, .error-zone > label {
+  font-family: "font-regular";
+  padding-left: 0;
+  font-weight: normal;
+}
+
+
 b {
   @include font-bold;
   .has-light & {
@@ -128,7 +152,7 @@ ul.list-clear li {
   width: 100%;
 }
 .video-bg {
-  background-color: $bg-light;
+
   position: fixed;
   height: 100vh;
   width: 100vw;
@@ -225,24 +249,7 @@ main {
     text-align: right;
   }
 }
-.info-bar {
-  height: 50px;
-  border-top: 1px solid $c-primary;
-  border-bottom: 1px solid $c-primary;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
-  align-items: center;
-  @media (min-width: $break-md) {
-    height: 116px;
-  }
-}
-.btn--mini {
-  padding: 8px 16px 8px 16px;
-  font-size: 12px;
-  letter-spacing: 0;
-}
+
 .btn--tag {
   padding: 2px 4px 2px 0;
   color: $c-dark-grey;
@@ -251,33 +258,7 @@ main {
   @include font-regular;
   display: inline-block;
 }
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 100;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: $c-white;
-  color: $c-primary;
-  padding: 64px 24px;
-  border: 1px solid #ccc;
-  justify-content: center;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 500px;
-  svg path {
-    fill: $c-primary;
-    stroke: none;
-  }
-  .btn-close {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-  }
-}
+
 .line {
   width: 100%;
   height: 1px;
@@ -333,7 +314,7 @@ main {
   justify-content: flex-start;
   margin: -10px;
   li {
-    flex-basis: 25%;
+    flex-basis: 100%;
     padding: 16px;
   }
 }
@@ -500,12 +481,7 @@ main {
     max-width: 1280px;
   }
 }
-.form-input-label-2 > label,
-.form-input-label-2 > .textarea::placeholder,
-.error-zone > label {
-  color: #ffffff;
-  @include font-regular;
-}
+
 ul.list-clear li {
   list-style: none;
   margin: 8px 0;
@@ -533,9 +509,7 @@ ul.list-clear li {
 .ttc {
   text-transform: capitalize;
 }
-.container-full {
-  max-width: 1600px;
-}
+
 .flow {
   display: flex;
   flex-wrap: wrap;
@@ -562,11 +536,11 @@ ul.list-clear li {
   left: 0;
 }
 .bg-clear {
-  background-color: #f2f2f2;
+  background-color: #f3f2f0;;
 }
 article {
   background: white;
-  border-radius: 15px;
+  border-radius: 12px;
   overflow: hidden;
 }
 .product {
@@ -640,4 +614,50 @@ a {
 }
 a:hover {
   opacity: 0.8;
+}
+
+
+.container-global {
+  padding-right: 16px;
+  padding-left: 16px;
+
+  max-width: 1650px;
+  @media (min-width: $break-md) {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+.btn--big{
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.btn--mini{
+  border-radius: 50px;
+
+  padding: 8px 16px 8px 16px;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.btn--full{
+  border-radius: 50px;
+}
+
+.fluid-3-r{
+  letter-spacing: -3px;
+}
+.article-loop{
+  border-top:2px solid black
+}
+
+
+.rad-12{
+  border-radius: 12px;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }

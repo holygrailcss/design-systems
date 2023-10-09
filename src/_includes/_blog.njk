@@ -4,12 +4,16 @@ layout: base.njk
 
 
 
-{% include 'components/hero.njk' %}
+
+<div class="section  ptr-200 ">
 
 
-
-<div class="section bg-light ">
-  <div class="container-full ">
+  <div class="container-global mx-auto">
+     <div class="fluid-5-r mb-24">
+      Blog
+     </div>
+  </div>
+  <div class="container-global mx-auto ">
     <ul role="list" class="list-clear blog-section">
       {% for blog in collections.blog | reverse %}
         {% include 'blog-loop.njk' %}

@@ -2,7 +2,7 @@
 layout: cursos.njk
 permalink: /cursos/
 
-title: cursos
+title: Cursos
 subtitle: Cursos gratuitos en español sobre design systems
 image: /assets/static/images/7.jpg
 eleventyComputed:

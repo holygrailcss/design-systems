@@ -1,59 +1,43 @@
 ---
 layout: base.njk
-
 ---
-
 {% set noheroimage = [] %}
 <article class="main-article  ">
+  {% include 'components/herohome.njk' %}</div>
 
 
-
-<div class="section bg-light ">
-  <div class="container-full ">
-    <ul role="list" class="list-clear home-section">
-      {% for curso in collections.curso | reverse %}
-        {% include 'cursos-loop.njk' %}
-      {% endfor %}
-    </ul>
+<section class="ptr-120 pbr-120" >
+  <div class="container-global mx-auto  pbr-120">
+    <div class="fluid-8-r c-secondary">Nuestra vision</div>
   </div>
-</div>
+  
+      <div class="container-5 ">
+        <span class="c-primary fluid-5-r ">        Quieres convertirte en experto en design systems?. </span>
+        <span class="fluid-5-r pt-64 pb-64 c-secondary">
+          Accede al centro líder en design systems, ofreciendo cursos, repositorios y herramientas de primera calidad para tu desarrollo en este campo.    </span>
+    </div>
+  
+</section>
 
+  <div class="section  ">
 
-<div class="section  ">
+  <div class="bg-color front-section ">
 
-
-
-  <div >{% include 'components/hero.njk' %}</div>
-
-    <div class="bg-clear front-section">
-      <div class="container-full pt-64 pb-64  ">
-        <ul role="list" class="list-clear flow">
-
-
-
-{#       {% for sistemas in collections.sistemas %}
-        {% include 'sistemas-loop.njk' %}
-      {% endfor %}
-
-https://github.com/alexpate/awesome-design-systems
- #}
-
-
-{% for sistema in global.sistemas %}
-    {% include 'global-loop.njk' %}
-{% endfor %}
-
-
-        </ul>
-      
-        </div>
+    <div class="container-global mx-auto pt-64 pb-64">
+      <div class="fluid-8-r c-secondary">Design system collection</div>
+      <div class="fluid-7-r c-primary">TOP 100</div>
     </div>
 
 
-</div>
+    <div class="container-global mx-auto  pb-64  ">
+      <ul role="list" class="list-clear flow">
+        {% for sistema in global.sistemas %}
+        {% include 'global-loop.njk' %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 
-
-{% include "components/banner.njk" %}
-
-
+  </div>
+  {% include "components/banner.njk" %}
 </article>
