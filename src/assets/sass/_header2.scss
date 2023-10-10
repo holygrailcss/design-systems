@@ -12,6 +12,9 @@ header {
   align-items: center;
   font-size: 12px;
   letter-spacing: 2px;
+
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   @media (min-width: $break-md) {
     padding-bottom: 0;
     padding-top: 30px;
@@ -40,7 +43,9 @@ header.interior {
 .scrolled {
 
   header {
-    background-color: #f3f2f0;;
+    background-color: #f3f2f0b5;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     padding-top: 40px;
     padding-bottom: 40px;
     @media (min-width: $break-md) {

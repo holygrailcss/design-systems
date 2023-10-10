@@ -1,4 +1,4 @@
-<section class=" bg-color">
+<section class="inview  bg-color">
   <div class="container-global mx-auto  ">
     <div class="row section-x height-full align-bottom  ">
       <div class="col-xs-12 col-sm-6 front-text mdmax:mb-42">
@@ -10,7 +10,13 @@
           </div>
           <div class="vertical-wrap-2 pb-24">
             <div class="vertical-inner">
-              <h2 class="fluid-8-r mb-8">{{ subtitle }}
+              <h2 class="fluid-8-r mb-8">
+
+                {% call insert.splitenpalabras( subtitle ) %} {% endcall %}
+
+
+
+
             </div>
           </div>
           <div class="vertical-wrap-2 pb-64">

@@ -8,10 +8,13 @@
       <div class=" sm:text-center">
         <div>
           <div class=" p-24">
+            <div class=" mb-8">{{ sistema.nombreSistema }}</div>
+
             <div class="mb-24">
-              <div data-aos-once="true" data-aos-delay="100" class="text-12-r ttu product-company">
-                {{ sistema.empresaSistema }}
+              <div data-aos-once="true" data-aos-delay="100" class="text-12-r ttu  c-secondary">
+               By  {{ sistema.empresaSistema }}
               </div>
+
             </div>
             <div class="">
               <p data-aos-once="true" class="text-18-r product-sistema ">
@@ -23,24 +26,11 @@
         <div class=" ">
           <div class="rat-3-2 product-img">
             <div class="rat-content">
-              <img
-                class="rellax video-cover"
+              <img width="100%"
+                class=""
                 alt="{{ sistema.imageSistema | replace('.jpg', '') }} | design system"
                 src="/assets/static/capturas/{{ sistema.imageSistema }} "
               />
-            </div>
-
-            <div class="product-bg">
-              <div class="mb-8 product-name">
-                <p
-                  data-aos-once="true"
-                  data-aos-delay="200"
-                  class="text-14-m ttu"
-                >
-                  {{ sistema.nombreSistema }}
-                </p>
-              </div>
-
 
 
               <div class="product-arrow">
@@ -56,8 +46,9 @@
                   </svg>
               </div>
                 
-
             </div>
+
+
           </div>
         </div>
       </div>
