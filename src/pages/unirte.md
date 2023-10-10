@@ -1,5 +1,5 @@
 ---
-layout: _solicitar-cita
+layout: _unirte-a-newsletter
 permalink: /unirte-a-newsletter/
 
 title: Pide acceso a nuestra newsletter

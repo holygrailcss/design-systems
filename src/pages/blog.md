@@ -1,6 +1,6 @@
 ---
 layout: _blog.njk
-permalink: /formacion/
+permalink: /blog/
 
 title: Formación
 subtitle: Cursos gratuitos en español sobre design systems
