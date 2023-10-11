@@ -26,6 +26,8 @@
   top: 0;
   bottom: 0;
   width: 100vw;
+
+  height: 100vh;
   left: -100vw;
   transition: left 0.24s ease-out;
   display: flex;
@@ -37,7 +39,18 @@
   ul.list-clear li {
     list-style: none;
     margin: 24px 0;
+a{
+  color: #fff;
+}
   }
+
+
+.scrolled &{
+color: #fff;
+
+}
+
+
 }
 .menu-toogle-bars {
   span {
