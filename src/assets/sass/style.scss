@@ -60,10 +60,16 @@ $c-bg-dark: var(--c-bg-dark);
 .c-primary{color:$c-primary }
 .bg-color{ background-color: #f3f2f0;}
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
 body {
   overflow-x: hidden;
   color: $c-primary;
   background-color: #fff;
+  
 
   scroll-behavior: smooth;
 }
@@ -737,3 +743,17 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.minicuad{
+
+  background: #F05E61;
+  width: 2vw;
+  height: 2vw;
+  flex-shrink: 0;
+  margin-left: 1%;
+  margin-bottom: .5%;}
+
+  #repositorio{
+    scroll-behavior: smooth;
+  }
