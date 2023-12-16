@@ -1,0 +1,1530 @@
+{
+  "author": "manuel ruiz",
+  "authorweb": "design-systems.es",
+  "authorinstagram": "manuel ruiz",
+  "title": "design systems",
+  "lang": "es-es",
+  "footer": "",
+  "url": "https://design-systems.es",
+  "empresa": "design systems",
+  "imageDir": "/assets/static/images/",
+  "tag_manager": " ",
+  "about": "Nosotros",
+  "services": "sistemas",
+  "blog": "Blog",
+  "brands": "1,2,3,4,5,6",
+  "galeria": "1,2,3,4,5,6,7,8",
+  "contact_img": "/assets/static/images/1.jpg",
+  "search_console": "JauLv5K7ugKirhkGgkn8jCE-VcSjyJKITScVCJEpovE",
+  "empresa_copyright": " © 2023 empresa_copyright",
+  "empresa_legal_titular": "empresa_legal_titular ",
+  "empresa_legal": "Empresa_legal_largo",
+  "empresa_corto": "Empresa_corto",
+  "website": "www.design-systems.es",
+  "telefono": "+111",
+  "empresa_dni": "dni111",
+  "email": "design@gmail.com",
+  "link": "design-systems.es",
+  "whatsapp": "+1111",
+  "codigopostal": "0000",
+  "direccion": " calle",
+  "ciudad": " barcelona",
+  "provincia": "Barcelona",
+  "actividad": " design systems",
+  "c_primary": "#2b2a28",
+  "c_secondary": "#898480",
+  "bg_dark": "#161616",
+  "c_bg_dark": "#f7f6f5",
+  "bg_light": "#efefef",
+  "c_bg_light": "#2b2a28",
+  "btn_radius": "0",
+  "seo_title": "seo_title",
+  "seo_description": " seo_description",
+  "googlemaps_api": "",
+  "googlemaps_link": "",
+  "googlemaps_iframe": "",
+  "social_linkedin": " https://www.linkedin.com/",
+  "social_youtube": "https://www.youtube.com/",
+  "social_instagram": "https://www.instagram.com/",
+  "personas": [
+    {
+      "imagen": "/assets/static/images/person1.jpg",
+      "nombre": "Persona 1",
+      "posicion": "Posición 1",
+      "descripcion": "Descripción 1"
+    },
+    {
+      "imagen": "/assets/static/images/person2.jpg",
+      "nombre": "Persona 2",
+      "posicion": "Posición 2",
+      "descripcion": "Descripción 2"
+    },
+    {
+      "imagen": "/assets/static/images/person3.jpg",
+      "nombre": "Persona 3",
+      "posicion": "Posición 3",
+      "descripcion": "Descripción 3"
+    }
+  ],
+  "sistemas":[
+    {
+
+      "descripcionSistema": "massimodutti",
+      "empresaSistema": " massimo",
+      "imageSistema": "massimodutti1.jpg",
+      "imageUrl": "https://www.massimodutti.com/es",
+      "nombreSistema": "massimo"
+    },
+
+    {
+      "cookies": "#onetrust-accept-btn-handler",
+      "descripcionSistema": "massimodutti",
+      "empresaSistema": " massimo",
+      "imageSistema": "massimodutti.jpg",
+      "imageUrl": "https://www.massimodutti.com/es",
+      "nombreSistema": "massimo"
+    },
+
+    {
+      "cookies": "#onetrust-accept-btn-handler",
+      "descripcionSistema": "massimodutti",
+      "empresaSistema": " massimo",
+      "imageSistema": "massimodutti.jpg",
+      "imageUrl": "https://www.massimodutti.com/es",
+      "nombreSistema": "massimo"
+    },
+
+  {
+    "descripcionSistema": "Spectrum proporciona componentes y herramientas para ayudar a los equipos de productos a trabajar de manera más eficiente y hacer que las aplicaciones de Adobe sean más coherentes.",
+    "empresaSistema": " Adobe",
+    "imageSistema": "adobe-spectrum.jpg",
+    "imageUrl": "https://spectrum.adobe.com/",
+    "nombreSistema": "Spectrum"
+  },
+  {
+    "descripcionSistema": "Un Design System con valores de naturaleza y determinación para una mejor experiencia de usuario en aplicaciones empresariales.",
+    "empresaSistema": " Ant Financial",
+    "imageSistema": "ant-design.jpg",
+    "imageUrl": "https://ant.design/",
+    "nombreSistema": "Ant Design"
+  },
+  {
+    "descripcionSistema": "Utilice el Design System integral de Atlassian para crear experiencias directas y hermosas.",
+    "empresaSistema": " Atlassian",
+    "imageSistema": "atlassian.jpg",
+    "imageUrl": "https://atlassian.design/",
+    "nombreSistema": "Atlassian Design Language"
+  },
+  {
+    "descripcionSistema": "El objetivo es crear soluciones variadas y una experiencia de usuario equilibrada en todo el sistema, desde la aplicación hasta el vehículo.",
+    "empresaSistema": " Audi",
+    "imageSistema": "audi.jpg",
+    "imageUrl": "http://www.audi.com/ci/en/guides/user-interface/introduction.html",
+    "nombreSistema": "Audi UI"
+  },
+  {
+    "descripcionSistema": " GEL is the BBC's shared design framework which enables us to create consistent and delightful user experiences across all of our Digital Services. ",
+    "empresaSistema": " BBC",
+    "imageSistema": "gel.jpg",
+    "imageUrl": "http://www.bbc.co.uk/gel/",
+    "nombreSistema": "Global Experience Language (GEL)"
+  },
+  {
+    "descripcionSistema": "El Design System Beeline es una biblioteca de estándares y patrones de diseño que se pueden utilizar para diseñar y construir cualquier cantidad de productos de Beeline. Es una única fuente de verdad para todas las necesidades de diseño de productos de Beeline.",
+    "empresaSistema": " Beeline",
+    "imageSistema": "beeline.jpg",
+    "imageUrl": "http://beelinedesignsystem.com/",
+    "nombreSistema": "Design System “2.0”"
+  },
+  {
+    "descripcionSistema": "La forma más simple y rápida de construir interfaces de usuario que se integren y se sientan como parte del ecosistema de software orientado a propósitos de Benevity. Ahorra tiempo y evita reinventar problemas ya resueltos al aprovechar este recurso de aprendizaje compartido y mejores prácticas de patrones comunes en nuestro software.",
+    "empresaSistema": " Benevity",
+    "imageSistema": "skyline.jpg",
+    "imageUrl": "https://skyline.benevity.org/",
+    "nombreSistema": "Skyline"
+  },
+  {
+    "descripcionSistema": "La fuente única de verdad para construir productos de Biings. BDS es una serie de pautas utilizadas para crear una experiencia y una interfaz de usuario unificadas. Evita errores de diseño al combinar estilos y componentes.",
+    "empresaSistema": " Biings",
+    "imageSistema": "biings.jpg",
+    "imageUrl": "https://biings.design/",
+    "nombreSistema": "Biings Design System"
+  },
+  {
+    "cookies": "#onetrust-accept-btn-handler",
+    "descripcionSistema": "Solar es el Design System para los productos de Bulb. Nuestro Design System es una colección de patrones y prácticas de diseño compartidos que permiten a nuestro equipo construir interfaces consistentes y de calidad.",
+    "empresaSistema": " Bulb",
+    "imageSistema": "bulb.jpg",
+    "imageUrl": "http://design.bulb.co.uk/",
+    "nombreSistema": "Solar Design System"
+  },
+  {
+    "descripcionSistema": "Solid es la guía de estilos de CSS de BuzzFeed. Influenciado por frameworks como Basscss, Solid utiliza clases de CSS atómicas e inmutables para prototipar y desarrollar rápidamente características.",
+    "empresaSistema": " BuzzFeed",
+    "imageSistema": "buzzfeed.jpg",
+    "imageUrl": "https://solid.buzzfeed.com/",
+    "nombreSistema": "Solid Style Guide"
+  },
+  {
+    "descripcionSistema": "Blocks es el enfoque compartido, el lenguaje y la comunicación entre los equipos de diseño, ingeniería y productos en CBRE Build. El sitio contiene una biblioteca de componentes de IU y código reutilizables que se utilizan para resolver una variedad de problemas de diseño.",
+    "empresaSistema": " CBRE Build",
+    "imageSistema": "blocks.jpg",
+    "imageUrl": "https://blocks.cbrebuild.com/",
+    "nombreSistema": "Blocks Design System"
+  },
+  {
+    "descripcionSistema": "Componentes reutilizables basados en CSS en JS son el núcleo del Design System Quantum, una biblioteca para desarrollar una UI/UX consistente en Catho.",
+    "empresaSistema": " Catho",
+    "imageSistema": "quantum.jpg",
+    "imageUrl": "https://catho.github.io/quantum/",
+    "nombreSistema": "Quantum"
+  },
+  {
+    "descripcionSistema": "Una estética unificada juega un papel clave en hacer que E-Trade sea una experiencia conectada, atractiva y significativa. A través del Design System, nuestras experiencias se diferencian, son fáciles de usar y comprender.",
+    "empresaSistema": " Design Language",
+    "imageSistema": "etrade.jpg",
+    "imageUrl": "http://etrade.design/",
+    "nombreSistema": "E-Trade"
+  },
+  {
+    "descripcionSistema": "Comet es un Design System escalable que incluye lenguaje visual, componentes y activos de diseño codificados como puntos de partida HTML y CSS extensibles para su uso en experiencias digitales de Discovery Education.",
+    "empresaSistema": " Discovery Education",
+    "imageSistema": "comet.jpg",
+    "imageUrl": "https://comet.discoveryeducation.com/",
+    "nombreSistema": "Comet"
+  },
+  {
+    "descripcionSistema": "El Design System Barista es una colección de componentes, patrones y estilos reutilizables que se encuentran en el código. Todas las partes siguen los principios de diseño de Dynatrace.",
+    "empresaSistema": " Dynatrace",
+    "imageSistema": "barista.jpg",
+    "imageUrl": "https://barista.dynatrace.com/",
+    "nombreSistema": "Barista"
+  },
+  {
+    "descripcionSistema": "El marco de interfaz de usuario elástico (EUI) es una biblioteca de diseño utilizada en Elastic para construir productos internos que necesitan compartir nuestra estética. Distribuye componentes de UI React y activos estáticos para su uso en la creación de diseños web.",
+    "empresaSistema": " Elastic",
+    "imageSistema": "elastic-ui.jpg",
+    "imageUrl": "https://elastic.github.io/eui/#/",
+    "nombreSistema": "Elastic UI"
+  },
+  {
+    "descripcionSistema": "Estas directrices están diseñadas para ayudar a desarrolladores y diseñadores a crear una experiencia consistentemente hermosa en el escritorio de elementary OS. Fueron escritas para diseñadores de interfaz, artistas gráficos y desarrolladores de software que trabajarán en elementary OS.",
+    "empresaSistema": " Elementary",
+    "imageSistema": "elementary.jpg",
+    "imageUrl": "https://elementary.io/",
+    "nombreSistema": "Elementary - Human Interface Guidelines"
+  },
+  {
+    "cookies": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+    "descripcionSistema": "Diseña y construye el futuro de las finanzas. Desde prototipos hasta productos, construye aplicaciones financieras listas para usar de manera más rápida y efectiva con nuestro Design System.",
+    "empresaSistema": " Finastra",
+    "imageSistema": "finastra.jpg",
+    "imageUrl": "https://design.fusionfabric.cloud/",
+    "nombreSistema": "Finastra Design System"
+  },
+  {
+    "descripcionSistema": "Photon es el Design System de Firefox para construir experiencias modernas, intuitivas y agradables para productos en todas las plataformas, desde móviles hasta escritorios, desde televisores hasta la próxima gran innovación.",
+    "empresaSistema": " Firefox",
+    "imageSistema": "photon.jpg",
+    "imageUrl": "https://design.firefox.com/photon/",
+    "nombreSistema": "Photon Design System"
+  },
+  {
+    "descripcionSistema": "La biblioteca refleja directamente la plataforma FutureLearn y utiliza la misma estructura de CSS y marcado para mostrar los elementos y reglas que componen la interfaz.",
+    "empresaSistema": " FutureLearn",
+    "imageSistema": "futurelearn.jpg",
+    "imageUrl": "https://www.futurelearn.com/pattern-library",
+    "nombreSistema": "FutureLearn Pattern Library"
+  },
+  {
+    "descripcionSistema": "Asphalt es el propio sistema de Design System de GO-JEK. Esta es una colección de pautas y componentes que se pueden utilizar para crear experiencias de usuario sorprendentes.",
+    "empresaSistema": " GO-JEK",
+    "imageSistema": "asphalt.jpg",
+    "imageUrl": "https://asphalt.gojek.io/",
+    "nombreSistema": "Asphalt"
+  },
+  {
+    "cookies": "button.js-cookie-banner-accept",
+    "descripcionSistema": "Utiliza este Design System para que tu servicio sea consistente con GOV.UK. Aprende de la investigación y experiencia de otros equipos de servicio y evita repetir el trabajo que ya se ha realizado.",
+    "empresaSistema": " GOV.UK",
+    "imageSistema": "gov-uk.jpg",
+    "imageUrl": "https://design-system.service.gov.uk/",
+    "nombreSistema": "GOV.UK Design System"
+  },
+  {
+    "descripcionSistema": "Nuestros componentes de interfaz de usuario te permiten crear rápidamente aplicaciones web del Internet Industrial que se ejecutan en servicios y datos de Predix dedicados.",
+    "empresaSistema": " General Electric",
+    "imageSistema": "predix.jpg",
+    "imageUrl": "https://www.predix-ui.com/",
+    "nombreSistema": "Predix Design System"
+  },
+  {
+    "descripcionSistema": "Recursos, herramientas y pautas de diseño para construir sitios web con Primer, el framework de front-end de GitHub.",
+    "empresaSistema": " GitHub",
+    "imageSistema": "primer.jpg",
+    "imageUrl": "https://styleguide.github.com/primer/",
+    "nombreSistema": "Primer"
+  },
+  {
+    "cookies": "#onetrust-accept-btn-handler",
+    "descripcionSistema": "El Design System de GitLab contiene pautas de diseño y componentes de interfaz de usuario. Cuando ves cualquier pantalla, deberías saber de inmediato que es GitLab.",
+    "empresaSistema": " Gitlab",
+    "imageSistema": "gitlab.jpg",
+    "imageUrl": "https://design.gitlab.com/",
+    "nombreSistema": "Pajamas - Gitlab Design System"
+  },
+  {
+    "descripcionSistema": "Material Design es un sistema unificado que combina teoría, recursos y herramientas para crear experiencias digitales.",
+    "empresaSistema": " Google",
+    "imageSistema": "material.jpg",
+    "imageUrl": "https://material.io/",
+    "nombreSistema": "Material Design"
+  },
+  {
+    "descripcionSistema": "Yoga es un sistema científico de prácticas diseñadas para ayudar a cada uno de nosotros a alcanzar nuestro máximo potencial y experimentar (diseño de sistema interplataforma de Gympass).",
+    "empresaSistema": " Gympass",
+    "imageSistema": "yoga.jpg",
+    "imageUrl": "https://gympass.github.io/yoga/",
+    "nombreSistema": "Yoga"
+  },
+  {
+    "cookies": "#hs-eu-confirmation-button",
+    "descripcionSistema": "Esta biblioteca muestra los bloques de construcción que componen el Design System de Hubspot, desde colores y tipografía hasta componentes basados en React y herramientas de visualización de datos.",
+    "empresaSistema": " Hubspot",
+    "imageSistema": "canvas.jpg",
+    "imageUrl": "https://canvas.hubspot.com/",
+    "nombreSistema": "Canvas Design System"
+  },
+  {
+    "descripcionSistema": "Uniform es el Design System de Hudl. Existe para unificar los productos de Hudl a través de la implementación de diseño y código.",
+    "empresaSistema": " Hudl",
+    "imageSistema": "uniform.jpg",
+    "imageUrl": "http://uniform.hudl.com/",
+    "nombreSistema": "Uniform"
+  },
+  {
+    "cookies": "#truste-consent-button",
+    "descripcionSistema": "Carbon es el Design System de código abierto de IBM para productos y experiencias. Con el Design System de IBM como base, el sistema consta de código funcional, herramientas y recursos de diseño, directrices de interfaz humana y una comunidad activa de colaboradores.",
+    "empresaSistema": " IBM",
+    "imageSistema": "carbon.jpg",
+    "imageUrl": "https://www.carbondesignsystem.com/",
+    "nombreSistema": "Carbon Design System"
+  },
+  {
+    "descripcionSistema": "La familiaridad es un componente clave de la usabilidad. Con Rivet, obtienes un conjunto de herramientas para crear aplicaciones web familiares y brindar a los usuarios una mejor experiencia.",
+    "empresaSistema": " Indiana University",
+    "imageSistema": "rivet.jpg",
+    "imageUrl": "https://rivet.uits.iu.edu/",
+    "nombreSistema": "Rivet"
+  },
+  {
+    "descripcionSistema": "Orbit es un Design System de código abierto creado para satisfacer las necesidades específicas de Kiwi.com y, junto con eso, las necesidades de proyectos de viajes. Nuestra visión es proporcionar las herramientas necesarias para construir productos de viaje increíbles.",
+    "empresaSistema": " Kiwi.com",
+    "imageSistema": "orbit-ds.jpg",
+    "imageUrl": "https://orbit.kiwi/",
+    "nombreSistema": "Orbit"
+  },
+  {
+    "descripcionSistema": "Un conjunto de principios, patrones y herramientas creados para proporcionar un marco de diseño común para elaborar interfaces de usuario dentro del ecosistema de productos de Liferay.",
+    "empresaSistema": " Liferay",
+    "imageSistema": "lexicon.jpg",
+    "imageUrl": "https://lexicondesign.io/",
+    "nombreSistema": "Lexicon"
+  },
+  {
+    "descripcionSistema": "Duet ofrece un conjunto de herramientas, patrones y prácticas organizadas que funcionan como base para los productos y experiencias digitales de LocalTapiola y Turva.",
+    "empresaSistema": " LocalTapiola",
+    "imageSistema": "duet.jpg",
+    "imageUrl": "https://www.duetds.com/",
+    "nombreSistema": "Duet"
+  },
+  {
+    "descripcionSistema": "Una guía de estilo en constante evolución para diseñadores y desarrolladores de productos en MYOB. Explora los fundamentos de nuestro Design System, incluyendo tipografía, colores, cuadrícula y más.",
+    "empresaSistema": " MYOB",
+    "imageSistema": "feelix.jpg",
+    "imageUrl": "http://feelix.myob.com/",
+    "nombreSistema": "Feelix"
+  },
+  {
+    "descripcionSistema": "La Biblioteca de Patrones de MailChimp es un subproducto de nuestro cambio a una aplicación más receptiva, ágil e intuitiva.",
+    "empresaSistema": " MailChimp",
+    "imageSistema": "mailchimp.jpg",
+    "imageUrl": "http://ux.mailchimp.com/patterns",
+    "nombreSistema": "MailChimp Pattern Library"
+  },
+  {
+    "descripcionSistema": "Marvel creó esta guía de estilo como una ubicación central donde almacenan un inventario en vivo de componentes de IU, pautas de marca, activos de marca, fragmentos de código, pautas para desarrolladores y más.",
+    "empresaSistema": " Marvel",
+    "imageSistema": "marvel.jpg",
+    "imageUrl": "https://marvelapp.com/styleguide/",
+    "nombreSistema": "Marvel Styleguide"
+  },
+  {
+    "descripcionSistema": "El Design System Swarm es un ecosistema vivo que ayuda a nuestros equipos a crear experiencias en línea para reunir a las personas en el mundo real.",
+    "empresaSistema": " Meetup",
+    "imageSistema": "swarm.jpg",
+    "imageUrl": "https://meetup.github.io/swarm-design-system/",
+    "nombreSistema": "Swarm Design System"
+  },
+  {
+    "descripcionSistema": "Utiliza Liquid para crear y desarrollar productos digitales que hagan la ciencia más rápida, los tratamientos más personalizados y el trabajo diario más agradable.",
+    "empresaSistema": " Merck",
+    "imageSistema": "liquid.jpg",
+    "imageUrl": "https://www.emd.design/",
+    "nombreSistema": "Liquid"
+  },
+
+  {
+    "descripcionSistema": "En Mixpanel, queremos crear una experiencia cohesiva para nuestros usuarios. Este sistema permitirá que los equipos sean más eficientes, tengan un lenguaje compartido en toda la empresa y se centren más en resolver los problemas de los usuarios.",
+    "empresaSistema": " Mixpanel Design System",
+    "imageSistema": "mixpanel.jpg",
+    "imageUrl": "https://design.mixpanel.com/",
+    "nombreSistema": "Mixpanel"
+  },
+  {
+    "descripcionSistema": "Este sitio tiene como objetivo proporcionar todo lo que necesitas para familiarizarte rápidamente con el diseño para MongoDB. Encontrarás documentación de componentes, recursos de Sketch y pautas de uso.",
+    "empresaSistema": " MongoDB",
+    "imageSistema": "mongodb.jpg",
+    "imageUrl": "http://mongodb.design/#/ui-design-system/welcome",
+    "nombreSistema": "MongoDB Design System"
+  },
+  {
+    "descripcionSistema": "El Design System de Morningstar alinea a los equipos de productos con la marca Morningstar, el lenguaje visual, la experiencia de usuario y los estándares técnicos.",
+    "empresaSistema": " Morningstar",
+    "imageSistema": "morningstar.jpg",
+    "imageUrl": "http://designsystem.morningstar.com/",
+    "nombreSistema": "Morningstar Design System"
+  },
+  {
+    "descripcionSistema": "Protocol es un Design System para los sitios web de Mozilla con la marca. Establece un Design System común, proporciona componentes codificados reutilizables y describe pautas generales para el contenido y la accesibilidad.",
+    "empresaSistema": " Mozilla",
+    "imageSistema": "protocol.jpg",
+    "imageUrl": "https://protocol.mozilla.org/",
+    "nombreSistema": "Protocol"
+  },
+  {
+    "descripcionSistema": "El Design System Digital es un repositorio central donde alojamos elementos de IU reutilizables, código de alta calidad y probado, y pautas y patrones de UX para una experiencia de usuario coherente.",
+    "empresaSistema": " Mutual of Omaha",
+    "imageSistema": "mutual-omaha.jpg",
+    "imageUrl": "http://design.mutualofomaha.com/digital/",
+    "nombreSistema": "Digital Design Guide"
+  },
+  {
+    "descripcionSistema": "Opattern es un Design System y guía de estilo para todos los que crean productos de Opower. Mira la apariencia que estamos buscando y obtén especificaciones para colores, botones, gráficos y más.",
+    "empresaSistema": " OPower",
+    "imageSistema": "opattern.jpg",
+    "imageUrl": "https://ux.opower.com/opattern/",
+    "nombreSistema": "OPattern"
+  },
+  {
+    "descripcionSistema": "El Design System Bolt proporciona componentes de IU robustos impulsados por Twig y Web Component, estilos visuales reutilizables y herramientas potentes para un desarrollo rápido y consistente de aplicaciones web.",
+    "empresaSistema": " Pega Digital",
+    "imageSistema": "bolt.jpg",
+    "imageUrl": "https://boltdesignsystem.com/",
+    "nombreSistema": "Bolt Design System"
+  },
+
+  {
+    "descripcionSistema": "El Design System de Pluralsight se esfuerza por lograr un Design System cohesivo para los productos de Pluralsight, un vocabulario compartido para sus equipos y bloques de construcción básicos para acelerar el desarrollo.",
+    "empresaSistema": " Pluralsight",
+    "imageSistema": "pluralsight.jpg",
+    "imageUrl": "https://design-system.pluralsight.com/",
+    "nombreSistema": "Pluralsight Design System"
+  },
+  {
+    "descripcionSistema": "La misión del Design System de QuickBooks es ofrecer experiencias del cliente encantadoras que realcen nuestra marca.",
+    "empresaSistema": " QuickBooks",
+    "imageSistema": "qbds.jpg",
+    "imageUrl": "https://designsystem.quickbooks.com/",
+    "nombreSistema": "QuickBooks Design System"
+  },
+  {
+    "descripcionSistema": "Cedar es el Design System de código abierto de REI para productos y experiencias digitales. Cedar incluye los recursos necesarios para crear interfaces de usuario consistentes con los principios de experiencia de REI, los estilos de marca y las mejores prácticas.",
+    "empresaSistema": " REI",
+    "imageSistema": "rei-cedar.jpg",
+    "imageUrl": "https://rei.github.io/rei-cedar-docs/",
+    "nombreSistema": "Cedar"
+  },
+  {
+    "descripcionSistema": "Ratio es un nuevo Design System de Rambler diseñado para optimizar el trabajo con el lenguaje visual de los productos y sus interfaces.",
+    "empresaSistema": " Rambler",
+    "imageSistema": "ratio.jpg",
+    "imageUrl": "https://ui-kit.rambler.ru/#/",
+    "nombreSistema": "Ratio"
+  },
+  {
+    "descripcionSistema": "React95 es una biblioteca de componentes única inspirada en el diseño de interfaz de usuario de Windows 95.",
+    "empresaSistema": " React95",
+    "imageSistema": "react95.jpg",
+    "imageUrl": "https://react95.github.io/React95/",
+    "nombreSistema": "React95"
+  },
+  {
+    "descripcionSistema": "PatternFly es un Design System de código abierto creado para permitir la coherencia y usabilidad en una amplia gama de aplicaciones y casos de uso. PatternFly proporciona estándares claros, orientación y herramientas que ayudan a los diseñadores y desarrolladores a trabajar juntos de manera más eficiente y crear mejores experiencias de usuario.",
+    "empresaSistema": " Red Hat",
+    "imageSistema": "patternfly.jpg",
+    "imageUrl": "https://www.patternfly.org/",
+    "nombreSistema": "PatternFly"
+  },
+  {
+    "descripcionSistema": "La interfaz de usuario SAP Fiori original para aplicaciones web basadas en el marco SAPUI5. Aprende cómo diseñar aplicaciones atractivas e intuitivas que pueden ejecutarse en cualquier dispositivo.",
+    "empresaSistema": " SAP",
+    "imageSistema": "fiori.jpg",
+    "imageUrl": "https://experience.sap.com/fiori-design-web/",
+    "nombreSistema": "Fiori"
+  },
+  {
+    "descripcionSistema": "SAP Fiori Fundamentals es una capa de presentación liviana que utiliza HTML y CSS con las siguientes implementaciones en desarrollo activo: Angular, React y Vue.",
+    "empresaSistema": " SAP",
+    "imageSistema": "fiori-fundamentals.jpg",
+    "imageUrl": "https://sap.github.io/fundamental/",
+    "nombreSistema": "Fiori Fundamentals"
+  },
+  {
+    "cookies": "#onetrust-accept-btn-handler",
+    "descripcionSistema": "El Design System de Sainsbury's se centra en el cliente y es inclusivo, consistente en todos los puntos de contacto y claramente identificable como Sainsbury's.",
+    "empresaSistema": " Sainsbury’s",
+    "imageSistema": "luna.jpg",
+    "imageUrl": "https://luna-website.ext.prd.jspaas.uk/",
+    "nombreSistema": "Luna"
+  },
+  {
+    "cookies": "#onetrust-accept-btn-handler",
+    "descripcionSistema": "El Design System Lightning te permite construir experiencias empresariales ricas y aplicaciones personalizadas con los patrones y las mejores prácticas establecidas que son propias de Salesforce.",
+    "empresaSistema": " Salesforce",
+    "imageSistema": "lightning.jpg",
+    "imageUrl": "https://www.lightningdesignsystem.com/",
+    "nombreSistema": "Lightning Design System"
+  },
+  {
+    "descripcionSistema": "El propósito de la guía de estilo de SEEK es permitir la creación de contenido que ayude a nuestros usuarios a completar tareas fácilmente y, con suerte, disfrutar de la experiencia.",
+    "empresaSistema": " Seek",
+    "imageSistema": "seek.jpg",
+    "imageUrl": "http://seek-oss.github.io/seek-style-guide/",
+    "nombreSistema": "Seek Style Guide"
+  },
+  {
+    "descripcionSistema": "Evergreen es un marco de UI React para construir productos ambiciosos en la web. Presentado por Segment.",
+    "empresaSistema": " Segment",
+    "imageSistema": "evergreen.jpg",
+    "imageUrl": "https://evergreen.segment.com/",
+    "nombreSistema": "Evergreen"
+  },
+  {
+    "descripcionSistema": "La Guía de Estilo de SendGrid es una biblioteca para desarrollar una interfaz de usuario y experiencia de usuario consistentes en SendGrid. Está compuesta por componentes modulares y reutilizables basados en los principios de OOCSS y SMACSS.",
+    "empresaSistema": " SendGrid",
+    "imageSistema": "sendgrid.jpg",
+    "imageUrl": "http://styleguide.sendgrid.com/",
+    "nombreSistema": "SendGrid Style Guide"
+  },
+  {
+    "descripcionSistema": "Anvil es una colección de pautas de diseño y herramientas de desarrollo para construir productos en ServiceTitan.",
+    "empresaSistema": " ServiceTitan",
+    "imageSistema": "servicetitan.jpg",
+    "imageUrl": "http://anvil.servicetitan.com",
+    "nombreSistema": "Anvil"
+  },
+  {
+    "descripcionSistema": "Polaris es el plan para el Design System de Shopify. Ayuda a colaborar entre disciplinas para construir una excelente experiencia para todos los comerciantes de Shopify.",
+    "empresaSistema": " Shopify",
+    "imageSistema": "polaris.jpg",
+    "imageUrl": "https://polaris.shopify.com/",
+    "nombreSistema": "Polaris"
+  },
+  {
+    "descripcionSistema": "Backpack es el fundamento de todos los productos de Skyscanner. Se basa en los principios del Diseño Atómico para visualizar cómo se ensamblan estos productos.",
+    "empresaSistema": " Skyscanner",
+    "imageSistema": "backpack.jpg",
+    "imageUrl": "https://backpack.github.io/",
+    "nombreSistema": "Backpack"
+  },
+  {
+    "descripcionSistema": "Este centro creativo es el hogar de todas las herramientas y recursos necesarios para comprender la marca Sprout, expresarla de manera creativa e inspirar experiencias significativas para los clientes.",
+    "empresaSistema": " Sprout Social",
+    "imageSistema": "seeds.jpg",
+    "imageUrl": "https://sproutsocial.com/seeds/",
+    "nombreSistema": "Seeds"
+  },
+  {
+    "descripcionSistema": "Stacks proporciona todo lo que necesitas para ofrecer rápidamente experiencias coherentes y consistentes en todo Stack Overflow: el producto en sí y los correos electrónicos.",
+    "empresaSistema": " Stack Overflow",
+    "imageSistema": "stacks.jpg",
+    "imageUrl": "https://stackoverflow.design/",
+    "nombreSistema": "Stacks"
+  },
+  {
+    "descripcionSistema": "El Design System de NSW es una forma para que las personas del gobierno diseñen productos y servicios que sean distintivamente NSW. Es una caja de herramientas que nos ayuda a crear experiencias coherentes y centradas en el usuario para nuestros clientes.",
+    "empresaSistema": " State of New South Wales",
+    "imageSistema": "nsw.jpg",
+    "imageUrl": "https://www.digital.nsw.gov.au/digital-design-system",
+    "nombreSistema": "Digital NSW"
+  },
+  {
+    "descripcionSistema": "Thumbprint es un sistema vivo que agiliza el proceso de diseño y desarrollo a través de la consolidación, estandarización y documentación.",
+    "empresaSistema": " Thumbtack",
+    "imageSistema": "thumbprint.jpg",
+    "imageUrl": "https://thumbprint.design/",
+    "nombreSistema": "Thumbprint"
+  },
+  {
+    "descripcionSistema": "Nachos es el Design System de Trello. Esta guía integral y biblioteca de recursos contiene todo lo que necesitarás para diseñar con nosotros, incluyendo nuestros principios fundamentales, diseño visual y componentes de interfaz.",
+    "empresaSistema": " Trello",
+    "imageSistema": "nachos.jpg",
+    "imageUrl": "https://design.trello.com/",
+    "nombreSistema": "Nachos"
+  },
+  {
+    "descripcionSistema": "Diseña y construye sitios web gubernamentales rápidos, accesibles y compatibles con dispositivos móviles respaldados por investigaciones de usuarios.",
+    "empresaSistema": " U.S. Government",
+    "imageSistema": "us-web-design.jpg",
+    "imageUrl": "https://designsystem.digital.gov/",
+    "nombreSistema": "U.S. Web Design System"
+  },
+  {
+    "descripcionSistema": "Base Web es una base, un punto de partida para iniciar, evolucionar y unificar productos web. El sistema está diseñado para ser completamente receptivo y agnóstico de dispositivos, proporcionando a diseñadores y desarrolladores un catálogo único de componentes.",
+    "empresaSistema": " Uber",
+    "imageSistema": "base.jpg",
+    "imageUrl": "https://baseweb.design/",
+    "nombreSistema": "Base Web"
+  },
+  {
+    "cookies": "#cookie-policy-button-accept",
+    "descripcionSistema": "Vanilla es un marco de CSS simple y extensible, escrito en Sass, por el equipo web de Ubuntu. Cualquiera puede contribuir a Vanilla, mejorarlo y ampliarlo. Todo el código está disponible en GitHub y tiene licencia LGPLv3 de Canonical.",
+    "empresaSistema": " Ubuntu",
+    "imageSistema": "vanilla.jpg",
+    "imageUrl": "https://vanillaframework.io/",
+    "nombreSistema": "Vanilla"
+  },
+  {
+    "descripcionSistema": "Directrices de experiencia de usuario, marco HTML/CSS y componentes de Angular que trabajan juntos para crear experiencias excepcionales.",
+    "empresaSistema": " VMware",
+    "imageSistema": "clarity.jpg",
+    "imageUrl": "https://vmware.github.io/clarity/",
+    "nombreSistema": "Clarity Design System"
+  },
+  {
+    "descripcionSistema": "El hogar de todos los patrones de diseño, componentes y recursos reutilizables relacionados con el diseño de productos VTEX.",
+    "empresaSistema": " VTEX",
+    "imageSistema": "vtex.jpg",
+    "imageUrl": "https://styleguide.vtex.com/",
+    "nombreSistema": "VTEX Styleguide"
+  },
+  {
+    "descripcionSistema": "El Design System para los productos de Vercel y los activos de marca pública de los productos de Vercel.",
+    "empresaSistema": " Vercel",
+    "imageSistema": "vercel.jpg",
+    "imageUrl": "https://vercel.co/design",
+    "nombreSistema": "Vercel"
+  },
+  {
+    "descripcionSistema": "GEL es nuestra única fuente de verdad, proporcionando todo lo que necesitas para cumplir nuestras promesas de marca y crear experiencias coherentes y consistentes para nuestros clientes en todo nuestro panorama digital, de manera más rápida y con menos esfuerzo.",
+    "empresaSistema": " Westpac",
+    "imageSistema": "westpac.jpg",
+    "imageUrl": "https://gel.westpacgroup.com.au/",
+    "nombreSistema": "GEL"
+  },
+  {
+    "descripcionSistema": "Hemos estado trabajando para crear este Design System como un centro centralizado para mostrar nuestras reglas de diseño, principios y componentes front-end.",
+    "empresaSistema": " Wonderbly",
+    "imageSistema": "wonderbly.jpg",
+    "imageUrl": "http://design-system.wonderbly.com/",
+    "nombreSistema": "Wonderbly Design System"
+  },
+  {
+    "descripcionSistema": "Wanda es el Design System de código abierto de Wonderflow creado para productos y experiencias digitales. Wanda tiene como objetivo proporcionar una guía sólida para diseñadores y desarrolladores, con el fin de reducir los riesgos de la divergencia.",
+    "empresaSistema": " Wonderflow",
+    "imageSistema": "wanda.jpg",
+    "imageUrl": "https://design.wonderflow.ai/",
+    "nombreSistema": "Wanda Design System"
+  },
+  {
+    "descripcionSistema": "El Design System Canvas de Workday proporciona a los diseñadores y desarrolladores herramientas para crear experiencias excepcionales. Adéntrate en nuestros estándares de diseño, pautas de escritura y libro de jugadas.",
+    "empresaSistema": " Workday",
+    "imageSistema": "workday.jpg",
+    "imageUrl": "https://design.workday.com/",
+    "nombreSistema": "Workday Canvas"
+  },
+  {
+    "cookies": "#onetrust-accept-btn-handler",
+    "descripcionSistema": "La guía de estilo es un recurso que proporciona un lenguaje común en torno a los patrones de interfaz de usuario de Yelp. Lo usamos para mantener un código frontal modular y una consistencia visual en la aplicación web.",
+    "empresaSistema": " Yelp",
+    "imageSistema": "yelp.jpg",
+    "imageUrl": "https://www.yelp.com/styleguide",
+    "nombreSistema": "Yelp Styleguide"
+  },
+  {
+    "descripcionSistema": "Bienvenido a nuestra colección seleccionada de bondades de interfaz de usuario, el Zendesk Garden. El Garden es donde cultivamos componentes de interfaz de usuario para los productos de Zendesk.",
+    "empresaSistema": " Zendesk",
+    "imageSistema": "zendesk.jpg",
+    "imageUrl": "https://garden.zendesk.com/",
+    "nombreSistema": "Zendesk Garden"
+  },
+  {
+    "cookies": "#onetrust-accept-btn-handler",
+    "descripcionSistema": "Ayudamos a los equipos de productos en AXA a construir interacciones significativas y compartir las mejores prácticas. Principios, herramientas, plantillas, componentes, consejos: todo en un solo lugar para crear activos digitales de última generación.",
+    "empresaSistema": "AXA",
+    "imageSistema": "axa.jpg",
+    "imageUrl": "https://designsystem.axa.com/",
+    "nombreSistema": "AXA design system"
+  },
+  {
+    "descripcionSistema": "Amplify UI simplifica la creación de aplicaciones accesibles, de alto rendimiento y hermosas con capacidades conectadas a la nube, bloques de construcción, temas y utilidades.",
+    "empresaSistema": "Amplify",
+    "github": "https://github.com/aws-amplify/amplify-ui/",
+    "imageSistema": "amplify.jpg",
+    "imageUrl": "https://ui.docs.amplify.aws/",
+    "nombreSistema": "Amplify UI"
+  },
+  {
+    "descripcionSistema": "Obtén información detallada y recursos de IU para diseñar excelentes aplicaciones que se integren perfectamente con las plataformas de Apple.",
+    "empresaSistema": "Apple",
+    "imageSistema": "apple.jpg",
+    "imageUrl": "https://developer.apple.com/design/human-interface-guidelines",
+    "nombreSistema": "Directrices de la interfaz humana"
+  },
+  {
+    "descripcionSistema": "Cloudscape ofrece pautas de interfaz de usuario, componentes front-end, recursos de diseño y herramientas de desarrollo para crear experiencias de usuario intuitivas, atractivas e inclusivas a gran escala.",
+    "empresaSistema": "Aws",
+    "github": "https://github.com/cloudscape-design/components",
+    "imageSistema": "Cloudscape.jpg",
+    "imageUrl": "https://cloudscape.design/",
+    "nombreSistema": "AWS Cloudscape Design System"
+  },
+  {
+    "descripcionSistema": "El sitio web del Sistema de Diseño Barnardo.",
+    "empresaSistema": "Barnardo’s",
+    "github": "https://github.com/barnardos/design-system",
+    "imageSistema": "Barnardos.jpg",
+    "imageUrl": "https://design-system.barnardos.org.uk",
+    "nombreSistema": "Barnardo’s Design System"
+  },
+  {
+    "descripcionSistema": "Origami es un grupo de servicios, componentes y herramientas utilizados para ayudar a diseñar y construir productos digitales para las marcas de FT.",
+    "empresaSistema": "Finantial Times",
+    "github": "https://github.com/Financial-Times/origami",
+    "imageSistema": "origami.jpg",
+    "imageUrl": "https://origami.ft.com/",
+    "nombreSistema": "Financial Times Origami"
+  },
+  {
+    "descripcionSistema": "Directrices de diseño, documentación de componentes y recursos para construir interfaces con el Design System de Flexport.",
+    "empresaSistema": "Flexport",
+    "imageSistema": "latitude.jpg",
+    "imageUrl": "https://www.flexport.com/design",
+    "nombreSistema": "Latitude"
+  },
+  {
+    "descripcionSistema": "Design system - Halstack",
+    "empresaSistema": "Halstack",
+    "github": "https://github.com/dxc-technology/halstack-style-guide",
+    "imageSistema": "halstack.jpg",
+    "imageUrl": "https://developer.dxc.com/design",
+    "nombreSistema": "Halstack"
+  },
+  {
+    "descripcionSistema": "Hemos creado .pulse como la única fuente de verdad para todos los procesos y creencias dentro de Heartbeat Agency. Como cualquier herramienta o metodología, solo funcionará correctamente cuando se use correctamente. Y lo correcto solo se puede determinar a través de un proceso de pulido y práctica constante.",
+    "empresaSistema": "Heartbeat",
+    "imageSistema": "pulse.jpg",
+    "imageUrl": "https://pulse.heartbeat.ua/",
+    "nombreSistema": "pulse"
+  },
+  {
+    "descripcionSistema": "Esta guía de estilo es el libro de jugadas de nuestra marca. Una forma de presentar a las personas una experiencia de marca pulida, pero también una forma de capacitar a los miembros del equipo de Help Scout para moverse rápidamente y hacer un excelente trabajo.",
+    "empresaSistema": "Help Scout",
+    "imageSistema": "help-scout.jpg",
+    "imageUrl": "http://style.helpscout.com/",
+    "nombreSistema": "Guía de estilo de Help Scout"
+  },
+  {
+    "descripcionSistema": "Diseñamos experiencias e interfaces holísticas, consistentes, intuitivas y accesibles que ofrecen valor a los clientes existentes y nuevos de Heroku. Defendemos a nuestros usuarios.",
+    "empresaSistema": "Heroku",
+    "imageSistema": "heroki.jpg",
+    "imageUrl": "https://design.herokai.com/",
+    "nombreSistema": "Heroki Design"
+  },
+  {
+    "descripcionSistema": "Grommet proporciona toda la orientación, componentes y recursos de diseño que necesitas para llevar tus ideas desde el concepto hasta una aplicación real.",
+    "empresaSistema": "Hewlett Packard",
+    "imageSistema": "grommet.jpg",
+    "imageUrl": "http://grommet.io/",
+    "nombreSistema": "Grommet"
+  },
+
+  {
+    "cookies": "#truste-consent-button",
+    "descripcionSistema": "Utiliza el Design System de IBM para crear productos bellamente diseñados y experiencias de usuario esclarecedoras.",
+    "empresaSistema": "IBM",
+    "imageSistema": "ibm-design-language.jpg",
+    "imageUrl": "https://www.ibm.com/design/language/",
+    "nombreSistema": "Design System de IBM"
+  },
+  {
+    "cookies":"#onetrust-accept-btn-handler",
+    "descripcionSistema": "Un recurso central para herramientas de desarrollo, mejores prácticas y documentación de soporte para ayudar a todos a crear una UX consistente y de calidad.",
+    "empresaSistema": "Infor",
+    "imageSistema": "infor.jpg",
+    "imageUrl": "https://design.infor.com/",
+    "nombreSistema": "Design System de Infor"
+  },
+  {
+    "descripcionSistema": "Instructure UI tiene una serie de componentes React hermosos y accesibles con estilos y temas integrados y funciones de utilidad útiles.",
+    "empresaSistema": "Instructure Inc",
+    "imageSistema": "instructure.jpg",
+    "imageUrl": "https://instructure.design/",
+    "nombreSistema": "Instructure UI"
+  },
+  {
+    "descripcionSistema": "Designers Italia es el punto de referencia para el diseño de la Administración Pública, brindando guías, herramientas y un foro para fomentar la colaboración y promover el diseño centrado en el ser humano en el desarrollo de servicios públicos.",
+    "empresaSistema": "Italian Public Administration",
+    "imageSistema": "designers-italy.jpg",
+    "imageUrl": "https://designers.italia.it/",
+    "nombreSistema": "it Designers Italy"
+  },
+  {
+    "descripcionSistema": "Design system de Lexicon",
+    "empresaSistema": "Lexicon",
+    "imageSistema": "lexicon.jpg",
+    "imageUrl": "https://lexicondesign.io/",
+    "nombreSistema": "Lexicon"
+  },
+  {
+    "descripcionSistema": "Design system de Louder",
+    "empresaSistema": "Louder",
+    "imageSistema": "louder.jpg",
+    "imageUrl": "https://www.louderthanten.com/manual",
+    "nombreSistema": "Louder Than Ten Manual"
+  },
+  {
+    "cookies": ".styles_no-style__Y5FY2",
+    "descripcionSistema": "Design system de jota-ds",
+    "empresaSistema": "Meiuca",
+    "github": "https://github.com/Meiuca/jota-ds-react",
+    "imageSistema": "jota-ds.jpg",
+    "imageUrl": "https://meiuca.co/",
+    "nombreSistema": "meiuca"
+  },
+  {
+    "descripcionSistema": "Design system de Mesh",
+    "empresaSistema": "Mesh",
+    "imageSistema": "mesh.jpg",
+    "imageUrl": "https://www.meshdesignsystem.com/",
+    "nombreSistema": "Mesh Design System"
+  },
+  {
+    "descripcionSistema": "Utiliza la biblioteca de componentes React de Mineral UI para construir rápidamente aplicaciones elegantes y accesibles. Creado por CA Technologies.",
+    "empresaSistema": "Mineral UI",
+    "github": "https://github.com/mineral-ui/mineral-ui",
+    "imageSistema": "mineral.jpg",
+    "imageUrl": "https://mineral-ui.netlify.app/",
+    "nombreSistema": "CA Technologies Mineral UI"
+  },
+  {
+    "cookies": "#truste-consent-button",
+    "descripcionSistema": "Design system de Northstar",
+    "empresaSistema": "Northstar",
+    "imageSistema": "northstar.jpg",
+    "imageUrl": "https://www.ibm.com/standards/web/",
+    "nombreSistema": "IBM Northstar"
+  },
+  {
+    "descripcionSistema": "Design system de Paradigm",
+    "empresaSistema": "Paradigm",
+    "imageSistema": "paradigm.jpg",
+    "imageUrl": "https://design.mail.ru/",
+    "nombreSistema": "Mail.ru Group Paradigm"
+  },
+  {
+    "descripcionSistema": "El Sistema de Diseño Auro y, por extensión, los Componentes Web de Auro son los componentes principales para una nueva estrategia de desarrollo multidisciplinaria y multiplataforma que garantiza la consistencia de la interfaz de usuario y la experiencia para todos los clientes de Alaska. Auro es un ecosistema de diseño, utilidades principales y componentes web diseñados para reducir los esfuerzos de diseño y desarrollo.",
+    "empresaSistema": "alaska",
+    "github": "https://github.com/AlaskaAirlines",
+    "imageSistema": "alaska.jpg",
+    "imageUrl": "https://auro.alaskaair.com/",
+    "nombreSistema": "Alaska Airlines"
+  },
+  {
+    "descripcionSistema": "Design system - appear",
+    "empresaSistema": "appear",
+    "github": "https://github.com/appearhere/bloom",
+    "imageSistema": "bloom.jpg",
+    "imageUrl": "https://bloom.appearhere.co.uk/",
+    "nombreSistema": "Appear Here Styleguide"
+  },
+  {
+    "descripcionSistema": "Design system - artsy",
+    "empresaSistema": "artsy",
+    "github": "https://github.com/artsy/palette",
+    "imageSistema": "artsy.jpg",
+    "imageUrl": "https://palette.artsy.net/",
+    "nombreSistema": "Artsy Palette"
+  },
+  {
+    "descripcionSistema": "El Sistema de Diseño de Experiencia Espacial Astro permite a los desarrolladores y diseñadores crear experiencias de aplicaciones espaciales ricas con patrones de interacción establecidos y mejores prácticas.",
+    "empresaSistema": "astro",
+    "github": "https://github.com/RocketCommunicationsInc/astro-components",
+    "imageSistema": "astro.jpg",
+    "imageUrl": "https://astrouxds.com/",
+    "nombreSistema": "Astro UXDS"
+  },
+  {
+    "descripcionSistema": "Design system - atlassian",
+    "empresaSistema": "atlassian",
+    "imageSistema": "atlassian.jpg",
+    "imageUrl": "https://atlassian.design",
+    "nombreSistema": "Atlassian Design System"
+  },
+  {
+    "descripcionSistema": "Guía de diseño central para productos de colaboración digital.",
+    "empresaSistema": "aurora",
+    "github": "https://github.com/gctools-outilsgc/design-system",
+    "imageSistema": "aurora.jpg",
+    "imageUrl": "https://design.gccollab.ca/",
+    "nombreSistema": "Aurora (Government of Canada"
+  },
+  {
+    "descripcionSistema": "Design system - autoguru",
+    "empresaSistema": "autoguru",
+    "github": "https://github.com/autoguru-au/overdrive",
+    "imageSistema": "autoguru.jpg",
+    "imageUrl": "http://overdrive.autoguru.io/",
+    "nombreSistema": "AutoGuru Overdrive"
+  },
+  {
+    "descripcionSistema": "Sistema de Diseño Basis.",
+    "empresaSistema": "basis",
+    "github": "https://github.com/moroshko/basis",
+    "imageSistema": "basis.jpg",
+    "imageUrl": "https://basis.vercel.app/typography",
+    "nombreSistema": "Basis Design System"
+  },
+  {
+    "descripcionSistema": "Un conjunto de herramientas basadas en React para la web.",
+    "empresaSistema": "blueprint",
+    "github": "https://github.com/palantir/blueprint",
+    "imageSistema": "blueprint.jpg",
+    "imageUrl": "https://blueprintjs.com/",
+    "nombreSistema": "Blueprint"
+  },
+  {
+    "descripcionSistema": "Design system - bold",
+    "empresaSistema": "bold",
+    "github": "https://github.com/laboratoriobridge/bold",
+    "imageSistema": "bold.jpg",
+    "imageUrl": "https://bold.bridge.ufsc.br/",
+    "nombreSistema": "Bold (Bridge Design System"
+  },
+  {
+    "descripcionSistema": "Design system - boston",
+    "empresaSistema": "boston",
+    "github": "https://github.com/CityOfBoston/digital",
+    "imageSistema": "boston.jpg",
+    "imageUrl": "https://patterns.boston.gov/",
+    "nombreSistema": "City of Boston Fleet"
+  },
+  {
+    "descripcionSistema": "Sistema de diseño temático para el Grupo SEEK.",
+    "empresaSistema": "braid",
+    "github": "https://github.com/seek-oss/braid-design-system",
+    "imageSistema": "braid.jpg",
+    "imageUrl": "https://seek-oss.github.io/braid-design-system/",
+    "nombreSistema": "Braid Design System"
+  },
+  {
+    "descripcionSistema": "La descripción se incluirá en una etiqueta meta en <head />.",
+    "empresaSistema": "british",
+    "imageSistema": "british.jpg",
+    "imageUrl": "https://britishgas.design/",
+    "nombreSistema": "British Gas Nucleus"
+  },
+  {
+    "descripcionSistema": "Design system - buildit",
+    "empresaSistema": "buildit",
+    "github": "https://github.com/buildit/gravity-ui-web",
+    "imageSistema": "buildit.jpg",
+    "imageUrl": "http://style.buildit.digital/",
+    "nombreSistema": "Buildit Gravity"
+  },
+  {
+    "descripcionSistema": "Construye rápidamente aplicaciones accesibles y tematizables con facilidad con React.",
+    "empresaSistema": "bumbag ui",
+    "github": "https://github.com/bumbag/bumbag-ui",
+    "imageSistema": "bumbag ui.jpg",
+    "imageUrl": "https://bumbag.style/",
+    "nombreSistema": "Bumbag UI"
+  },
+
+  {
+    "descripcionSistema": "El Sistema de Diseño Cedar proporciona a los equipos digitales componentes reutilizables basados en el lenguaje visual de REI.",
+    "empresaSistema": "cedar",
+    "github": "https://github.com/rei/rei-cedar",
+    "imageSistema": "cedar.jpg",
+    "imageUrl": "https://rei.github.io/rei-cedar-docs/",
+    "nombreSistema": "Cedar"
+  },
+  {
+    "descripcionSistema": "Design system - censhare",
+    "empresaSistema": "censhare",
+    "imageSistema": "censhare.jpg",
+    "imageUrl": "https://design.censhare.com/",
+    "nombreSistema": "censhare Zen"
+  },
+  {
+    "descripcionSistema": "Componentes de IU simples, modulares y accesibles para tus aplicaciones de React. Construido con Styled System.",
+    "empresaSistema": "chakra",
+    "github": "https://github.com/chakra-ui/chakra-ui",
+    "imageSistema": "chakra.jpg",
+    "imageUrl": "https://chakra-ui.com/",
+    "nombreSistema": "Chakra UI"
+  },
+  {
+    "descripcionSistema": "Pautas de UX, marco HTML/CSS y componentes Angular trabajando juntos para crear experiencias excepcionales",
+    "empresaSistema": "clarity",
+    "github": "https://github.com/vmware/clarity",
+    "imageSistema": "clarity.jpg",
+    "imageUrl": "https://clarity.design/",
+    "nombreSistema": "VMware Clarity Design System"
+  },
+  {
+    "descripcionSistema": "Design system - cloudfare",
+    "empresaSistema": "cloudfare",
+    "github": "https://github.com/cloudflare/cf-ui",
+    "imageSistema": "cloudfare.jpg",
+    "imageUrl": "https://cloudflare.github.io/cf-ui/",
+    "nombreSistema": "Cloudflare"
+  },
+  {
+    "descripcionSistema": "Forma 36 es un sistema de diseño de código abierto de Contentful creado con la intención de reducir la sobrecarga de la creación de IU al proporcionar herramientas y orientación para los equipos digitales que construyen y amplían productos de Contentful.",
+    "empresaSistema": "contentful",
+    "github": "https://github.com/contentful/forma-36",
+    "imageSistema": "contentful.jpg",
+    "imageUrl": "https://f36.contentful.com/",
+    "nombreSistema": "Contentful Forma 36"
+  },
+  {
+    "descripcionSistema": "El Sistema de Diseño Decathlon es el marco que ayuda a nuestro ecosistema a diseñar y desarrollar experiencias consistentes y de calidad. Deporte para todos.",
+    "empresaSistema": "decathlon",
+    "github": "https://github.com/decathlon/vitamin-web",
+    "imageSistema": "decathlon.jpg",
+    "imageUrl": "https://decathlon.design/",
+    "nombreSistema": "Decathlon Design System - Vitamin"
+  },
+  {
+    "descripcionSistema": "Design system - decentraland",
+    "empresaSistema": "decentraland",
+    "github": "https://github.com/decentraland/ui",
+    "imageSistema": "decentraland.jpg",
+    "imageUrl": "https://ui.decentraland.org/",
+    "nombreSistema": "Decentraland UI"
+  },
+  {
+    "descripcionSistema": "Design system - duolingo",
+    "empresaSistema": "duolingo",
+    "imageSistema": "duolingo.jpg",
+    "imageUrl": "https://design.duolingo.com/",
+    "nombreSistema": "Duolingo"
+  },
+  {
+    "descripcionSistema": "Design system - ebay",
+    "empresaSistema": "ebay",
+    "github": "https://github.com/eBay/skin",
+    "imageSistema": "ebay.jpg",
+    "imageUrl": "https://ebay.github.io/skin/",
+    "nombreSistema": "eBay Skin"
+  },
+  {
+    "descripcionSistema": "El framework Elastic UI (EUI) es una biblioteca de diseño en uso en Elastic para construir productos internos que necesitan compartir nuestra estética. Distribuye componentes React de IU y activos estáticos para su uso en la construcción de diseños web.",
+    "empresaSistema": "elastic",
+    "github": "https://github.com/elastic/eui",
+    "imageSistema": "elastic.jpg",
+    "imageUrl": "https://elastic.github.io/eui/",
+    "nombreSistema": "Elastic UI Framework"
+  },
+  {
+    "descripcionSistema": "Descubre nuestra visión de diseño en ENGIE utilizando la metodología de diseño de servicios y nuestro sistema de diseño Fluid con directrices y componentes de UX/UI para los servicios de ENGIE.",
+    "empresaSistema": "engie",
+    "imageSistema": "engie.jpg",
+    "imageUrl": "https://www.engie.design",
+    "nombreSistema": "ENGIE Fluid Design System"
+  },
+  {
+    "cookies":"#cn-accept-cookie",
+    "descripcionSistema": "Aquí encontrarás las historias y herramientas para presentar Estonia de manera considerada, clara y reconocible. Encuentra las herramientas para presentar Estonia.",
+    "empresaSistema": "estonia",
+    "imageSistema": "estonia.jpg",
+    "imageUrl": "https://brand.estonia.ee",
+    "nombreSistema": "Estonia Country Design Guidelines"
+  },
+  {
+    "descripcionSistema": "Design system - evergreen",
+    "empresaSistema": "evergreen",
+    "github": "https://github.com/segmentio/evergreen",
+    "imageSistema": "evergreen.jpg",
+    "imageUrl": "https://evergreen.surge.sh",
+    "nombreSistema": "Evergreen"
+  },
+  {
+    "descripcionSistema": "Aquí encontrarás todo lo que necesitas para difundir la buena palabra sobre Finlandia.",
+    "empresaSistema": "finland",
+    "imageSistema": "finland.jpg",
+    "imageUrl": "https://toolbox.finland.fi/",
+    "nombreSistema": "Finland Toolbox"
+  },
+  {
+    "descripcionSistema": "Acorn es el sistema de diseño público para el navegador de escritorio Firefox, así como para nuestros navegadores iOS y Android.",
+    "empresaSistema": "firefox",
+    "github": "https://github.com/FirefoxUX/photon",
+    "imageSistema": "firefox.jpg",
+    "imageUrl": "https://design.firefox.com/photon",
+    "nombreSistema": "Firefox Photon Design System"
+  },
+  {
+    "descripcionSistema": "Design system de fluent",
+    "empresaSistema": "fluent",
+    "github": "https://github.com/microsoft/fluentui",
+    "imageSistema": "fluent.jpg",
+    "imageUrl": "https://www.microsoft.com/design/fluent/",
+    "nombreSistema": "Microsoft Fluent"
+  },
+  {
+    "descripcionSistema": "Design system - foundation",
+    "empresaSistema": "foundation",
+    "github": "https://github.com/foundation/foundation-sites",
+    "imageSistema": "foundation.jpg",
+    "imageUrl": "https://get.foundation/",
+    "nombreSistema": "Foundation"
+  },
+  {
+    "descripcionSistema": "Design system - foyer",
+    "empresaSistema": "foyer",
+    "imageSistema": "foyer.jpg",
+    "imageUrl": "https://design.foyer.lu/",
+    "nombreSistema": "Foyer Design System"
+  },
+  {
+    "descripcionSistema": "El Sistema de Diseño del Gobierno de Singapur fue desarrollado para capacitar a los equipos en la creación de servicios digitales rápidos, accesibles y aptos para dispositivos móviles.",
+    "empresaSistema": "govtechsg",
+    "github": "https://github.com/govtechsg/sgds",
+    "imageSistema": "govtechsg.jpg",
+    "imageUrl": "https://www.designsystem.tech.gov.sg/",
+    "nombreSistema": "Singapore Government Design System"
+  },
+  {
+    "descripcionSistema": "Design system de harmony",
+    "empresaSistema": "harmony",
+    "imageSistema": "harmony.jpg",
+    "imageUrl": "https://designsystem.quickbooks.com/",
+    "nombreSistema": "Intuit Harmony"
+  },
+
+  {
+    "descripcionSistema": "Design system de jetbrains",
+    "empresaSistema": "jetbrains",
+    "github": "https://github.com/JetBrains/ring-ui",
+    "imageSistema": "jetbrains.jpg",
+    "imageUrl": "https://jetbrains.github.io/ring-ui",
+    "nombreSistema": "JetBrains Ring UI"
+  },
+  {
+    "cookies":"#onetrust-accept-btn-handler",
+    "descripcionSistema": "El Sistema de Diseño Pharos es nuestra guía para crear experiencias cohesivas, de apoyo y hermosas para los intelectualmente curiosos.",
+    "empresaSistema": "jstor",
+    "github": "https://github.com/ithaka/pharos",
+    "imageSistema": "jstor.jpg",
+    "imageUrl": "https://pharos.jstor.org",
+    "nombreSistema": "Pharos: JSTOR's Design System"
+  },
+  {
+    "descripcionSistema": "Design system de kaizen",
+    "empresaSistema": "kaizen",
+    "github": "https://github.com/cultureamp/kaizen-design-system",
+    "imageSistema": "kaizen.jpg",
+    "imageUrl": "https://cultureamp.design/",
+    "nombreSistema": "Kaizen"
+  },
+  {
+    "descripcionSistema": "Design system de kolibri",
+    "empresaSistema": "kolibri",
+    "github": "https://github.com/public-ui/kolibri/",
+    "imageSistema": "kolibri.jpg",
+    "imageUrl": "https://public-ui.github.io/",
+    "nombreSistema": "KoliBri"
+  },
+  {
+    "descripcionSistema": "Design system de kontur",
+    "empresaSistema": "kontur",
+    "github": "https://github.com/skbkontur/retail-ui/",
+    "imageSistema": "kontur.jpg",
+    "imageUrl": "https://guides.kontur.ru/",
+    "nombreSistema": "Kontur"
+  },
+  {
+    "descripcionSistema": "Design system de latitude",
+    "empresaSistema": "latitude",
+    "github": "https://github.com/flexport/latitude/",
+    "imageSistema": "latitude.jpg",
+    "imageUrl": "https://www.flexport.com/design",
+    "nombreSistema": "Latitude"
+  },
+  {
+    "descripcionSistema": "Design system de lostmy",
+    "empresaSistema": "lostmy",
+    "imageSistema": "lostmy.jpg",
+    "imageUrl": "http://design-system.lostmy.name/",
+    "nombreSistema": "Lost My Name Design System"
+  },
+  {
+    "cookies":"#onetrust-accept-btn-handler",
+    "descripcionSistema": "Design system de mailchimp",
+    "empresaSistema": "mailchimp",
+    "imageSistema": "mailchimp.jpg",
+    "imageUrl": "https://ux.mailchimp.com/patterns",
+    "nombreSistema": "Mailchimp Patterns"
+  },
+  {
+    "descripcionSistema": "Design system de mantine",
+    "empresaSistema": "mantine",
+    "github": "https://github.com/mantinedev/mantine",
+    "imageSistema": "mantine.jpg",
+    "imageUrl": "https://mantine.dev/",
+    "nombreSistema": "Mantine"
+  },
+  {
+    "descripcionSistema": "Materialize es un moderno marco de CSS receptivo basado en Material Design de Google.",
+    "empresaSistema": "materializecss",
+    "imageSistema": "materializecss.jpg",
+    "imageUrl": "https://materializecss.com/",
+    "nombreSistema": "Materialize CSS"
+  },
+  {
+    "descripcionSistema": "Design system de meetup",
+    "empresaSistema": "meetup",
+    "github": "https://github.com/meetup/swarm-design-system/",
+    "imageSistema": "meetup.jpg",
+    "imageUrl": "https://meetup.github.io/swarm-design-system/",
+    "nombreSistema": "Meetup Swarm"
+  },
+  {
+    "descripcionSistema": "Design system de mesosphere",
+    "empresaSistema": "mesosphere",
+    "github": "https://github.com/mesosphere/cnvs/",
+    "imageSistema": "mesosphere.jpg",
+    "imageUrl": "https://mesosphere.github.io/cnvs/",
+    "nombreSistema": "Mesosphere CNVS"
+  },
+  {
+    "descripcionSistema": "El Sistema de Diseño Mixpanel es la caja de herramientas estándar de Mixpanel para diseño y desarrollo. Contiene la guía de estilo y una colección interactiva de componentes web reutilizables.",
+    "empresaSistema": "mixpanel",
+    "imageSistema": "mixpanel.jpg",
+    "imageUrl": "https://design.mixpanel.com",
+    "nombreSistema": "Mixpanel Design System"
+  },
+  {
+    "descripcionSistema": "Monzo es un banco que facilita la vida, no la dificulta.",
+    "empresaSistema": "monzo",
+    "imageSistema": "monzo.jpg",
+    "imageUrl": "https://monzo.com/tone-of-voice/",
+    "nombreSistema": "Monzo Tone of Voice"
+  },
+  {
+    "descripcionSistema": "Diseñar y construir sitios web rápidos, accesibles y móviles para la NASA respaldados por investigación de usuarios.",
+    "empresaSistema": "nasa",
+    "github": "https://github.com/nasa/nasawds",
+    "imageSistema": "nasa.jpg",
+    "imageUrl": "https://nasa.github.io/nasawds-site/",
+    "nombreSistema": "NASA Web Design System"
+  },
+  {
+    "descripcionSistema": "Design system de nationbuilder",
+    "empresaSistema": "nationbuilder",
+    "imageSistema": "nationbuilder.jpg",
+    "imageUrl": "https://www.nationbuilder.design/",
+    "nombreSistema": "NationBuilder Radius"
+  },
+  {
+    "cookies":"#nhsuk-cookie-banner__link_accept_analytics",
+    "descripcionSistema": "Diseñar y construir servicios digitales para el NHS. Cosas que necesitas para crear servicios consistentes y usables que pongan a las personas primero.",
+    "empresaSistema": "nhs",
+    "imageSistema": "nhs.jpg",
+    "imageUrl": "https://service-manual.nhs.uk/",
+    "nombreSistema": "NHS.UK Service Manual"
+  },
+  {
+    "descripcionSistema": "Diseña, construye y envía experiencias coherentes con el sistema de diseño de Nordhealth.",
+    "empresaSistema": "nordhealth",
+    "imageSistema": "nordhealth.jpg",
+    "imageUrl": "https://nordhealth.design/",
+    "nombreSistema": "Nordhealth"
+  },
+  {
+    "descripcionSistema": "Design system de patternfly",
+    "empresaSistema": "patternfly",
+    "github": "https://github.com/patternfly",
+    "imageSistema": "patternfly.jpg",
+    "imageUrl": "https://www.patternfly.org/",
+    "nombreSistema": "PatternFly"
+  },
+  {
+    "descripcionSistema": "Design system de pinterest",
+    "empresaSistema": "pinterest",
+    "github": "https://github.com/pinterest/gestalt",
+    "imageSistema": "pinterest.jpg",
+    "imageUrl": "https://pinterest.github.io/gestalt/#/",
+    "nombreSistema": "Pinterest Gestalt"
+  },
+  {
+    "descripcionSistema": "Guía de estilo para Pivotal UI, sistema de diseño y biblioteca de componentes de Pivotal Software.",
+    "empresaSistema": "pivotal",
+    "github": "https://github.com/pivotal-cf/pivotal-ui",
+    "imageSistema": "pivotal.jpg",
+    "imageUrl": "https://styleguide.pivotal.io/",
+    "nombreSistema": "Pivotal"
+  },
+  {
+    "descripcionSistema": "Design system de pluralsight",
+    "empresaSistema": "pluralsight",
+    "github": "https://github.com/pluralsight/design-system",
+    "imageSistema": "pluralsight.jpg",
+    "imageUrl": "https://design-system.pluralsight.com/",
+    "nombreSistema": "Pluralsight Design System"
+  },
+  {
+    "descripcionSistema": "Design system de priceline",
+    "empresaSistema": "priceline",
+    "github": "https://github.com/priceline/design-system",
+    "imageSistema": "priceline.jpg",
+    "imageUrl": "https://priceline.github.io/design-system/",
+    "nombreSistema": "Priceline Design System"
+  },
+  {
+    "descripcionSistema": "Principios, estándares y directrices para diseñar interfaces en GitHub.",
+    "empresaSistema": "primer",
+    "github": "https://github.com/primer/",
+    "imageSistema": "primer.jpg",
+    "imageUrl": "https://primer.style/",
+    "nombreSistema": "GitHub Primer"
+  },
+  {
+    "descripcionSistema": "Chameleon es una biblioteca de patrones front-end, variables y ayudantes que, cuando se usan, Pusherifican tu IU.",
+    "empresaSistema": "pusher",
+    "github": "https://github.com/pusher/chameleon",
+    "imageSistema": "pusher.jpg",
+    "imageUrl": "https://pusher.github.io/chameleon/",
+    "nombreSistema": "Pusher Chameleon"
+  },
+  {
+    "descripcionSistema": "Una biblioteca de componentes de React de código abierto para construir aplicaciones modernas con facilidad que te ayuda a construir más rápido y crear interfaces hermosas y accesibles que son fáciles de mantener.",
+    "empresaSistema": "radix",
+    "github": "https://github.com/modulz/radix",
+    "imageSistema": "radix.jpg",
+    "imageUrl": "https://radix.modulz.app/docs/getting-started/",
+    "nombreSistema": "Radix"
+  },
+  {
+    "descripcionSistema": "Guidelines y componentes para trabajar con interfaces.",
+    "empresaSistema": "rambler",
+    "github": "https://github.com/rambler-digital-solutions/rambler-ui",
+    "imageSistema": "rambler.jpg",
+    "imageUrl": "https://rambler-digital-solutions.github.io/rambler-ui/",
+    "nombreSistema": "Rambler"
+  },
+  {
+    "descripcionSistema": "Una biblioteca CSS/JS para crear aplicaciones web con el Design System de WeWork.",
+    "empresaSistema": "ray",
+    "github": "https://github.com/wework/ray",
+    "imageSistema": "ray.jpg",
+    "imageUrl": "https://ray.wework.com",
+    "nombreSistema": "Ray by WeWork"
+  },
+  {
+    "descripcionSistema": "Design system de rendition",
+    "empresaSistema": "rendition",
+    "github": "https://github.com/balena-io-modules/rendition/",
+    "imageSistema": "rendition.jpg",
+    "imageUrl": "https://balena-io-modules.github.io/rendition/",
+    "nombreSistema": "Rendition"
+  },
+  {
+    "descripcionSistema": "El sistema modular de Scania para productos y servicios digitales. Una serie de bloques de construcción que se pueden ensamblar en muchas variaciones, lo que permite soluciones eficientes, consistentes y personalizadas.",
+    "empresaSistema": "scania",
+    "github": "https://github.com/scania-digital-design-system/sdds",
+    "imageSistema": "scania.jpg",
+    "imageUrl": "https://digitaldesign.scania.com/home",
+    "nombreSistema": "Scania Digital Design System"
+  },
+  {
+    "descripcionSistema": "Design system - scout",
+    "empresaSistema": "scout",
+    "github": "https://github.com/helpscout/seed-framework",
+    "imageSistema": "scout.jpg",
+    "imageUrl": "https://style.helpscout.com/",
+    "nombreSistema": "Help Scout"
+  },
+  {
+    "descripcionSistema": "Un sistema de diseño fácil de personalizar y moderno que ayuda a diseñadores y desarrolladores a crear productos de alta calidad. Mantenido por el equipo de desarrollo de Front-End y UED de Douyin, fácil de personalizar.",
+    "empresaSistema": "semi",
+    "github": "https://github.com/DouyinFE/semi-design",
+    "imageSistema": "semi.jpg",
+    "imageUrl": "https://semi.design/en-US",
+    "nombreSistema": "Semi Design"
+  },
+  {
+    "descripcionSistema": "Intergalactic es un sistema de diseño en constante desarrollo de componentes de IU, pautas y patrones de UX. Con todas estas herramientas, puedes construir tu propio producto.",
+    "empresaSistema": "semrush",
+    "github": "https://github.com/semrush/intergalactic",
+    "imageSistema": "semrush.jpg",
+    "imageUrl": "https://i.semrush.com/",
+    "nombreSistema": "Semrush Intergalactic Design System"
+  },
+  {
+    "descripcionSistema": "Siemens Industrial Experience es un sistema de diseño de código abierto para diseñadores y desarrolladores para crear constantemente la experiencia digital perfecta para socios y clientes.",
+    "empresaSistema": "siemens",
+    "github": "https://github.com/siemens/ix",
+    "imageSistema": "siemens.jpg",
+    "imageUrl": "https://ix.siemens.io/",
+    "nombreSistema": "Siemens iX"
+  },
+  {
+    "descripcionSistema": "Design system - spark",
+    "empresaSistema": "spark",
+    "github": "https://github.com/Brighte-Labs/spark-web",
+    "imageSistema": "spark.jpg",
+    "imageUrl": "https://spark.brighte.com.au/",
+    "nombreSistema": "Brighte Spark Design System"
+  },
+  {
+    "descripcionSistema": "Design system de starbucks",
+    "empresaSistema": "starbucks",
+    "imageSistema": "starbucks.jpg",
+    "imageUrl": "https://www.starbucks.com/static/reference/styleguide/",
+    "nombreSistema": "Starbucks Style Guide"
+  },
+  {
+    "descripcionSistema": "Design system - takenet",
+    "empresaSistema": "takenet",
+    "github": "https://github.com/takenet/blip-toolkit",
+    "imageSistema": "blip.jpg",
+    "imageUrl": "https://design.take.net/",
+    "nombreSistema": "BLiP"
+  },
+  {
+    "descripcionSistema": "Design system de teambition",
+    "empresaSistema": "teambition",
+    "imageSistema": "teambition.jpg",
+    "imageUrl": "https://design.teambition.com/",
+    "nombreSistema": "Teambition Clarity Design"
+  },
+  {
+    "descripcionSistema": "Bienvenido a la herramienta de marca de Telefónica, donde encontrarás recursos, guías de estilo y gestionarás tus proyectos. Comunicando nuestros valores a través de nuestra identidad.",
+    "empresaSistema": "telefonica",
+    "github": "https://github.com/Telefonica/mistica",
+    "imageSistema": "telefonica.jpg",
+    "imageUrl": "https://brandfactory.telefonica.com/mistica",
+    "nombreSistema": "Telefónica Mística"
+  },
+  {
+    "descripcionSistema": "Design system de thumbprint",
+    "empresaSistema": "thumbprint",
+    "github": "https://github.com/thumbtack/thumbprint",
+    "imageSistema": "thumbprint.jpg",
+    "imageUrl": "https://thumbprint.design/",
+    "nombreSistema": "Thumbprint"
+  },
+  {
+    "cookies":"#accept-none-btn",
+    "descripcionSistema": "Design system de tizen",
+    "empresaSistema": "tizen",
+    "github": "https://github.com/Samsung/Tizen.CircularUI",
+    "imageSistema": "tizen.jpg",
+    "imageUrl": "https://developer.samsung.com/one-ui-watch-tizen",
+    "nombreSistema": "Tizen CircularUI"
+  },
+  {
+    "descripcionSistema": "Design system de toolkit",
+    "empresaSistema": "toolkit",
+    "github": "https://github.com/sky-uk/toolkit",
+    "imageSistema": "toolkit.jpg",
+    "imageUrl": "https://www.sky.com/toolkit",
+    "nombreSistema": "Sky Toolkit"
+  },
+  {
+    "descripcionSistema": "Paste es el sistema de diseño para diseñar y construir experiencias consistentes en Twilio. Está compuesto por tokens y componentes, junto con una documentación detallada para ayudar a los diseñadores y desarrolladores a resolver los problemas de nuestros clientes. Es de código abierto y las contribuciones son bienvenidas.",
+    "empresaSistema": "twilio",
+    "github": "https://github.com/twilio-labs/paste",
+    "imageSistema": "twilio.jpg",
+    "imageUrl": "https://paste.twilio.design/",
+    "nombreSistema": "Twilio Paste"
+  },
+  {
+    "descripcionSistema": "Un UI-Kit fresco y plano especialmente diseñado para aplicaciones de escritorio, hecho con ♥ por Vue.js 2.0.",
+    "empresaSistema": "uikit",
+    "github": "https://github.com/at-ui/at-ui",
+    "imageSistema": "uikit.jpg",
+    "imageUrl": "https://at-ui.github.io/at-ui/#/en",
+    "nombreSistema": "AT UIKIT"
+  },
+  {
+    "descripcionSistema": "Design system de uspto",
+    "empresaSistema": "uspto",
+    "github": "https://github.com/uspto/designpatterns",
+    "imageSistema": "uspto.jpg",
+    "imageUrl": "https://uspto.github.io/designpatterns/index.html",
+    "nombreSistema": "USPTO UI Design Library"
+  },
+  {
+    "descripcionSistema": "USWDS facilita la construcción de sitios web gubernamentales accesibles y aptos para dispositivos móviles.",
+    "empresaSistema": "uswds",
+    "github": "https://github.com/uswds/uswds",
+    "imageSistema": "uswds.jpg",
+    "imageUrl": "https://designsystem.digital.gov/",
+    "nombreSistema": "U.S. Web Design Standards"
+  },
+  {
+    "descripcionSistema": "Design system de uswitch",
+    "empresaSistema": "uswitch",
+    "github": "https://github.com/uswitch/ustyle",
+    "imageSistema": "uswitch.jpg",
+    "imageUrl": "https://ustyle.guide/",
+    "nombreSistema": "uSwitch style guide"
+  },
+  {
+    "descripcionSistema": "Design system de vimeo",
+    "empresaSistema": "vimeo",
+    "github": "https://github.com/vimeo/iris",
+    "imageSistema": "vimeo.jpg",
+    "imageUrl": "https://vimeo.github.io/iris/",
+    "nombreSistema": "Vimeo Design System"
+  },
+  {
+    "descripcionSistema": "Es un lenguaje común de herramientas y procesos para facilitar la forma en que colaboramos y compartimos conocimientos entre equipos y proyectos.",
+    "empresaSistema": "vtex",
+    "github": "https://github.com/vtex/styleguide",
+    "imageSistema": "vtex.jpg",
+    "imageUrl": "https://styleguide.vtex.com/",
+    "nombreSistema": "VTEX Styleguide"
+  },
+  {
+    "descripcionSistema": "Vue Design System es una herramienta de código abierto para construir Sistemas de Diseño de IU con Vue.js. Proporciona a ti y a tu equipo un conjunto de herramientas organizadas, patrones y prácticas.",
+    "empresaSistema": "vueds",
+    "github": "https://github.com/viljamis/vue-design-system",
+    "imageSistema": "vueds.jpg",
+    "imageUrl": "https://vueds.com/",
+    "nombreSistema": "Vue Design System"
+  },
+  {
+    "descripcionSistema": "Welcome UI es una biblioteca de sistema de diseño personalizable hecha con react, mecanografiado, componentes con estilo, ariakit y mucho amor",
+    "empresaSistema": "welcome-ui",
+    "github": "https://github.com/WTTJ/welcome-ui",
+    "imageSistema": "welcome-ui.jpg",
+    "imageUrl": "http://www.welcome-ui.com/",
+    "nombreSistema": "Welcome UI"
+  },
+  {
+    "cookies":"button.wmnds-cookies-banner__accept-all-cookies",
+    "descripcionSistema": "Un sistema de diseño para ayudar a que tu servicio luzca y se sienta como Transport for West Midlands.",
+    "empresaSistema": "wmn",
+    "github": "https://github.com/wmcadigital/wmn-design-system",
+    "imageSistema": "wmn.jpg",
+    "imageUrl": "https://designsystem.wmnetwork.co.uk/",
+    "nombreSistema": "West Midlands Network Design System"
+  }
+]
+}

@@ -1,0 +1,53 @@
+---
+layout: base.njk
+---
+{% set noheroimage = [] %}
+
+{% import "macros/_insert.njk" as insert %}
+
+
+<article class="main-article  ">
+  {% include 'components/herohome.njk' %}</div>
+
+
+<section class="inview ptr-120 pbr-120" >
+  <div class="container-global mx-auto  pbr-120">
+    <div class="fluid-8-r c-secondary">Nuestra vision</div>
+  </div>
+  
+      <div class="container-5 ">
+        <span class="c-primary fluid-5-r ">        Quieres convertirte en experto en design systems? </span>
+        <span class="fluid-5-r pt-64 pb-64 c-secondary">
+     
+        
+          {% call insert.splitenpalabras('Accede al centro líder en design systems, ofreciendo cursos, repositorios y herramientas de primera calidad para tu desarrollo en este campo.   ') %} {% endcall %}
+        
+        </span>
+
+
+    </div>
+  
+</section>
+
+  <div class="section  ">
+
+  <div class="bg-color front-section ">
+
+    <div class="container-global mx-auto pt-64 pb-64">
+      <div class="fluid-8-r c-secondary">Design system collection</div>
+      <div class="fluid-7-r c-primary">TOP 100</div>
+    </div>
+
+
+    <div class="container-global mx-auto  pb-64  ">
+      <ul role="list" class="list-clear flow">
+        {% for sistema in global.sistemas %}
+        {% include 'global-loop.njk' %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  </div>
+  {% include "components/banner.njk" %}
+</article>

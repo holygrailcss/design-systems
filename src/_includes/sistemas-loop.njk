@@ -1,0 +1,52 @@
+<li > 
+  
+  <a href="{{ sistemas.data.imageUrl }}" target="_blank" rel="nofollow noreferrer">
+  
+  {{ JSON.stringify(sistemas.data) }} aaa
+
+  <article id="{{ proyecto.id }}" class="mbr-64">
+    <div class="row sm:text-center">
+      <div class="col-xs-12 pb-40">
+        <div class="rat-16-9">
+          <div class="rat-content">
+            <img
+              class="rellax video-cover"
+              data-rellax-percentage="0.5"
+              data-rellax-speed="1"
+              src="/assets/static/capturas/{{ sistemas.data.nombreSistema.toLowerCase().replace(/ /g, "_") }} "
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-xs-12  pl-40 sm:order-last">
+          <div class="mb-16 ">
+
+
+  
+              <div class="mb-16">
+                <p data-aos="fade-up" data-aos-once="true" class="fluid-4-b">
+                  {{ sistemas.data.empresaSistema }}
+                </p>
+              </div>
+              <div class="mb-16">
+                <p data-aos="fade-up" data-aos-once="true" class="fluid-9-b">
+                  {{ sistemas.data.nombreSistema }}
+                </p>
+              </div>
+              <div class="mbr-64 ">
+                <p  class="text-14-r descripcion-sistema">
+                  {{ sistemas.data.descripcionSistema }}
+                </p>
+              </div>
+   
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+</a>
+</li>

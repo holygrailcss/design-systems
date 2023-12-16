@@ -1,0 +1,93 @@
+$header-mobile: 60px;
+$header-desktop: 200px;
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  z-index: 100;
+  height: $header-mobile;
+  transition: all ease 0.3s;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  @media (min-width: $break-md) {
+    padding-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+header.interior {
+  a {
+    color: #212121;
+  }
+  svg path {
+    fill: #212121;
+  }
+}
+.logo {
+  width: 100%;
+  max-width: 25px;
+  svg {
+    width: 100%;
+  }
+  @media (min-width: $break-md) {
+    width: 100%;
+    max-width: 45px;
+  }
+}
+.scrolled {
+
+  header {
+    background-color: #f3f2f0b5;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @media (min-width: $break-md) {
+
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    a {
+      color: $c-black;
+    }
+    svg path {
+      fill: $c-black;
+    }
+    .height-md {
+      min-height: 150px;
+    }
+  }
+
+
+  .header-top {
+    height: 200px;
+  }
+  .menu {
+    .btn-secondary {
+      color: #292929;
+      background-color: transparent;
+      border: 2px solid #292929;
+    }
+    .menu-link {
+      background-image: linear-gradient(180deg, transparent 0%, #272422 0);
+      background-size: 0 0.075em;
+      background-position: 100% 100%;
+      background-repeat: no-repeat;
+      transition: background-size 0.4s ease;
+      &:hover {
+        background-position: 0% 100%;
+        background-size: 100% 1px;
+      }
+    }
+  }
+}
+
+.menu-desktop-wrap {
+  column-gap: 15%;
+}

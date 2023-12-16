@@ -1,0 +1,70 @@
+---
+layout: base.njk
+---
+{% import "macros/_insert.njk" as insert %}
+<div class="video-bg">
+  {# <video poster="" autoplay="" muted="" loop="">
+    <source src="/assets/static/main.mp4" type="video/mp4" />
+  </video> #}
+</div>
+
+
+{% include 'components/hero.njk' %} 
+
+
+
+<section class="ptr-120 pbr-120 inview" >
+  <div class="container-global mx-auto  pbr-120">
+    <div class="fluid-8-r c-secondary">Que hacemos? </div>
+  </div>
+  
+      <div class="container-5 ">
+        <span class="fluid-5-r pt-64 pb-64 c-secondary">
+
+          {% call insert.splitenpalabras(presentacion) %} {% endcall %}
+
+      </span>
+    </div>
+  
+</section>
+
+
+
+
+<section class="front-section ptr-120 ">
+{% for persona in global.personas %}
+
+    <div class="container-5 mx-auto  pb-64 front-section">
+
+      <div class="row">
+        <div class="col-xs-4 col-md-5">
+          <div class="rat-1-1 rad-12">
+            <div class="rat-content">
+              <img
+            class="video-cover"
+    
+                src="{{ persona.imagen }}"
+                alt="{{ persona.imagen }}"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-8 col-md-7 mdmax:mb-42">
+
+          <div class="article-loop mb-24"></div>
+
+          <div class="fluid-6-r ">
+            {{ persona.nombre }}
+          </div>
+          <div class="fluid-9-r c-secondary mb-24">
+            {{ persona.posicion }}
+          </div>
+          <div class="fluid-8-r">
+            {{ persona.descripcion }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endfor %}
+</section>

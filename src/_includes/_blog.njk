@@ -1,0 +1,23 @@
+---
+layout: base.njk
+---
+
+
+
+
+<div class="section  ptr-200 ">
+
+
+  <div class="container-global mx-auto">
+     <div class="fluid-5-r mb-24">
+      Blog
+     </div>
+  </div>
+  <div class="container-global mx-auto ">
+    <ul role="list" class="list-clear blog-section">
+      {% for blog in collections.blog | reverse %}
+        {% include 'blog-loop.njk' %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

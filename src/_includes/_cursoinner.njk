@@ -1,0 +1,42 @@
+---
+layout: base.njk
+---
+{% set parent = global.blog %}
+<div class="main-article  ">
+  {% set next = collections.blog | nextInCollection(page.fileSlug) %}
+  {% set previous = collections.blog | prevInCollection(page.fileSlug) %}
+  {% include 'components/hero.njk' %}
+  <div class="container-global mx-auto pt-32 innermarkdown-curso ">
+    <div class="row">
+      <div class="col-xs-7">
+
+          {{ content | safe }}
+
+      </div>
+      <div class="col-xs-3">
+        {{ content | toc | safe }}
+      </div>
+    </div>
+  </div>
+  <div class="bg-color">
+    <div class="container-global mx-auto  l-top ">
+      <div class="col-xs-12">
+        {% if next or previous%}
+        <div class="pagination">
+          {% if previous %}
+          <a href="{{ previous.url }} " class="pagination-item pagination-item-prev">
+            Previous post
+          </a>
+          {% endif %}
+          {% if next %}
+          <a href="{{ next.url }}" class="pagination-item pagination-item-next">
+            Next post
+          </a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% include "components/banner.njk" %}
+</div>
