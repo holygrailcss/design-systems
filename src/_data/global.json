@@ -67,33 +67,6 @@
     }
   ],
   "sistemas":[
-    {
-
-      "descripcionSistema": "massimodutti",
-      "empresaSistema": " massimo",
-      "imageSistema": "massimodutti1.jpg",
-      "imageUrl": "https://www.massimodutti.com/es",
-      "nombreSistema": "massimo"
-    },
-
-    {
-      "cookies": "#onetrust-accept-btn-handler",
-      "descripcionSistema": "massimodutti",
-      "empresaSistema": " massimo",
-      "imageSistema": "massimodutti.jpg",
-      "imageUrl": "https://www.massimodutti.com/es",
-      "nombreSistema": "massimo"
-    },
-
-    {
-      "cookies": "#onetrust-accept-btn-handler",
-      "descripcionSistema": "massimodutti",
-      "empresaSistema": " massimo",
-      "imageSistema": "massimodutti.jpg",
-      "imageUrl": "https://www.massimodutti.com/es",
-      "nombreSistema": "massimo"
-    },
-
   {
     "descripcionSistema": "Spectrum proporciona componentes y herramientas para ayudar a los equipos de productos a trabajar de manera más eficiente y hacer que las aplicaciones de Adobe sean más coherentes.",
     "empresaSistema": " Adobe",
