@@ -44,7 +44,9 @@ layout: base.njk
             class="video-cover"
     
                 src="{{ persona.imagen }}"
-                alt="{{ persona.imagen }}"
+                alt="{{ persona.imagen }} "
+                title="{{ persona.imagen | replace('.jpg', '') }}"
+
               />
             </div>
           </div>
