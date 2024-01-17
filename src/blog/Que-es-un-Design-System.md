@@ -8,7 +8,7 @@ tags: ["sistemas de diseño", "diseño eficiente", "experiencia en línea", "UI"
 image: https://res.cloudinary.com/rangle/image/upload/w_auto,q_auto,dpr_auto,f_auto/v1659118861/rangle.io/blogs/what-is-a-design-system/feature-photo.png
 imageAlt: Ilustración de componentes de diseño trabajando juntos
 eleventyComputed:
-  metaTitle: ¿Qué es un Design System?  | design-systems.es
+  metaTitle: ¿Qué es un Design System?  | designsystems.es
   metaDescription: Descubre cómo los sistemas de diseño (Design Systems) pueden mejorar la eficiencia del diseño y crear experiencias en línea excepcionales. ¡Optimiza tu sitio web hoy mismo!
   metaKeywords: "sistemas de diseño, diseño eficiente, experiencia en línea, UI, UX"
   metaRobots: "index, follow"

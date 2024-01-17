@@ -22,3 +22,19 @@ Como se mencionó, estos archivos están aquí para ayudarte a comenzar con el d
 ## Tutorial
 
 Puedes [ver este video](https://youtu.be/4wD00RT6d-g) para ver cómo Manuel utiliza Eleventy, Netlify y Netlify CMS para crear un sitio de blog completo construido completamente con archivos estáticos.
+
+
+
+
+https://designsystems.es/sistemas/
+https://designsystems.es/unirte-a-newsletter/
+https://designsystems.es/Como-crear-un-design-system/
+https://designsystems.es/about/
+https://designsystems.es/Que-nos-aporta-un-design-system/
+https://designsystems.es/el-futuro-de-la-web-son-los-designsystems/
+https://designsystems.es/la-importancia-de usar-un-design-system/
+https://designsystems.es/cursos/curso-design-system-figma/
+https://designsystems.es/Que-es-un-Design-System/
+https://designsystems.es/blog/
+https://designsystems.es/cursos/
+https://designsystems.es/

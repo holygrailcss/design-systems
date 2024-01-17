@@ -8,7 +8,7 @@ tags: ["design system", "diseño web", "UI", "UX", "SEO"]
 image: /assets/static/images/2.jpg
 imageAlt: Ilustración de un dispositivo con elementos de un Design System
 eleventyComputed:
-  metaTitle: El futuro de la web está en los design systems | Design-Systems.es
+  metaTitle: El futuro de la web está en los design systems | designsystems.es
   metaDescription: Descubre por qué los Design Systems son el futuro del diseño web. Aprende cómo optimizar tus proyectos con un Design System y crea experiencias de usuario excepcionales. 🚀 ¡Potencia tu diseño web ahora!
   metaKeywords: "design system, diseño web, UI, UX, SEO"
   metaRobots: "index, follow"
@@ -54,7 +54,7 @@ En un mundo digital en constante evolución, los Design Systems se presentan com
 
 Aprovechar los beneficios de un Design System no solo mejora la experiencia de usuario, sino que también optimiza los recursos, ahorra tiempo y potencia la colaboración entre equipos. Es una inversión inteligente que te prepara para el éxito en el futuro del diseño web.
 
-¡Empieza a construir tu propio Design System y lleva tu diseño web al siguiente nivel! Explora herramientas, bibliotecas y recursos disponibles en Design-Systems.es para obtener más información y consejos prácticos.
+¡Empieza a construir tu propio Design System y lleva tu diseño web al siguiente nivel! Explora herramientas, bibliotecas y recursos disponibles en designsystems.es para obtener más información y consejos prácticos.
 
 ¡El futuro del diseño web te espera! 🚀💡
 

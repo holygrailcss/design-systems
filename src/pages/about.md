@@ -11,7 +11,7 @@ imageAlt: Ilustración de un diseño de sistema
 
 presentacion: Creamos sistemas coherentes, escalables y centrados en el usuario para potenciar tu diseño web. Confía en nosotros para alcanzar resultados excepcionales.
 eleventyComputed:
-  metaTitle: Crea un Design System efectivo para tu proyecto | Design-Systems.es
+  metaTitle: Crea un Design System efectivo para tu proyecto | designsystems.es
   metaDescription: Descubre cómo crear un Design System paso a paso. Aumenta la coherencia y eficiencia en tu proceso de diseño. 🚀 ¡Comienza ahora!
   metaKeywords: "diseño, figma, design systems"
   metaRobots: "index, follow"
@@ -19,7 +19,7 @@ eleventyComputed:
 
 # Cómo realizar un Design System efectivo
 
-¡Bienvenidos a Design-Systems.es, tu fuente de conocimiento sobre diseño y sistemas de diseño! En este artículo, descubrirás todo lo que necesitas saber sobre cómo realizar un Design System de manera efectiva. Si estás buscando aumentar la coherencia y la eficiencia en tus proyectos de diseño, ¡has llegado al lugar correcto!
+¡Bienvenidos a designsystems.es, tu fuente de conocimiento sobre diseño y sistemas de diseño! En este artículo, descubrirás todo lo que necesitas saber sobre cómo realizar un Design System de manera efectiva. Si estás buscando aumentar la coherencia y la eficiencia en tus proyectos de diseño, ¡has llegado al lugar correcto!
 
 ## ¿Qué es un Design System?
 
