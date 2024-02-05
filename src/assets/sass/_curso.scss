@@ -164,42 +164,44 @@
 
 
 
-  .toc {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 100px;
-    background-color: #f3f2f0;
+
+}
+
+.toc {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 100px;
+  background-color: #f3f2f0;
+  color: $c-primary;
+  font-size: 14px;
+  margin: 0 auto 20px;
+  padding: 16px;
+  padding: 20px;
+  border-radius: 20px;
+  @media (min-width: $break-md) {
+    padding: 60px 40px 40px;
+  }
+  ol li a {
+    display: block;
     color: $c-primary;
-    font-size: 14px;
-    margin: 0 auto 20px;
-    padding: 16px;
-    padding: 20px;
-    border-radius: 20px;
-    @media (min-width: $break-md) {
-      padding: 60px 40px 40px;
+    padding: 0 8px 8px 0;
+    letter-spacing: -1px;
+    font-size: 16px;
+    @include font-bold();
+    &:hover{
+      opacity: .5;
     }
-    ol li a {
-      display: block;
-      color: $c-primary;
-      padding: 0 8px 8px 0;
-      letter-spacing: -1px;
-      font-size: 16px;
-      @include font-bold();
-      &:hover{
-        opacity: .5;
-      }
-    }
+  }
+  ol {
+    list-style: none;
     ol {
-      list-style: none;
+      margin-bottom: 20px;
+    a{
+      @include font-regular();
+    } 
+      margin-left: 20px;
       ol {
-        margin-bottom: 20px;
-      a{
-        @include font-regular();
-      } 
         margin-left: 20px;
-        ol {
-          margin-left: 20px;
-        }
       }
     }
   }

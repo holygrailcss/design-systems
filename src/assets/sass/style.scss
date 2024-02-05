@@ -555,7 +555,7 @@ ul.list-clear li {
   flex-wrap: wrap;
   gap: 16px;
   li {
-    flex-basis: calc(33% - 16px);
+    flex-basis: calc(50% - 16px);
 
     @media (min-width: $break-lg) {
       flex-basis: calc(33% - 16px);
@@ -700,8 +700,8 @@ a:hover {
 
 
 .container-global {
-  padding-right: 16px;
-  padding-left: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
 
   max-width: 1650px;
   @media (min-width: $break-md) {
