@@ -1,7 +1,7 @@
 <li>
 {# <p>ID de la iteración: {{ loop.index }}</p>   #}
 
-  <a href="{{ sistema.imageUrl }}" target="_blank" rel="nofollow noreferrer">
+  <a href="{{ sistema.imageUrl }}" target="_blank" rel="nofollow noreferrer"  title="{{ sistema.imageSistema | replace('.jpg', '') }} ">
     <article id="{{ proyecto.id }}" class=" product mbr-64">
 
 
@@ -29,7 +29,7 @@
               <img width="100%"
                 class=""
                 alt="{{ sistema.imageSistema | replace('.jpg', '') }} | design system"
-                title="{{ sistema.imageSistema | replace('.jpg', '') }}"
+                title="{{ sistema.imageSistema | replace('.jpg', '') }} "
                 src="/assets/static/capturas/{{ sistema.imageSistema }} "
               />
 
