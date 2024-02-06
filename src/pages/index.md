@@ -3,7 +3,7 @@ layout: _index.njk
 permalink: /
 
 
-title:  Design systems | Una recopilación de material para aprender Design systems
+title:  Aprende sobre Design Systems | Recursos para Diseñadores
 subtitle:  Explora casos de estudio, aprende las mejores prácticas y mantente actualizado en este emocionante campo del diseño centrado en los design systems , todo ello en español.
 image: 7.jpgx
 
