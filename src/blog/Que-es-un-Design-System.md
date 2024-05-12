@@ -16,7 +16,7 @@ eleventyComputed:
 
 {% br2 %}
 
-# ¿Qué es un Design System?
+## ¿Qué es un Design System?
 
 Un sistema de diseño es como una guía que ayuda a las organizaciones a crear y desarrollar cosas como páginas web o aplicaciones de manera más eficiente. Imagina que estás construyendo un castillo con bloques de Lego. En lugar de tener que diseñar y construir cada pieza desde cero cada vez, un sistema de diseño te proporciona bloques predefinidos que puedes usar una y otra vez para construir cosas geniales de manera más rápida y consistente.
 {% br2 %}

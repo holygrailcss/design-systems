@@ -14,7 +14,7 @@ eleventyComputed:
   metaRobots: "index, follow"
 ---
 
-# Cómo crear un Design System exitoso
+## Cómo crear un Design System exitoso
 
 Si estás buscando mejorar la consistencia y eficiencia en tus proyectos de diseño, es momento de considerar la implementación de un Design System. En esta guía completa, aprenderás todo lo que necesitas saber para desarrollar un Design System efectivo.
 
