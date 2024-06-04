@@ -8,7 +8,7 @@ tags: ["tipografía", "design systems", "diseño web", "UI", "UX"]
 image: /assets/static/images/3.jpg
 imageAlt: Ilustración de letras y caracteres tipográficos
 eleventyComputed:
-  metaTitle: Por qué es crucial incorporar la tipografía en un Design System | designsystems.es
+  metaTitle: Por qué es crucial incorporar la tipografía en un Design System | design-systems.es
   metaDescription: Descubre la importancia de la tipografía en un Design System y cómo mejora la coherencia y la experiencia de usuario. ¡Optimiza tu diseño web ahora mismo!
   metaKeywords: "tipografía, design systems, diseño web, UI, UX"
   metaRobots: "index, follow"
@@ -50,7 +50,7 @@ Uno de los beneficios clave de utilizar un Design System para la tipografía es 
 
 La tipografía es un elemento esencial en un Design System. Su incorporación garantiza la coherencia visual, mejora la experiencia de usuario y fortalece la identidad de marca en todos los puntos de contacto. Al considerar la tipografía como parte integral de tu Design System, estás dando un paso importante hacia un diseño web más efectivo y centrado en el usuario.
 
-¡Optimiza tu diseño web ahora mismo y descubre los beneficios de un Design System bien estructurado! En designsystems.es, encontrarás recursos, herramientas y consejos prácticos para crear tu propio Design System y llevar tu diseño web al siguiente nivel.
+¡Optimiza tu diseño web ahora mismo y descubre los beneficios de un Design System bien estructurado! En design-systems.es, encontrarás recursos, herramientas y consejos prácticos para crear tu propio Design System y llevar tu diseño web al siguiente nivel.
 
 ¡Potencia tu diseño web con una tipografía coherente y efectiva! ¡No esperes más y comienza a utilizar un Design System hoy mismo!
 

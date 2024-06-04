@@ -8,7 +8,7 @@ tags: ["design system", "web", "UX", "UI", "SEO"]
 image: /assets/static/images/1.jpg
 imageAlt: Ilustración de un equipo de diseñadores trabajando en un Design System
 eleventyComputed:
-  metaTitle: ¿Qué nos aporta un Design System para web? | designsystems.es
+  metaTitle: ¿Qué nos aporta un Design System para web? | design-systems.es
   metaDescription: Descubre qué es un Design System para web y cómo puede mejorar la experiencia de usuario. Aprende sobre su importancia en el desarrollo web y cómo optimizarlo para SEO. 🚀 ¡Potencia tu diseño web ahora!
   metaKeywords: "design system, web, UX, UI, SEO"
   metaRobots: "index, follow"
@@ -16,7 +16,7 @@ eleventyComputed:
 
 # Todo lo que necesitas saber sobre los Design Systems para web
 
-¡Bienvenidos a designsystems.es, tu fuente de información sobre diseño y desarrollo web! En este artículo, desvelaremos los secretos de los **Design Systems para web** y cómo pueden mejorar significativamente la experiencia de usuario en tus proyectos. ¿Listo para descubrirlo? ¡Sigue leyendo!
+¡Bienvenidos a design-systems.es, tu fuente de información sobre diseño y desarrollo web! En este artículo, desvelaremos los secretos de los **Design Systems para web** y cómo pueden mejorar significativamente la experiencia de usuario en tus proyectos. ¿Listo para descubrirlo? ¡Sigue leyendo!
 
 ## ¿Qué es un Design System?
 
@@ -52,7 +52,7 @@ iza los elementos de diseño existentes y define las pautas y reglas que seguir�
 
 ¡Felicidades! Ahora estás equipado con los conceptos básicos sobre los Design Systems para web. Recuerda que la implementación de un Design System puede marcar la diferencia en la experiencia de usuario y el éxito de tus proyectos web. ¡No pierdas la oportunidad de potenciar tu diseño y desarrollo web ahora mismo!
 
-Si quieres saber más sobre el mundo del diseño y desarrollo web, no dudes en explorar nuestro blog en designsystems.es. ¡Encuentra inspiración, consejos y las últimas tendencias para llevar tus proyectos al siguiente nivel!
+Si quieres saber más sobre el mundo del diseño y desarrollo web, no dudes en explorar nuestro blog en design-systems.es. ¡Encuentra inspiración, consejos y las últimas tendencias para llevar tus proyectos al siguiente nivel!
 
 ¡Empieza a construir tu Design System y lleva tu web al éxito! 🚀💡
 
