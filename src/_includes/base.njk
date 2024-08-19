@@ -42,6 +42,7 @@
       content="{{ metaKeywords or eleventyComputed.metaKeywords or metaKeywords.description }}"
     />
 
+    
     {% if global.googlemaps_api %}
     <script>
       (function (w, d, s, l, i) {
@@ -67,7 +68,7 @@
 {% set breadcrumbs = [] %}
 
 
-    <!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) 
     <noscript
       ><iframe
         src="https://www.googletagmanager.com/ns.html?id= {{
@@ -78,7 +79,7 @@
         style="display: none; visibility: hidden"
       ></iframe
     ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  End Google Tag Manager (noscript) -->
 
     {% include 'components/header.njk' %}
     <main class=" ">
