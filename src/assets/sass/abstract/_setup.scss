@@ -170,30 +170,22 @@ $font-weight-secondary-light: 200;
 $font-weight-secondary-regular: 400;
 $font-weight-secondary-medium: 700;
 $font-weight-secondary-bold: 900;
-$pt: "padding-top";
-$padding-top: ( pt-4: ( 4px, 4px, 4px, 4px, ), 
-pt-8: ( 8px, 8px, 8px, 8px, ), 
-pt-16: ( 16px, 16px, 16px, 16px, ),
-pt-24: ( 24px, 24px, 24px, 24px, ), 
-pt-32: ( 32px, 32px, 32px, 32px, ), 
-pt-40: ( 40px, 40px, 40px, 40px, ), 
-pt-48: ( 20px, 48px, 48px, 48px, ), 
-pt-64: ( 64px, 64px, 64px, 64px, ), 
-ptr-120: ( 64px, 64px, 120px, 120px, ), 
-ptr-200: ( 120px, 120px, 200px, 200px, ), ) ; 
 
 
-$pb: "padding-bottom"; 
-$padding-bottom: ( pb-4: ( 4px, 4px, 4px, 4px, ), 
-pb-8: ( 8px, 8px, 8px, 8px, ), 
-pb-16: ( 20px, 20px, 20px, 20px, ), 
-pb-24: ( 24px, 24px, 24px, 24px, ),
-pb-32: ( 32px, 32px, 32px, 32px, ), 
-pb-40: ( 40px, 40px, 40px, 40px, ), 
-pb-48: ( 48px, 48px, 48px, 48px, ),
-pb-64: ( 64px, 64px, 64px, 64px, ), 
-pbr-120: ( 64px, 64px, 120px, 120px, ), 
-pbr-200: ( 120px, 120px, 200px, 200px, ), ) ; 
+
+$padding-top: (
+   ptr-64: ( 64px, 64px, 64px, 64px ),
+   ptr-120: ( 64px, 64px, 120px, 120px ),
+   ptr-200: ( 120px, 120px, 200px, 200px )
+) ;
+
+
+$padding-bottom: (
+   pbr-64: ( 64px, 64px, 64px, 64px ),
+   pbr-120: ( 64px, 64px, 120px, 120px ),
+   pbr-200: ( 120px, 120px, 200px, 200px )
+) ;
+
 
 
 

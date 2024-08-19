@@ -36,6 +36,8 @@ $width-left: calc((1280px + (100vw - 1600px) / 2));
 
 @import "../../../node_modules/holygrailcss/scss/style.scss";
 // -FASE 4 : OVERRIDE YOUR HOLYGRAIL
+@include space($breakpoints, $padding-top, $pt);
+@include space($breakpoints, $padding-bottom, $pb);
 @import "./theme.scss";
 @import "./header2.scss";
 @import "./_menu.scss";
