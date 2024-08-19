@@ -16,10 +16,12 @@ const mdOptions = {
 };
 
 const mdAnchorOpts = {
-  permalink: true,
-  permalinkClass: "anchor-link",
-  permalinkSymbol: "#",
   level: [1, 2, 3, 4],
+  permalink: markdownItAnchor.permalink.linkInsideHeader({
+    symbol: '#',
+    class: 'anchor-link',
+    placement: 'before', // Opción para ubicar el enlace antes o después del encabezado
+  }),
 };
 
 module.exports = function (eleventyConfig) {
@@ -29,25 +31,21 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site.webmanifest");
   eleventyConfig.addPassthroughCopy("src/robots.txt");
 
-  eleventyConfig.addPairedShortcode("myShortcode", function (content) { // Method A: ✅ ideal para encapsular {% myShortcode %}  dfdfdf  {% endmyShortcode %}
+  eleventyConfig.addPairedShortcode("myShortcode", function (content) {
     return `<div class="is-flex full-container-blog content-center">${content}</div>`;
   });
-  eleventyConfig.addShortcode("br", function () { // Method A: ✅ ideal para tags de espacios {% br %}
-    return `
-  <br>
-`;
-  });
-  eleventyConfig.addShortcode("br2", function () { // Method A: ✅ ideal para tags de espacios {% br %}
-    return `
-  <br><br>
-`;
-  });
-  eleventyConfig.addShortcode("br3", function () { // Method A: ✅ ideal para tags de espacios {% br %}
-    return `
-  <br><br><br>
-`;
+
+  eleventyConfig.addShortcode("br", function () {
+    return `<br>`;
   });
 
+  eleventyConfig.addShortcode("br2", function () {
+    return `<br><br>`;
+  });
+
+  eleventyConfig.addShortcode("br3", function () {
+    return `<br><br><br>`;
+  });
 
   eleventyConfig.addPlugin(embeds);
 
@@ -67,6 +65,7 @@ module.exports = function (eleventyConfig) {
   function getIndex(collection, currentSlug) {
     return collection.findIndex((page) => page.fileSlug === currentSlug);
   }
+
   eleventyConfig.addFilter("nextInCollection", (collection, currentSlug) => {
     const currentIndex = getIndex(collection, currentSlug);
     const pages = collection.filter((page, index) => {
@@ -83,9 +82,9 @@ module.exports = function (eleventyConfig) {
     return pages.length ? pages[0] : false;
   });
 
-  eleventyConfig.addFilter('reverseWords', function(value) {
-    if (typeof value === 'string') {
-      return value.split('').reverse().join('');
+  eleventyConfig.addFilter("reverseWords", function (value) {
+    if (typeof value === "string") {
+      return value.split("").reverse().join("");
     }
     return value;
   });
@@ -93,20 +92,16 @@ module.exports = function (eleventyConfig) {
   // WebC
   eleventyConfig.addPlugin(eleventyWebcPlugin, {
     components: [
-      // …
-      // Add as a global WebC component
+      // Agrega como componente global de WebC
       "npm:@11ty/eleventy-img/*.webc",
     ],
   });
 
   eleventyConfig.addPlugin(eleventyImagePlugin, {
-    // Set global default options
+    // Opciones globales predeterminadas
     formats: ["webp"],
     urlPath: "/assets/static/",
     outputDir: "public/assets/static/",
-
-    // Notably `outputDir` is resolved automatically
-    // to the project output directory  npm install eleventy-plugin-seo --save falta este
 
     defaultAttributes: {
       loading: "lazy",
