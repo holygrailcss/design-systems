@@ -124,14 +124,6 @@
     "nombreSistema": "Biings Design System"
   },
 
-
-  {
-    "descripcionSistema": "Blocks es el enfoque compartido, el lenguaje y la comunicación entre los equipos de diseño, ingeniería y productos en CBRE Build. El sitio contiene una biblioteca de componentes de IU y código reutilizables que se utilizan para resolver una variedad de problemas de diseño.",
-    "empresaSistema": " CBRE Build",
-    "imageSistema": "blocks.jpg",
-    "imageUrl": "https://blocks.cbrebuild.com/",
-    "nombreSistema": "Blocks Design System"
-  },
   {
     "descripcionSistema": "Componentes reutilizables basados en CSS en JS son el núcleo del Design System Quantum, una biblioteca para desarrollar una UI/UX consistente en Catho.",
     "empresaSistema": " Catho",
@@ -642,14 +634,6 @@
   },
 
   {
-    "descripcionSistema": "Design system - Halstack",
-    "empresaSistema": "Halstack",
-    "github": "https://github.com/dxc-technology/halstack-style-guide",
-    "imageSistema": "halstack.jpg",
-    "imageUrl": "https://developer.dxc.com/design", 
-    "nombreSistema": "Halstack"
-  },
-  {
     "descripcionSistema": "Hemos creado .pulse como la única fuente de verdad para todos los procesos y creencias dentro de Heartbeat Agency. Como cualquier herramienta o metodología, solo funcionará correctamente cuando se use correctamente. Y lo correcto solo se puede determinar a través de un proceso de pulido y práctica constante.",
     "empresaSistema": "Heartbeat",
     "imageSistema": "pulse.jpg",
@@ -1102,14 +1086,7 @@
     "imageUrl": "https://materializecss.com/",
     "nombreSistema": "Materialize CSS"
   },
-  {
-    "descripcionSistema": "Design system de meetup",
-    "empresaSistema": "meetup",
-    "github": "https://github.com/meetup/swarm-design-system/",
-    "imageSistema": "meetup.jpg",
-    "imageUrl": "https://meetup.github.io/swarm-design-system/",
-    "nombreSistema": "Meetup Swarm"
-  },
+
   {
     "descripcionSistema": "Design system de mesosphere",
     "empresaSistema": "mesosphere",
