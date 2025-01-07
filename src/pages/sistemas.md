@@ -1,6 +1,6 @@
 ---
 layout: _sistemas.njk
-permalink: /{{global.services}}/
+permalink: /design-systems-coleccion/
 
 title:  Sistemas
 subtitle: Design systems
