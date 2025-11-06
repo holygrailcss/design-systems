@@ -291,13 +291,6 @@
     "nombreSistema": "Feelix"
   },
   {
-    "descripcionSistema": "La Biblioteca de Patrones de MailChimp es un subproducto de nuestro cambio a una aplicación más receptiva, ágil e intuitiva.",
-    "empresaSistema": " MailChimp",
-    "imageSistema": "mailchimp.jpg",
-    "imageUrl": "http://ux.mailchimp.com/patterns",
-    "nombreSistema": "MailChimp Pattern Library"
-  },
-  {
     "descripcionSistema": "Marvel creó esta guía de estilo como una ubicación central donde almacenan un inventario en vivo de componentes de IU, pautas de marca, activos de marca, fragmentos de código, pautas para desarrolladores y más.",
     "empresaSistema": " Marvel",
     "imageSistema": "marvel.jpg",
