@@ -1,0 +1,806 @@
+
+> design-systems@1.0.0 img-exporter
+> node ./img-exporter.js
+
+🚀 Iniciando captura de 174 design systems...
+
+
+[1/174] Capturando: adobe-spectrum.jpg
+URL: https://spectrum.adobe.com/
+  ✓ Captura guardada: adobe-spectrum.jpg
+  📝 Descripción: Spectrum provides components and tools to help product teams work more efficiently, and to make Adob...
+
+[2/174] Capturando: ant-design.jpg
+URL: https://ant.design/
+  ✓ Captura guardada: ant-design.jpg
+  📝 Descripción: An enterprise-class UI design language and React UI library with a set of high-quality React compone...
+
+[3/174] Capturando: atlassian.jpg
+URL: https://atlassian.design/
+  ✓ Captura guardada: atlassian.jpg
+
+[4/174] Capturando: audi.jpg
+URL: http://www.audi.com/ci/en/guides/user-interface/introduction.html
+  ✓ Captura guardada: audi.jpg
+
+[5/174] Capturando: gel.jpg
+URL: http://www.bbc.co.uk/gel/
+  ✓ Captura guardada: gel.jpg
+  📝 Descripción: Our Global Experience Language (GEL) is the BBC's shared design framework which enables us to create...
+
+[6/174] Capturando: beeline.jpg
+URL: http://beelinedesignsystem.com/
+  ✗ Error al capturar beeline.jpg: Navigation timeout of 30000 ms exceeded
+
+[7/174] Capturando: skyline.jpg
+URL: https://skyline.benevity.org/
+  ✓ Captura guardada: skyline.jpg
+  📝 Descripción: Skyline is Benevity's design system. It helps create a familiar and positive experience across all o...
+
+[8/174] Capturando: biings.jpg
+URL: https://biings.design/
+  ✓ Captura guardada: biings.jpg
+  📝 Descripción: A series of assets and guidelines for building consistent user experiences across Biings products....
+
+[9/174] Capturando: quantum.jpg
+URL: https://catho.github.io/quantum/
+  ✓ Captura guardada: quantum.jpg
+
+[10/174] Capturando: etrade.jpg
+URL: http://etrade.design/
+  ✓ Captura guardada: etrade.jpg
+
+[11/174] Capturando: comet.jpg
+URL: https://comet.discoveryeducation.com/
+  ✓ Captura guardada: comet.jpg
+
+[12/174] Capturando: barista.jpg
+URL: https://barista.dynatrace.com/
+  ✓ Captura guardada: barista.jpg
+  📝 Descripción: Barista - the Dynatrace design system. Tailored to scale. - dynatrace-oss/barista...
+
+[13/174] Capturando: elastic-ui.jpg
+URL: https://elastic.github.io/eui/#/
+  ✓ Captura guardada: elastic-ui.jpg
+  📝 Descripción: The framework powering the Elastic Stack...
+
+[14/174] Capturando: elementary.jpg
+URL: https://elementary.io/
+  ✓ Captura guardada: elementary.jpg
+  📝 Descripción: The thoughtful, capable, and ethical replacement for Windows and macOS...
+
+[15/174] Capturando: photon.jpg
+URL: https://design.firefox.com/photon/
+  ✓ Captura guardada: photon.jpg
+  📝 Descripción: Acorn is the design system for the Firefox desktop and mobile browsers...
+
+[16/174] Capturando: futurelearn.jpg
+URL: https://www.futurelearn.com/pattern-library
+  ✓ Captura guardada: futurelearn.jpg
+
+[17/174] Capturando: asphalt.jpg
+URL: https://asphalt.gojek.io/
+  ✓ Captura guardada: asphalt.jpg
+  📝 Descripción: Gojek Design Language System...
+
+[18/174] Capturando: gov-uk.jpg
+URL: https://design-system.service.gov.uk/
+  ✓ Captura guardada: gov-uk.jpg
+  📝 Descripción: Design your service using GOV.UK styles, components and patterns...
+
+[19/174] Capturando: predix.jpg
+URL: https://www.predix-ui.com/
+  ✓ Captura guardada: predix.jpg
+
+[20/174] Capturando: primer.jpg
+URL: https://primer.style/
+  ✓ Captura guardada: primer.jpg
+  📝 Descripción: The Design System for GitHub...
+
+[21/174] Capturando: gitlab.jpg
+URL: https://design.gitlab.com/
+  ✓ Captura guardada: gitlab.jpg
+  📝 Descripción: Resources, components, and design guidelines behind GitLab...
+
+[22/174] Capturando: material.jpg
+URL: https://material.io/
+  ✗ Error al capturar material.jpg: Navigation timeout of 30000 ms exceeded
+
+[23/174] Capturando: yoga.jpg
+URL: https://gympass.github.io/yoga/
+  ✓ Captura guardada: yoga.jpg
+  📝 Descripción: Yoga is a scientific system of practices made to help each one of us achieve our highest potential a...
+
+[24/174] Capturando: canvas.jpg
+URL: https://canvas.hubspot.com/
+  ✓ Captura guardada: canvas.jpg
+  📝 Descripción: HubSpot Canvas is the design system we use to build products. We created this design system to creat...
+
+[25/174] Capturando: uniform.jpg
+URL: http://uniform.hudl.com/
+  ✓ Captura guardada: uniform.jpg
+
+[26/174] Capturando: carbon.jpg
+URL: https://www.carbondesignsystem.com/
+  ✗ Error al capturar carbon.jpg: Navigation timeout of 30000 ms exceeded
+
+[27/174] Capturando: rivet.jpg
+URL: https://rivet.uits.iu.edu/
+  ✓ Captura guardada: rivet.jpg
+
+[28/174] Capturando: orbit-ds.jpg
+URL: https://orbit.kiwi/
+  ✓ Captura guardada: orbit-ds.jpg
+  📝 Descripción: An open source design system for your next travel project....
+
+[29/174] Capturando: lexicon.jpg
+URL: https://lexicondesign.io/
+  ✗ Error al capturar lexicon.jpg: net::ERR_NAME_NOT_RESOLVED at https://lexicondesign.io/
+
+[30/174] Capturando: duet.jpg
+URL: https://www.duetds.com/
+  ✓ Captura guardada: duet.jpg
+  📝 Descripción: Duet provides a set of organized tools, patterns, and practices that work as the foundation for Loca...
+
+[31/174] Capturando: feelix.jpg
+URL: http://feelix.myob.com/
+  ✓ Captura guardada: feelix.jpg
+
+[32/174] Capturando: mailchimp.jpg
+URL: http://ux.mailchimp.com/patterns
+  ✓ Captura guardada: mailchimp.jpg
+
+[33/174] Capturando: marvel.jpg
+URL: https://marvelapp.com/styleguide/
+  ✓ Captura guardada: marvel.jpg
+  📝 Descripción: Central location for a live inventory of UI components, brand guidelines, brand assets, code snippet...
+
+[34/174] Capturando: liquid.jpg
+URL: https://www.emd.design/
+  ✓ Captura guardada: liquid.jpg
+  📝 Descripción: Get access to the User Experience Strategy & Design unit of the Digital Organization, part of Merck ...
+
+[35/174] Capturando: mixpanel.jpg
+URL: https://design.mixpanel.com/
+  ✗ Error al capturar mixpanel.jpg: Navigation timeout of 30000 ms exceeded
+
+[36/174] Capturando: mongodb.jpg
+URL: http://mongodb.design/#/ui-design-system/welcome
+  ✓ Captura guardada: mongodb.jpg
+
+[37/174] Capturando: morningstar.jpg
+URL: http://designsystem.morningstar.com/
+  ✓ Captura guardada: morningstar.jpg
+
+[38/174] Capturando: protocol.jpg
+URL: https://protocol.mozilla.org/
+  ✓ Captura guardada: protocol.jpg
+
+[39/174] Capturando: mutual-omaha.jpg
+URL: http://design.mutualofomaha.com/digital/
+  ✗ Error al capturar mutual-omaha.jpg: Navigation timeout of 30000 ms exceeded
+
+[40/174] Capturando: opattern.jpg
+URL: https://ux.opower.com/opattern/
+  ✓ Captura guardada: opattern.jpg
+
+[41/174] Capturando: bolt.jpg
+URL: https://boltdesignsystem.com/
+  ✓ Captura guardada: bolt.jpg
+
+[42/174] Capturando: pluralsight.jpg
+URL: https://design-system.pluralsight.com/
+  ✓ Captura guardada: pluralsight.jpg
+  📝 Descripción: Pando Design System · Design system documentation, made with zeroheight...
+
+[43/174] Capturando: qbds.jpg
+URL: https://designsystem.quickbooks.com/
+  ✗ Error al capturar qbds.jpg: Navigation timeout of 30000 ms exceeded
+
+[44/174] Capturando: rei-cedar.jpg
+URL: https://rei.github.io/rei-cedar-docs/
+  ✓ Captura guardada: rei-cedar.jpg
+  📝 Descripción: The Cedar Design System provides digital teams with reusable UI components based on REI’s visual lan...
+
+[45/174] Capturando: ratio.jpg
+URL: https://ui-kit.rambler.ru/#/
+  ✓ Captura guardada: ratio.jpg
+  📝 Descripción: Гайдлайны и компоненты для работы с интерфейсами...
+
+[46/174] Capturando: react95.jpg
+URL: https://react95.github.io/React95/
+  ✓ Captura guardada: react95.jpg
+
+[47/174] Capturando: patternfly.jpg
+URL: https://www.patternfly.org/
+  ✓ Captura guardada: patternfly.jpg
+  📝 Descripción: PatternFly is Red Hat's open source design system. It consists of components, documentation, and cod...
+
+[48/174] Capturando: fiori.jpg
+URL: https://experience.sap.com/fiori-design-web/
+  ✗ Error al capturar fiori.jpg: Navigation timeout of 30000 ms exceeded
+
+[49/174] Capturando: fiori-fundamentals.jpg
+URL: https://sap.github.io/fundamental/
+  ✓ Captura guardada: fiori-fundamentals.jpg
+  📝 Descripción: Fundamental Library is a SAP Design System Component Library ...
+
+[50/174] Capturando: luna.jpg
+URL: https://luna-website.ext.prd.jspaas.uk/
+  ⚠️  No se pudo hacer click en cookies, continuando...
+  ✓ Captura guardada: luna.jpg
+
+[51/174] Capturando: lightning.jpg
+URL: https://www.lightningdesignsystem.com/
+  ⚠️  No se pudo hacer click en cookies, continuando...
+  ✓ Captura guardada: lightning.jpg
+  📝 Descripción: Lightning Design System 2 · Design system documentation, made with zeroheight...
+
+[52/174] Capturando: seek.jpg
+URL: http://seek-oss.github.io/seek-style-guide/
+  ✓ Captura guardada: seek.jpg
+  📝 Descripción: Living style guide containing the building blocks and design principles for SEEK web applications....
+
+[53/174] Capturando: evergreen.jpg
+URL: https://evergreen.segment.com/
+  ✓ Captura guardada: evergreen.jpg
+  📝 Descripción: Evergreen is a React UI Framework for building ambitious products on the web. Made by Segment in San...
+
+[54/174] Capturando: sendgrid.jpg
+URL: http://styleguide.sendgrid.com/
+  ✓ Captura guardada: sendgrid.jpg
+
+[55/174] Capturando: servicetitan.jpg
+URL: http://anvil.servicetitan.com
+  ✓ Captura guardada: servicetitan.jpg
+
+[56/174] Capturando: polaris.jpg
+URL: https://polaris.shopify.com/
+  ✓ Captura guardada: polaris.jpg
+  📝 Descripción: A starter kit for reimagining commerce....
+
+[57/174] Capturando: backpack.jpg
+URL: https://backpack.github.io/
+  ✓ Captura guardada: backpack.jpg
+  📝 Descripción: Backpack is Skyscanner's design system, a collection of guidelines, components and tools for creatin...
+
+[58/174] Capturando: seeds.jpg
+URL: https://sproutsocial.com/seeds/
+  ✓ Captura guardada: seeds.jpg
+  📝 Descripción: Seeds is Sprout Social’s creative hub, housing all the resources we use to express our brand’s ident...
+
+[59/174] Capturando: stacks.jpg
+URL: https://stackoverflow.design/
+  ✓ Captura guardada: stacks.jpg
+  📝 Descripción: Stacks provides everything you need to quickly design, build, and ship coherent experiences across a...
+
+[60/174] Capturando: nsw.jpg
+URL: https://www.digital.nsw.gov.au/digital-design-system
+  ✓ Captura guardada: nsw.jpg
+
+[61/174] Capturando: thumbprint.jpg
+URL: https://thumbprint.design/
+  ✓ Captura guardada: thumbprint.jpg
+
+[62/174] Capturando: nachos.jpg
+URL: https://design.trello.com/
+  ✓ Captura guardada: nachos.jpg
+
+[63/174] Capturando: us-web-design.jpg
+URL: https://designsystem.digital.gov/
+  ✓ Captura guardada: us-web-design.jpg
+  📝 Descripción: USWDS makes it easier to build accessible, mobile-friendly government websites....
+
+[64/174] Capturando: base.jpg
+URL: https://baseweb.design/
+  ✓ Captura guardada: base.jpg
+
+[65/174] Capturando: vanilla.jpg
+URL: https://vanillaframework.io/
+  ✓ Captura guardada: vanilla.jpg
+  📝 Descripción: Vanilla Framework - a simple extensible CSS framework, written in Sass, by the Ubuntu Web Team....
+
+[66/174] Capturando: clarity.jpg
+URL: https://github.com/vmware/
+  ✓ Captura guardada: clarity.jpg
+  📝 Descripción: VMware has 157 repositories available. Follow their code on GitHub....
+
+[67/174] Capturando: vtex.jpg
+URL: https://styleguide.vtex.com/
+  ✓ Captura guardada: vtex.jpg
+
+[68/174] Capturando: vercel.jpg
+URL: https://vercel.co/design
+  ✓ Captura guardada: vercel.jpg
+  📝 Descripción: Vercel has brought together some of the most talented creatives on the web to craft world-class webs...
+
+[69/174] Capturando: westpac.jpg
+URL: https://gel.westpacgroup.com.au/
+  ✓ Captura guardada: westpac.jpg
+
+[70/174] Capturando: wanda.jpg
+URL: https://design.wonderflow.ai/
+  ✓ Captura guardada: wanda.jpg
+  📝 Descripción: Wanda is Wonderflow's design system...
+
+[71/174] Capturando: workday.jpg
+URL: https://design.workday.com/
+  ✓ Captura guardada: workday.jpg
+  📝 Descripción: Canvas is an open source design system that consists of reusable UI elements, resources, and guideli...
+
+[72/174] Capturando: yelp.jpg
+URL: https://www.yelp.com/styleguide
+  ✓ Captura guardada: yelp.jpg
+
+[73/174] Capturando: zendesk.jpg
+URL: https://garden.zendesk.com/
+  ✓ Captura guardada: zendesk.jpg
+  📝 Descripción: Garden is the design system by Zendesk. It’s where we grow the components, standards, and tools that...
+
+[74/174] Capturando: axa.jpg
+URL: https://designsystem.axa.com/
+  ✓ Captura guardada: axa.jpg
+
+[75/174] Capturando: amplify.jpg
+URL: https://ui.docs.amplify.aws/
+  ✓ Captura guardada: amplify.jpg
+  📝 Descripción: Amplify UI simplifies building accessible, performant, and beautiful applications with cloud-connect...
+
+[76/174] Capturando: apple.jpg
+URL: https://developer.apple.com/design/human-interface-guidelines
+  ✓ Captura guardada: apple.jpg
+  📝 Descripción: The HIG contains guidance and best practices that can help you design a great experience for any App...
+
+[77/174] Capturando: Cloudscape.jpg
+URL: https://cloudscape.design/
+  ✓ Captura guardada: Cloudscape.jpg
+  📝 Descripción: Cloudscape offers user interface guidelines, front-end components, design resources, and development...
+
+[78/174] Capturando: origami.jpg
+URL: https://origami.ft.com/
+  ✓ Captura guardada: origami.jpg
+  📝 Descripción: The new Origami. Origami will support the FT to create differentiated products, targeting different ...
+
+[79/174] Capturando: pulse.jpg
+URL: https://pulse.heartbeat.ua/design-tips/
+  ✓ Captura guardada: pulse.jpg
+
+[80/174] Capturando: help-scout.jpg
+URL: http://style.helpscout.com/
+  ✓ Captura guardada: help-scout.jpg
+  📝 Descripción: Come take a look at our evolved visual identity and how it reflects our purpose, people, and product...
+
+[81/174] Capturando: heroki.jpg
+URL: https://design.herokai.com/
+  ✓ Captura guardada: heroki.jpg
+
+[82/174] Capturando: grommet.jpg
+URL: http://grommet.io/
+  ✓ Captura guardada: grommet.jpg
+  📝 Descripción: Grommet documentation...
+
+[83/174] Capturando: ibm-design-language.jpg
+URL: https://www.ibm.com/design/language/
+  ✗ Error al capturar ibm-design-language.jpg: Navigation timeout of 30000 ms exceeded
+
+[84/174] Capturando: infor.jpg
+URL: https://design.infor.com/
+  ✓ Captura guardada: infor.jpg
+  📝 Descripción: Infor Design System helps product teams build cohesive user experiences in efficient ways, offering ...
+
+[85/174] Capturando: instructure.jpg
+URL: https://instructure.design/
+  ✓ Captura guardada: instructure.jpg
+  📝 Descripción: Instructure UI...
+
+[86/174] Capturando: designers-italy.jpg
+URL: https://designers.italia.it/
+  ✓ Captura guardada: designers-italy.jpg
+  📝 Descripción: Designers Italia mette a disposizione conoscenza e strumenti per creare i servizi digitali della Pub...
+
+[87/174] Capturando: lexicon.jpg
+URL: https://lexicondesign.io/
+  ✗ Error al capturar lexicon.jpg: net::ERR_NAME_NOT_RESOLVED at https://lexicondesign.io/
+
+[88/174] Capturando: louder.jpg
+URL: https://www.louderthanten.com/manual
+  ✓ Captura guardada: louder.jpg
+  📝 Descripción: Digital Project Management and Operations training for digital agencies and product studios...
+
+[89/174] Capturando: jota-ds.jpg
+URL: https://meiuca.co/
+  ✗ Error al capturar jota-ds.jpg: Navigation timeout of 30000 ms exceeded
+
+[90/174] Capturando: mesh.jpg
+URL: https://www.meshdesignsystem.com/
+  ✓ Captura guardada: mesh.jpg
+  📝 Descripción: Documentation website for the Mesh Design System....
+
+[91/174] Capturando: mineral.jpg
+URL: https://mineral-ui.netlify.app/
+  ✓ Captura guardada: mineral.jpg
+  📝 Descripción: Use Mineral UI’s React component library to quickly build elegantly accessible apps. Created by CA T...
+
+[92/174] Capturando: northstar.jpg
+URL: https://www.ibm.com/standards/web/
+  ✗ Error al capturar northstar.jpg: Navigation timeout of 30000 ms exceeded
+
+[93/174] Capturando: paradigm.jpg
+URL: https://design.mail.ru/
+  ✓ Captura guardada: paradigm.jpg
+
+[94/174] Capturando: alaska.jpg
+URL: https://auro.alaskaair.com/
+  ✓ Captura guardada: alaska.jpg
+  📝 Descripción: The Auro Design System and by extension, Auro Web Components are the core components for a new cross...
+
+[95/174] Capturando: bloom.jpg
+URL: https://bloom.appearhere.co.uk/
+  ✓ Captura guardada: bloom.jpg
+
+[96/174] Capturando: artsy.jpg
+URL: https://palette.artsy.net/
+  ✓ Captura guardada: artsy.jpg
+
+[97/174] Capturando: astro.jpg
+URL: https://astrouxds.com/
+  ✓ Captura guardada: astro.jpg
+  📝 Descripción: The Astro Space UX Design System enables developers & designers to build rich space app experiences ...
+
+[98/174] Capturando: atlassian.jpg
+URL: https://atlassian.design
+  ✓ Captura guardada: atlassian.jpg
+
+[99/174] Capturando: aurora.jpg
+URL: https://design.gccollab.ca/
+  ✓ Captura guardada: aurora.jpg
+  📝 Descripción: Central design guide for digital collaboration products...
+
+[100/174] Capturando: autoguru.jpg
+URL: http://overdrive.autoguru.io/
+  ✓ Captura guardada: autoguru.jpg
+
+[101/174] Capturando: basis.jpg
+URL: https://basis.vercel.app/typography
+  ✓ Captura guardada: basis.jpg
+  📝 Descripción: Basis Design System...
+
+[102/174] Capturando: blueprint.jpg
+URL: https://blueprintjs.com/
+  ✓ Captura guardada: blueprint.jpg
+  📝 Descripción: A React-based UI toolkit for the web...
+
+[103/174] Capturando: bold.jpg
+URL: https://bold.bridge.ufsc.br/
+  ✓ Captura guardada: bold.jpg
+
+[104/174] Capturando: boston.jpg
+URL: https://patterns.boston.gov/
+  ✓ Captura guardada: boston.jpg
+
+[105/174] Capturando: braid.jpg
+URL: https://seek-oss.github.io/braid-design-system/
+  ✓ Captura guardada: braid.jpg
+  📝 Descripción: Themeable design system for the SEEK Group...
+
+[106/174] Capturando: british.jpg
+URL: https://britishgas.design/
+  ✓ Captura guardada: british.jpg
+
+[107/174] Capturando: bumbag ui.jpg
+URL: https://bumbag.style/
+  ✓ Captura guardada: bumbag ui.jpg
+  📝 Descripción: Rapidly build accessible & themeable React applications with ease...
+
+[108/174] Capturando: cedar.jpg
+URL: https://rei.github.io/rei-cedar-docs/
+  ✓ Captura guardada: cedar.jpg
+  📝 Descripción: The Cedar Design System provides digital teams with reusable UI components based on REI’s visual lan...
+
+[109/174] Capturando: censhare.jpg
+URL: https://design.censhare.com/
+  ✓ Captura guardada: censhare.jpg
+
+[110/174] Capturando: chakra.jpg
+URL: https://chakra-ui.com/
+  ✓ Captura guardada: chakra.jpg
+  📝 Descripción: Simple, Modular & Accessible UI Components for your React Applications...
+
+[111/174] Capturando: clarity.jpg
+URL: https://clarity.design/
+  ✓ Captura guardada: clarity.jpg
+
+[112/174] Capturando: cloudfare.jpg
+URL: https://cloudflare.github.io/cf-ui/
+  ✓ Captura guardada: cloudfare.jpg
+
+[113/174] Capturando: contentful.jpg
+URL: https://f36.contentful.com/
+  ✓ Captura guardada: contentful.jpg
+  📝 Descripción: Forma 36 is an open-source design system by Contentful created with the intent to reduce the overhea...
+
+[114/174] Capturando: decathlon.jpg
+URL: https://decathlon.design/
+  ✓ Captura guardada: decathlon.jpg
+
+[115/174] Capturando: decentraland.jpg
+URL: https://ui.decentraland.org/
+  ✓ Captura guardada: decentraland.jpg
+
+[116/174] Capturando: duolingo.jpg
+URL: https://design.duolingo.com/
+  ✓ Captura guardada: duolingo.jpg
+
+[117/174] Capturando: ebay.jpg
+URL: https://ebay.github.io/skin/
+  ✓ Captura guardada: ebay.jpg
+  📝 Descripción: A responsive, accessible, and user-friendly CSS framework created by the engineers at eBay leveragin...
+
+[118/174] Capturando: elastic.jpg
+URL: https://elastic.github.io/eui/
+  ✓ Captura guardada: elastic.jpg
+  📝 Descripción: The framework powering the Elastic Stack...
+
+[119/174] Capturando: engie.jpg
+URL: https://www.engie.design
+  ✓ Captura guardada: engie.jpg
+  📝 Descripción: Discover our vision of design at ENGIE by using the Service design methodology and our design system...
+
+[120/174] Capturando: estonia.jpg
+URL: https://brand.estonia.ee
+  ⚠️  No se pudo hacer click en cookies, continuando...
+  ✓ Captura guardada: estonia.jpg
+  📝 Descripción: Here you will find the stories, tools to introduce Estonia in a considered, clear and recognisable w...
+
+[121/174] Capturando: evergreen.jpg
+URL: https://evergreen.surge.sh
+  ✓ Captura guardada: evergreen.jpg
+
+[122/174] Capturando: finland.jpg
+URL: https://toolbox.finland.fi/
+  ✓ Captura guardada: finland.jpg
+  📝 Descripción: Here you can find everything you need to spread the good word about Finland....
+
+[123/174] Capturando: firefox.jpg
+URL: https://design.firefox.com/photon
+  ✓ Captura guardada: firefox.jpg
+  📝 Descripción: Acorn is the design system for the Firefox desktop and mobile browsers...
+
+[124/174] Capturando: fluent.jpg
+URL: https://www.microsoft.com/design/fluent/
+  ✓ Captura guardada: fluent.jpg
+  📝 Descripción: Explore the next evolution of Microsoft’s design system, enabling more seamless collaboration and cr...
+
+[125/174] Capturando: foundation.jpg
+URL: https://get.foundation/
+  ✓ Captura guardada: foundation.jpg
+
+[126/174] Capturando: foyer.jpg
+URL: https://design.foyer.lu/
+  ✓ Captura guardada: foyer.jpg
+  📝 Descripción: Foyer Design System · Design system documentation, made with zeroheight...
+
+[127/174] Capturando: govtechsg.jpg
+URL: https://www.designsystem.tech.gov.sg/
+  ✓ Captura guardada: govtechsg.jpg
+  📝 Descripción: The Singapore Government Design System was developed to empower teams in creating fast, accessible a...
+
+[128/174] Capturando: harmony.jpg
+URL: https://designsystem.quickbooks.com/
+  ✓ Captura guardada: harmony.jpg
+
+[129/174] Capturando: jetbrains.jpg
+URL: https://jetbrains.github.io/ring-ui
+  ✓ Captura guardada: jetbrains.jpg
+
+[130/174] Capturando: jstor.jpg
+URL: https://pharos.jstor.org
+  ✓ Captura guardada: jstor.jpg
+  📝 Descripción: The Pharos design system is our guiding light toward creating cohesive, supportive, and beautiful ex...
+
+[131/174] Capturando: kaizen.jpg
+URL: https://cultureamp.design/
+  ✓ Captura guardada: kaizen.jpg
+
+[132/174] Capturando: kolibri.jpg
+URL: https://public-ui.github.io/
+  ✓ Captura guardada: kolibri.jpg
+  📝 Descripción: custom.meta.description...
+
+[133/174] Capturando: kontur.jpg
+URL: https://guides.kontur.ru/
+  ✓ Captura guardada: kontur.jpg
+  📝 Descripción: Контур.Гайды — это требования к дизайну пользовательского интерфейса веб-сервисов Контура. Данный сб...
+
+[134/174] Capturando: mailchimp.jpg
+URL: https://ux.mailchimp.com/patterns
+  ⚠️  No se pudo hacer click en cookies, continuando...
+  ✓ Captura guardada: mailchimp.jpg
+
+[135/174] Capturando: mantine.jpg
+URL: https://mantine.dev/
+  ✓ Captura guardada: mantine.jpg
+
+[136/174] Capturando: materializecss.jpg
+URL: https://materializecss.com/
+  ✓ Captura guardada: materializecss.jpg
+  📝 Descripción: Materialize is a modern responsive CSS framework based on Material Design by Google. ...
+
+[137/174] Capturando: mesosphere.jpg
+URL: https://mesosphere.github.io/cnvs/
+  ✓ Captura guardada: mesosphere.jpg
+
+[138/174] Capturando: mixpanel.jpg
+URL: https://design.mixpanel.com
+  ✗ Error al capturar mixpanel.jpg: Navigation timeout of 30000 ms exceeded
+
+[139/174] Capturando: monzo.jpg
+URL: https://monzo.com/tone-of-voice/
+  ✓ Captura guardada: monzo.jpg
+  📝 Descripción: The home of Monzo's writing principles. Come for the practical writing advice, stay for the really c...
+
+[140/174] Capturando: nasa.jpg
+URL: https://nasa.github.io/nasawds-site/
+  ✓ Captura guardada: nasa.jpg
+  📝 Descripción: Design and build fast, accessible, mobile-friendly NASA websites backed by user research....
+
+[141/174] Capturando: nationbuilder.jpg
+URL: https://www.nationbuilder.design/
+  ✓ Captura guardada: nationbuilder.jpg
+
+[142/174] Capturando: nhs.jpg
+URL: https://service-manual.nhs.uk/
+  ✓ Captura guardada: nhs.jpg
+  📝 Descripción: Design and build digital services for the NHS. Things you need to make consistent, usable services t...
+
+[143/174] Capturando: nordhealth.jpg
+URL: https://nordhealth.design/
+  ✓ Captura guardada: nordhealth.jpg
+  📝 Descripción: Design, build, and ship coherent experiences with Nord Design System....
+
+[144/174] Capturando: patternfly.jpg
+URL: https://www.patternfly.org/
+  ✓ Captura guardada: patternfly.jpg
+  📝 Descripción: PatternFly is Red Hat's open source design system. It consists of components, documentation, and cod...
+
+[145/174] Capturando: pinterest.jpg
+URL: https://pinterest.github.io/gestalt/#/
+  ✓ Captura guardada: pinterest.jpg
+
+[146/174] Capturando: pivotal.jpg
+URL: https://styleguide.pivotal.io/
+  ✓ Captura guardada: pivotal.jpg
+  📝 Descripción: Style guide for Pivotal UI, design system and component library of Pivotal Software...
+
+[147/174] Capturando: pluralsight.jpg
+URL: https://design-system.pluralsight.com/
+  ✓ Captura guardada: pluralsight.jpg
+  📝 Descripción: Pando Design System · Design system documentation, made with zeroheight...
+
+[148/174] Capturando: priceline.jpg
+URL: https://priceline.github.io/design-system/
+  ✓ Captura guardada: priceline.jpg
+
+[149/174] Capturando: primer.jpg
+URL: https://primer.style/
+  ✓ Captura guardada: primer.jpg
+  📝 Descripción: The Design System for GitHub...
+
+[150/174] Capturando: pusher.jpg
+URL: https://pusher.github.io/chameleon/
+  ✓ Captura guardada: pusher.jpg
+  📝 Descripción: Chameleon is a library of front-end patterns, variables, and helpers that when used, will Pusherify ...
+
+[151/174] Capturando: radix.jpg
+URL: https://radix.modulz.app/docs/getting-started/
+  ✗ Error al capturar radix.jpg: net::ERR_NAME_NOT_RESOLVED at https://radix.modulz.app/docs/getting-started/
+
+[152/174] Capturando: rambler.jpg
+URL: https://rambler-digital-solutions.github.io/rambler-ui/
+  ✓ Captura guardada: rambler.jpg
+  📝 Descripción: Гайдлайны и компоненты для работы с интерфейсами...
+
+[153/174] Capturando: ray.jpg
+URL: https://ray.wework.com
+  ✓ Captura guardada: ray.jpg
+
+[154/174] Capturando: rendition.jpg
+URL: https://balena-io-modules.github.io/rendition/
+  ✓ Captura guardada: rendition.jpg
+
+[155/174] Capturando: scania.jpg
+URL: https://digitaldesign.scania.com/home
+  ✗ Error al capturar scania.jpg: net::ERR_CERT_DATE_INVALID at https://digitaldesign.scania.com/home
+
+[156/174] Capturando: scout.jpg
+URL: https://style.helpscout.com/
+  ✓ Captura guardada: scout.jpg
+  📝 Descripción: Come take a look at our evolved visual identity and how it reflects our purpose, people, and product...
+
+[157/174] Capturando: semi.jpg
+URL: https://semi.design/en-US
+  ✓ Captura guardada: semi.jpg
+  📝 Descripción: An easy-to-customize modern design system that helps designers and developers create high-quality pr...
+
+[158/174] Capturando: semrush.jpg
+URL: https://i.semrush.com/
+  ✓ Captura guardada: semrush.jpg
+  📝 Descripción: Design System...
+
+[159/174] Capturando: siemens.jpg
+URL: https://ix.siemens.io/
+  ✓ Captura guardada: siemens.jpg
+  📝 Descripción: Siemens Industrial Experience is an open-source design system for designers and developers to consis...
+
+[160/174] Capturando: spark.jpg
+URL: https://spark.brighte.com.au/
+  ✗ Error al capturar spark.jpg: net::ERR_NAME_NOT_RESOLVED at https://spark.brighte.com.au/
+
+[161/174] Capturando: blip.jpg
+URL: https://design.take.net/
+  ✓ Captura guardada: blip.jpg
+
+[162/174] Capturando: teambition.jpg
+URL: https://design.teambition.com/
+  ✓ Captura guardada: teambition.jpg
+  📝 Descripción: Clarity Design · 协作产品 UI 设计语言，at 是基于 Teambition 设计体系的 React UI 组件库，主要用于研发企业级中前台产品。...
+
+[163/174] Capturando: telefonica.jpg
+URL: https://brandfactory.telefonica.com/mistica
+  ✓ Captura guardada: telefonica.jpg
+  📝 Descripción: La plataforma de gestión global del grupo Telefónica. Accede a nuestras guidelines, recursos, proyec...
+
+[164/174] Capturando: thumbprint.jpg
+URL: https://thumbprint.design/
+  ✓ Captura guardada: thumbprint.jpg
+
+[165/174] Capturando: tizen.jpg
+URL: https://developer.samsung.com/one-ui-watch-tizen
+  ✓ Captura guardada: tizen.jpg
+
+[166/174] Capturando: twilio.jpg
+URL: https://paste.twilio.design/
+  ✓ Captura guardada: twilio.jpg
+  📝 Descripción: Paste is the design system for designing and building consistent experiences at Twilio. It is made u...
+
+[167/174] Capturando: uikit.jpg
+URL: https://at-ui.github.io/at-ui/#/en
+  ✓ Captura guardada: uikit.jpg
+  📝 Descripción: A fresh and flat UI-Kit specially for desktop application, made with ♥ by Vue.js 2.0...
+
+[168/174] Capturando: uswds.jpg
+URL: https://designsystem.digital.gov/
+  ✓ Captura guardada: uswds.jpg
+  📝 Descripción: USWDS makes it easier to build accessible, mobile-friendly government websites....
+
+[169/174] Capturando: uswitch.jpg
+URL: https://ustyle.guide/
+  ✓ Captura guardada: uswitch.jpg
+
+[170/174] Capturando: vimeo.jpg
+URL: https://vimeo.github.io/iris/
+  ✗ Error al capturar vimeo.jpg: Navigation timeout of 30000 ms exceeded
+
+[171/174] Capturando: vtex.jpg
+URL: https://styleguide.vtex.com/
+  ✓ Captura guardada: vtex.jpg
+
+[172/174] Capturando: vueds.jpg
+URL: https://vueds.com/
+  ✓ Captura guardada: vueds.jpg
+  📝 Descripción: Vue Design System is an open-source tool for building UI Design Systems with Vue.js. It provides you...
+
+[173/174] Capturando: welcome-ui.jpg
+URL: http://www.welcome-ui.com/
+  ✓ Captura guardada: welcome-ui.jpg
+  📝 Descripción: Here you’ll find all the core components you need to create a delightful webapp. Customizable design...
+
+[174/174] Capturando: wmn.jpg
+URL: https://designsystem.wmnetwork.co.uk/
+  ✓ Captura guardada: wmn.jpg
+  📝 Descripción: A design system to help your service look and feel like Transport for West Midlands....
+
+✅ Proceso completado:
+   - Exitosas: 157
+   - Errores: 17
+   - Total: 174

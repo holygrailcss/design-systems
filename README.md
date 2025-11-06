@@ -1,40 +1,129 @@
-# Blog personal JAMStack: Archivos iniciales
+# Design Systems - Sitio Web
 
-Estos son los archivos de inicio utilizados por [Manuel Ruiz](https://digitalstrategy.es) para crear un blog personal utilizando JAMStack para el desafío [DevProjects](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb) de [Codementor](https://www.codementor.io/). Eres libre de utilizarlos como desees para comenzar con el desafío, si deseas comenzar a trabajar en la creación del sitio sin preocuparte por el contenido en sí mismo.
+Sitio web sobre Design Systems construido con [Eleventy](https://www.11ty.dev/), [Nunjucks](https://mozilla.github.io/nunjucks/) y Markdown.
 
-Los archivos proporcionados son páginas terminadas utilizando HTML y CSS regular. Los archivos HTML se pueden descomponer y utilizar para construir las diferentes plantillas y archivos parciales utilizando el lenguaje de plantillas de tu elección.
+## 🚀 Características
 
-La estilización de las páginas ya está completa. Dicho esto, la carpeta `design-files` contiene un archivo Figma y un archivo .webp de un diseño si deseas intentar construirlo desde cero. No es necesario utilizar este diseño en absoluto, depende de cómo desees abordar el desafío.
+- **Generador de Sitios Estáticos**: Eleventy (11ty) para un rendimiento óptimo
+- **Templates**: Nunjucks para plantillas flexibles y reutilizables
+- **Estilos**: SCSS compilado con Sass
+- **Markdown**: Soporte completo para contenido en Markdown con resaltado de sintaxis
+- **Optimización de Imágenes**: Integración con Eleventy Image para optimización automática
+- **SEO**: Meta tags optimizados y Open Graph
+- **Responsive**: Diseño completamente responsive
 
-La carpeta `src` contiene archivos para que puedas poner en marcha tu proyecto sin preocuparte por el contenido de las publicaciones/artículos. Esa carpeta contiene:
+## 📋 Requisitos Previos
 
-- Archivos HTML que puedes utilizar como base para los diferentes diseños de página. Estos pueden convertirse en las plantillas que se utilizarán.
-- Archivo CSS para la estilización de las páginas.
-- 5 artículos de blog en la carpeta `blog`.
-- Imágenes y un logotipo en la carpeta `assets`.
+- Node.js (v14 o superior)
+- npm o yarn
 
-Los artículos están escritos en Markdown y contienen Front Matter. Dependiendo del Generador de Sitios Estáticos que utilices, es posible que debas modificarlos un poco si deseas utilizarlos.
+## 🛠️ Instalación
 
-## Desafío DevProjects
+1. Clona el repositorio:
+```bash
+git clone <url-del-repositorio>
+cd design-systems
+```
 
-Como se mencionó, estos archivos están aquí para ayudarte a comenzar con el desafío DevProjects. Por favor, visita la [página del desafío](#) para obtener más información sobre el mismo.
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-## Tutorial
+## 📝 Scripts Disponibles
 
-Puedes [ver este video](https://youtu.be/4wD00RT6d-g) para ver cómo Manuel utiliza Eleventy, Netlify y Netlify CMS para crear un sitio de blog completo construido completamente con archivos estáticos.
+- `npm start` - Inicia el servidor de desarrollo con hot-reload
+- `npm run build` - Construye el sitio para producción
+- `npm run build:eleventy` - Solo construye con Eleventy
+- `npm run build:sass` - Solo compila los estilos SCSS
+- `npm run watch:eleventy` - Observa cambios en Eleventy
+- `npm run watch:sass` - Observa cambios en SCSS
+- `npm run debug` - Ejecuta Eleventy en modo debug
+- `npm run img-exporter` - Exporta imágenes
+
+## 📁 Estructura del Proyecto
+
+```
+design-systems/
+├── public/              # Salida generada (no editar directamente)
+├── src/                 # Código fuente
+│   ├── _data/           # Datos globales (JSON)
+│   ├── _includes/       # Plantillas Nunjucks
+│   │   ├── components/  # Componentes reutilizables
+│   │   └── base.njk     # Plantilla base
+│   ├── assets/          # Recursos estáticos
+│   │   ├── css/         # CSS compilado
+│   │   ├── sass/        # Archivos SCSS fuente
+│   │   ├── js/          # JavaScript
+│   │   └── static/      # Imágenes y otros recursos
+│   ├── blog/            # Posts del blog (Markdown)
+│   ├── cursos/          # Cursos (Markdown)
+│   ├── legal/           # Páginas legales
+│   └── pages/           # Páginas principales
+├── .eleventy.js         # Configuración de Eleventy
+├── package.json         # Dependencias y scripts
+└── README.md            # Este archivo
+```
+
+## 🎨 Personalización
+
+### Configuración Global
+
+Edita `src/_data/global.json` para personalizar:
+- Información de la empresa
+- Colores del tema
+- URLs y enlaces sociales
+- Configuración de Google Tag Manager
+- Y más...
+
+### Estilos
+
+Los estilos están en `src/assets/sass/`. El archivo principal es `style.scss`.
+
+### Plantillas
+
+Las plantillas están en `src/_includes/`. El archivo base es `base.njk`.
+
+## 📚 Filtros Disponibles
+
+Eleventy incluye varios filtros útiles:
+
+- `postDate` - Formatea fechas en español
+- `isoDate` - Formatea fechas en formato ISO
+- `relativeDate` - Muestra fechas relativas (hace 2 días)
+- `truncate` - Trunca texto a un número de caracteres
+- `slugify` - Convierte texto en slug para URLs
+- `readingTime` - Calcula tiempo de lectura estimado
+- `nextInCollection` - Obtiene el siguiente elemento en una colección
+- `prevInCollection` - Obtiene el anterior elemento en una colección
+
+## 🌐 Despliegue
+
+El sitio puede desplegarse en cualquier servicio de hosting estático:
+
+- **Netlify**: Conecta tu repositorio y configura el build command: `npm run build`
+- **Vercel**: Similar a Netlify, configura el build command
+- **GitHub Pages**: Usa GitHub Actions para construir y desplegar
+- **Otros**: Cualquier servicio que soporte sitios estáticos
+
+## 📄 Licencia
+
+ISC
+
+## 👤 Autor
+
+Manuel Ruiz - [digitalstrategy.es](https://digitalstrategy.es)
+
+## 🔗 Enlaces Útiles
+
+- [Documentación de Eleventy](https://www.11ty.dev/docs/)
+- [Documentación de Nunjucks](https://mozilla.github.io/nunjucks/)
+- [Sass Documentation](https://sass-lang.com/documentation)
+
+---
+
+**Nota**: Este proyecto está basado en una plantilla de Eleventy con Nunjucks y ha sido mejorado para el sitio web de Design Systems.
 
 
 
-
-https://design-systems.es/sistemas/
-https://design-systems.es/unirte-a-newsletter/
-https://design-systems.es/Como-crear-un-design-system/
-https://design-systems.es/about/
-https://design-systems.es/Que-nos-aporta-un-design-system/
-https://design-systems.es/el-futuro-de-la-web-son-los-designsystems/
-https://design-systems.es/la-importancia-de usar-un-design-system/
-https://design-systems.es/cursos/curso-design-system-figma/
-https://design-systems.es/Que-es-un-Design-System/
-https://design-systems.es/blog/
-https://design-systems.es/cursos/
-https://design-systems.es/
+predix rivet mailchimp sainsburys pulse mesosphere

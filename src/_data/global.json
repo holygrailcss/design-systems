@@ -200,7 +200,7 @@
     "descripcionSistema": "Nuestros componentes de interfaz de usuario te permiten crear rápidamente aplicaciones web del Internet Industrial que se ejecutan en servicios y datos de Predix dedicados.",
     "empresaSistema": " General Electric",
     "imageSistema": "predix.jpg",
-    "imageUrl": "https://www.predix-ui.com/",
+    "imageUrl": "https://predix-ui.github.io/#/home",
     "nombreSistema": "Predix Design System"
   },
   {
@@ -259,7 +259,7 @@
     "descripcionSistema": "La familiaridad es un componente clave de la usabilidad. Con Rivet, obtienes un conjunto de herramientas para crear aplicaciones web familiares y brindar a los usuarios una mejor experiencia.",
     "empresaSistema": " Indiana University",
     "imageSistema": "rivet.jpg",
-    "imageUrl": "https://rivet.uits.iu.edu/",
+    "imageUrl": "https://rivet.iu.edu/",
     "nombreSistema": "Rivet"
   },
   {
@@ -349,13 +349,6 @@
     "nombreSistema": "Digital Design Guide"
   },
   {
-    "descripcionSistema": "Opattern es un Design System y guía de estilo para todos los que crean productos de Opower. Mira la apariencia que estamos buscando y obtén especificaciones para colores, botones, gráficos y más.",
-    "empresaSistema": " OPower",
-    "imageSistema": "opattern.jpg",
-    "imageUrl": "https://ux.opower.com/opattern/",
-    "nombreSistema": "OPattern"
-  },
-  {
     "descripcionSistema": "El Design System Bolt proporciona componentes de IU robustos impulsados por Twig y Web Component, estilos visuales reutilizables y herramientas potentes para un desarrollo rápido y consistente de aplicaciones web.",
     "empresaSistema": " Pega Digital",
     "imageSistema": "bolt.jpg",
@@ -423,9 +416,9 @@
     "cookies": "#onetrust-accept-btn-handler",
     "descripcionSistema": "El Design System de Sainsbury's se centra en el cliente y es inclusivo, consistente en todos los puntos de contacto y claramente identificable como Sainsbury's.",
     "empresaSistema": " Sainsbury’s",
-    "imageSistema": "luna.jpg",
-    "imageUrl": "https://luna-website.ext.prd.jspaas.uk/",
-    "nombreSistema": "Luna"
+    "imageSistema": "sainsburys.jpg",
+    "imageUrl": "https://design-systems.sainsburys.co.uk/",
+    "nombreSistema": "sainsburys"
   },
   {
     "cookies": "#onetrust-accept-btn-handler",
@@ -633,13 +626,6 @@
     "nombreSistema": "Financial Times Origami"
   },
 
-  {
-    "descripcionSistema": "Hemos creado .pulse como la única fuente de verdad para todos los procesos y creencias dentro de Heartbeat Agency. Como cualquier herramienta o metodología, solo funcionará correctamente cuando se use correctamente. Y lo correcto solo se puede determinar a través de un proceso de pulido y práctica constante.",
-    "empresaSistema": "Heartbeat",
-    "imageSistema": "pulse.jpg",
-    "imageUrl": "https://pulse.heartbeat.ua/",
-    "nombreSistema": "pulse"
-  },
   {
     "descripcionSistema": "Esta guía de estilo es el libro de jugadas de nuestra marca. Una forma de presentar a las personas una experiencia de marca pulida, pero también una forma de capacitar a los miembros del equipo de Help Scout para moverse rápidamente y hacer un excelente trabajo.",
     "empresaSistema": "Help Scout",
@@ -1068,8 +1054,8 @@
     "descripcionSistema": "Design system de mailchimp",
     "empresaSistema": "mailchimp",
     "imageSistema": "mailchimp.jpg",
-    "imageUrl": "https://ux.mailchimp.com/patterns",
-    "nombreSistema": "Mailchimp Patterns"
+    "imageUrl": "https://styleguide.mailchimp.com/",
+    "nombreSistema": "Mailchimp Styleguide"
   },
   {
     "descripcionSistema": "Design system de mantine",
@@ -1090,9 +1076,9 @@
   {
     "descripcionSistema": "Design system de mesosphere",
     "empresaSistema": "mesosphere",
-    "github": "https://github.com/mesosphere/cnvs/",
+    "github": "https://adele.uxpin.com/mesosphere-cnvs",
     "imageSistema": "mesosphere.jpg",
-    "imageUrl": "https://mesosphere.github.io/cnvs/",
+    "imageUrl": "https://adele.uxpin.com/mesosphere-cnvs",
     "nombreSistema": "Mesosphere CNVS"
   },
   {

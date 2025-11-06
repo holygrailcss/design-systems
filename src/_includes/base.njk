@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ global.lang or 'es' }}">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>{{ title }}</title>
-    <meta name="robots" content="{{ metaRobots }}" />
-    <meta name="description" content="{{ metaDescription or eleventyComputed.metaDescription or metadata.description }}" />
-    <meta name="keywords" content="{{ metaKeywords or eleventyComputed.metaKeywords or metaKeywords.description }}" />
+    <meta name="robots" content="{{ metaRobots or 'index, follow' }}" />
+    <meta name="description" content="{{ metaDescription or eleventyComputed.metaDescription or global.seo_description or 'Design Systems' }}" />
+    <meta name="keywords" content="{{ metaKeywords or eleventyComputed.metaKeywords or 'design systems, design, sistemas de diseño' }}" />
     <link rel="icon" type="image/png" href="{{ global.url }}/assets/static/favicons/apple-icon-180x180.png" />
     <link rel="manifest" href="/site.webmanifest">
 
@@ -18,32 +18,87 @@
       --c-secondary: {{global.c_secondary}};
       --bg-dark: {{global.bg_dark}};
       --c-bg-dark: {{global.c_bg_dark}};
-      --: {{global.bg_light}};
-      --c-: {{global.c_bg_light}};
+      --bg-light: {{global.bg_light}};
+      --c-bg-light: {{global.c_bg_light}};
       --btn-radius: {{global.btn_radius}};
-      --padding-global: {{global.padding_global}};
-      --btn-radius: {{global.btn_radius}};
+      --padding-global: {{global.padding_global or '1rem'}};
       }
     </style>
 
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="canonical" href="{{ global.url }}{{ page.url | url }}" />
 
-    <meta property="og:site_name" content="{{ global.empresa }}" />
+    <meta property="og:site_name" content="{{ global.empresa or global.title }}" />
     <meta
       property="og:image"
       content="{{ global.url }}/assets/static/images/2.jpg"
     />
     <meta property="og:title" content="{{ title }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ global.url }}" />
+    <meta property="og:url" content="{{ global.url }}{{ page.url | url }}" />
     <meta
       property="og:description"
-      content="{{ metaKeywords or eleventyComputed.metaKeywords or metaKeywords.description }}"
+      content="{{ metaDescription or eleventyComputed.metaDescription or global.seo_description or 'Design Systems' }}"
     />
+    <meta property="og:locale" content="{{ global.lang or 'es_ES' }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="twitter:description" content="{{ metaDescription or eleventyComputed.metaDescription or global.seo_description or 'Design Systems' }}" />
 
+    {% if page.url == '/' %}
+    <!-- Schema.org structured data para mejor SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ global.title or 'Design Systems' }}",
+      "url": "{{ global.url }}",
+      "description": "{{ metaDescription or eleventyComputed.metaDescription or 'La colección más completa de Design Systems en español' }}",
+      "inLanguage": "{{ global.lang or 'es' }}",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "{{ global.url }}/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Colección de Design Systems",
+      "description": "La colección más completa de Design Systems del mundo con más de 100 sistemas de diseño de empresas líderes",
+      "url": "{{ global.url }}",
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": "100+",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Adobe Spectrum",
+            "url": "https://spectrum.adobe.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Google Material Design",
+            "url": "https://material.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "IBM Carbon Design System",
+            "url": "https://www.carbondesignsystem.com/"
+          }
+        ]
+      }
+    }
+    </script>
+    {% endif %}
     
-    {% if global.googlemaps_api %}
+    {% if global.tag_manager %}
+    <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -56,48 +111,60 @@
         f.parentNode.insertBefore(j, f);
       })(window, document, "script", "dataLayer", "{{global.tag_manager}}");
     </script>
-    {% endif %}
-
-
-
-
     <!-- End Google Tag Manager -->
+    {% endif %}
   </head>
 <body class="contain {% if page.url == '/' or page.url == '/about/' %}home{% endif %}" >
 
 {% set breadcrumbs = [] %}
 
-
-    <!-- Google Tag Manager (noscript) 
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id= {{
-          global.tag_manager
-        }}"
+    {% if global.tag_manager %}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id={{ global.tag_manager }}"
         height="0"
         width="0"
         style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-  End Google Tag Manager (noscript) -->
+      ></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {% endif %}
 
     {% include 'components/header.njk' %}
-    <main class=" ">
+    <main>
       {{ content | safe }}
     </main>
     {% include 'components/footer.njk' %}
 
-  
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
+    <!-- External CSS -->
+    <link rel="preload" href="https://unpkg.com/aos@2.3.1/dist/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"></noscript>
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"></noscript>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css"></noscript>
+
+    <!-- External JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" defer></script>
+    
+    <!-- Local JavaScript -->
     <script type="module" src="/assets/js/index.js"></script>
     <script type="module" src="/assets/js/inview.js"></script>
+    
     <script>
-        AOS.init();
+      // Initialize AOS when DOM is ready
+      document.addEventListener('DOMContentLoaded', function() {
+        if (typeof AOS !== 'undefined') {
+          AOS.init();
+        }
+      });
+
+      // Form submission handler
       const handleSubmit = (event) => {
         event.preventDefault();
         const myForm = event.target;
@@ -109,12 +176,23 @@
           },
           body: new URLSearchParams(formData).toString()
         })
-          .then(() => console.log("Form successfully submitted"))
-          .catch((error) => alert(error));
+          .then((response) => {
+            if (response.ok) {
+              console.log("Form successfully submitted");
+              // Optionally show success message to user
+              if (myForm.querySelector('.form-success')) {
+                myForm.querySelector('.form-success').style.display = 'block';
+              }
+            } else {
+              throw new Error('Network response was not ok');
+            }
+          })
+          .catch((error) => {
+            console.error('Error:', error);
+            alert('Error al enviar el formulario. Por favor, inténtalo de nuevo.');
+          });
       };
     </script>
-    <link async rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" rel="stylesheet" />
 
   </body>
 </html>

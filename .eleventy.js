@@ -58,8 +58,23 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginTOC);
 
+  // Filtro para formatear fechas en español
   eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    if (!dateObj) return "";
+    const dt = DateTime.fromJSDate(dateObj);
+    return dt.setLocale("es").toLocaleString(DateTime.DATE_MED);
+  });
+
+  // Filtro para formatear fechas ISO
+  eleventyConfig.addFilter("isoDate", (dateObj) => {
+    if (!dateObj) return "";
+    return DateTime.fromJSDate(dateObj).toISODate();
+  });
+
+  // Filtro para formatear fechas relativas
+  eleventyConfig.addFilter("relativeDate", (dateObj) => {
+    if (!dateObj) return "";
+    return DateTime.fromJSDate(dateObj).setLocale("es").toRelative();
   });
 
   function getIndex(collection, currentSlug) {
@@ -82,11 +97,39 @@ module.exports = function (eleventyConfig) {
     return pages.length ? pages[0] : false;
   });
 
+  // Filtro para invertir palabras/caracteres (usado en contacta)
   eleventyConfig.addFilter("reverseWords", function (value) {
     if (typeof value === "string") {
       return value.split("").reverse().join("");
     }
     return value;
+  });
+
+  // Filtro para truncar texto
+  eleventyConfig.addFilter("truncate", function (str, length = 50) {
+    if (typeof str !== "string") return str;
+    if (str.length <= length) return str;
+    return str.substring(0, length) + "...";
+  });
+
+  // Filtro para limpiar URLs
+  eleventyConfig.addFilter("slugify", function (str) {
+    if (typeof str !== "string") return str;
+    return str
+      .toLowerCase()
+      .trim()
+      .replace(/[^\w\s-]/g, "")
+      .replace(/[\s_-]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  });
+
+  // Filtro para leer más tiempo estimado
+  eleventyConfig.addFilter("readingTime", function (content) {
+    if (!content) return "1 min";
+    const wordsPerMinute = 200;
+    const words = content.split(/\s+/).length;
+    const minutes = Math.ceil(words / wordsPerMinute);
+    return `${minutes} min`;
   });
 
   // WebC
@@ -99,14 +142,24 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyImagePlugin, {
     // Opciones globales predeterminadas
-    formats: ["webp"],
+    formats: ["webp", "avif", "jpeg"],
     urlPath: "/assets/static/",
     outputDir: "public/assets/static/",
-
+    widths: [400, 800, 1200, 1600],
+    sharpOptions: {
+      quality: 85,
+    },
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
     },
+  });
+
+  // Configuración de Markdown para mejorar la salida
+  eleventyConfig.addFilter("markdownify", function (str) {
+    if (!str) return "";
+    const md = markdownIt(mdOptions);
+    return md.render(str);
   });
 
   return {

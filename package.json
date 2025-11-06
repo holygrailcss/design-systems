@@ -1,17 +1,18 @@
 {
-  "name": "11ty-nunjucks-md",
+  "name": "design-systems",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web sobre Design Systems construido con Eleventy, Nunjucks y Markdown",
   "main": "index.js",
   "scripts": {
     "watch:eleventy": "eleventy --serve --incremental",
     "watch:sass": "sass  --no-source-map --watch src/assets/sass:src/assets/css",
     "build:eleventy": "eleventy",
-    "build:sass": "sass  --no-source-map --style=compressed src//assets/sass:src//assets/css",
+    "build:sass": "sass  --no-source-map --style=compressed src/assets/sass:src/assets/css",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*",
     "debug": "DEBUG=* npx eleventy",
-    "img-exporter": "node ./img-exporter.js"
+    "img-exporter": "node ./img-exporter.js",
+    "img-exporter:list": "node ./img-exporter.js --list"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "aos": "^2.3.4",
     "eleventy-plugin-embed-everything": "^1.18.2",
     "holygrailcss": "^3.0.7",
+    "luxon": "^3.4.4",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.0.1",
     "markdown-it-highlightjs": "^4.1.0",
